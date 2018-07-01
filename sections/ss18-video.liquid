@@ -1,0 +1,48 @@
+<div class="{% unless settings.use_fullwidth_layout %}container fully-spaced-row{% endunless %}" data-section-type="video">
+  {% if section.settings.title != blank %}
+    <h1 class="hometitle h4-style align-center">{{ section.settings.title }}</h1>
+  {% endif %}
+
+  {% if section.settings.video_url != blank %}
+  <div class="video-container" data-video-id="{{ section.settings.video_url.id }}" data-video-type="{{ section.settings.video_url.type }}" data-video-autoplay="{{ section.settings.autoplay }}"></div>
+  {% endif %}
+</div>
+
+
+{% schema %}
+  {
+    "name": "ss18Video",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "id": "video_url",
+        "type": "video_url",
+        "label": "Video link",
+        "accept": ["youtube", "vimeo"],
+        "info": "Supports Youtube and Vimeo",
+        "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+      },
+      {
+        "id": "autoplay",
+        "type": "checkbox",
+        "label": "Autoplay",
+        "default": false,
+        "info": "Some mobile devices do not allow autoplay"
+      }
+    ],
+    "presets": [
+      {
+        "name": "ss18 Video",
+        "category": "Video",
+        "settings": {
+          "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+        }
+      }
+    ]
+  }
+{% endschema %}
+

@@ -1,0 +1,1486 @@
+{
+  "presets": {
+    "Salt Yard": {
+      "lightbox_imgs": true,
+      "use_fullwidth_layout": true,
+      "use_logo_img": false,
+      "logo": "",
+      "logo_img_width": "300",
+      "bg_col": "#ffffff",
+      "bg_image": "",
+      "bg_method": "repeatxy",
+      "font_col_base": "#8a8f93",
+      "font_col_link": "#3d4c4f",
+      "font_col_link_hover": "#8a8f93",
+      "font_col_heads": "#232323",
+      "font_col_shoptitle": "#232323",
+      "btn_col": "#232323",
+      "btn_col_alt": "#000000",
+      "btn_col_txt": "#ffffff",
+      "head_bg_col": "#ffffff",
+      "head_txt_col": "#232323",
+      "head_nav_div_col": "#e2e2e2",
+      "font_col_nav": "#8a8f93",
+      "font_col_nav_hov": "#000000",
+      "panel_nav_bg": "#ffffff",
+      "panel_nav_bg_gradation": "darken",
+      "not_shade_bg": "#fafafa",
+      "head_not_col_bg": "#ffffff",
+      "head_not_col_txt1": "#232323",
+      "head_not_col_txt2": "#8a8f93",
+      "slide_bg_col": "rgba(0,0,0,0)",
+      "slide_txt_col": "#ffffff",
+      "slide_txt_bg_col": "rgba(0,0,0,0)",
+      "home_sec_signup_bg": "#fafafa",
+      "home_overlay_txt_col": "#ffffff",
+      "home_sec_collection_bg": "#fafafa",
+      "prod_hov_bg": "#ffffff",
+      "prod_thumb_detail_bg": "#ffffff",
+      "prod_thumb_detail_col": "#232323",
+      "prod_thumb_detail_col_a": "#e95144",
+      "coll_col_st_txt": "#ffffff",
+      "coll_col_sale": "#ebc2c1",
+      "coll_col_sold": "#232323",
+      "coll_col_gen": "#8da5d0",
+      "cross_page_promo_bg": "#f5f5f5",
+      "cross_page_promo_color": "#232323",
+      "foot_bg_col": "#fafafa",
+      "foot_text_col": "#232323",
+      "foot_divider_col": "#e2e2e2",
+      "font_fam_base": "GWF|Lato:400,700",
+      "font_fam_headings": "GWF|Cardo:400,400italic,700",
+      "font_fam_shoptitle": "GWF|Cardo:400,400italic,700",
+      "font_fam_nav": "GWF|Lato:400,700",
+      "font_fam_special": "GWF|Lato:400,700",
+      "font_size_base_int": 15,
+      "font_size_slideshow": "1.4",
+      "prod_thumb_detail_show": true,
+      "prod_thumb_height": "347",
+      "prod_thumb_variable_width": true,
+      "prod_hov_type": "permanent",
+      "prod_block_label_loc": "c",
+      "prod_stock_warn_show": true,
+      "prod_stock_warn_limit_int": 5,
+      "prod_show_vendor": true,
+      "prod_show_sku": false,
+      "soc_icons_double": false,
+      "cart_type": "drawer",
+      "show_multiple_currencies": false,
+      "currency_format": "money_format",
+      "supported_currencies": "CAD USD GBP",
+      "default_currency": "USD",
+      "checkout_use_header_image": true,
+      "checkout_header_image": "",
+      "checkout_logo": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_use_sidebar_background_image": false,
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#2a9dcc",
+      "checkout_button_color": "#2a9dcc",
+      "checkout_error_color": "#ff6d6d"
+    },
+    "Chantilly": {
+      "lightbox_imgs": true,
+      "use_fullwidth_layout": false,
+      "use_logo_img": false,
+      "logo": "",
+      "logo_img_width": "350",
+      "bg_col": "#ffffff",
+      "bg_image": "",
+      "bg_method": "repeatxy",
+      "font_col_base": "#8a8f93",
+      "font_col_link": "#3d4c4f",
+      "font_col_link_hover": "#ec008c",
+      "font_col_heads": "#464e54",
+      "font_col_shoptitle": "#464e54",
+      "btn_col": "#464e54",
+      "btn_col_alt": "#ec008c",
+      "btn_col_txt": "#ffffff",
+      "head_bg_col": "#ffffff",
+      "head_txt_col": "#3d4c4f",
+      "head_nav_div_col": "#e2e2e2",
+      "font_col_nav": "#6a6a6a",
+      "font_col_nav_hov": "#ec008c",
+      "panel_nav_bg": "#ffffff",
+      "panel_nav_bg_gradation": "same",
+      "not_shade_bg": "#fafafa",
+      "head_not_col_bg": "rgba(0,0,0,0)",
+      "head_not_col_txt1": "#3d4c4f",
+      "head_not_col_txt2": "#8a8f93",
+      "slide_bg_col": "rgba(0,0,0,0)",
+      "slide_txt_col": "#ffffff",
+      "slide_txt_bg_col": "rgba(0,0,0,0)",
+      "home_sec_signup_bg": "#fafafa",
+      "home_overlay_txt_col": "#ffffff",
+      "home_sec_collection_bg": "rgba(0,0,0,0)",
+      "prod_hov_bg": "#ffffff",
+      "prod_thumb_detail_bg": "#e2e2de",
+      "prod_thumb_detail_col": "#3d4c4f",
+      "prod_thumb_detail_col_a": "#ec008c",
+      "coll_col_st_txt": "#ffffff",
+      "coll_col_sale": "#ec008c",
+      "coll_col_sold": "#464e54",
+      "coll_col_gen": "#1bba8c",
+      "cross_page_promo_bg": "#e2e2de",
+      "cross_page_promo_color": "#0a1634",
+      "foot_bg_col": "#ffffff",
+      "foot_text_col": "#0a1634",
+      "foot_divider_col": "#e2e2e2",
+      "font_fam_base": "GWF|Lato:400,700",
+      "font_fam_headings": "GWF|Shadows+Into+Light",
+      "font_fam_shoptitle": "GWF|Shadows+Into+Light",
+      "font_fam_nav": "GWF|Lato:400,700",
+      "font_fam_special": "GWF|Lato:400,700",
+      "font_size_base_int": 15,
+      "font_size_slideshow": "1.8",
+      "prod_thumb_detail_show": true,
+      "prod_thumb_height": "255",
+      "prod_thumb_variable_width": true,
+      "prod_hov_type": "permanent",
+      "prod_block_label_loc": "c",
+      "prod_stock_warn_show": true,
+      "prod_stock_warn_limit_int": 5,
+      "prod_show_vendor": true,
+      "prod_show_sku": false,
+      "soc_icons_double": false,
+      "cart_type": "drawer",
+      "show_multiple_currencies": false,
+      "currency_format": "money_format",
+      "supported_currencies": "CAD USD GBP",
+      "default_currency": "USD",
+      "checkout_use_header_image": true,
+      "checkout_header_image": "",
+      "checkout_logo": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_use_sidebar_background_image": false,
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#2a9dcc",
+      "checkout_button_color": "#2a9dcc",
+      "checkout_error_color": "#ff6d6d"
+    },
+    "Beatnik": {
+      "lightbox_imgs": true,
+      "use_fullwidth_layout": true,
+      "use_logo_img": true,
+      "logo": "shopify:\/\/shop_images\/logo-1.png",
+      "logo_img_width": "129",
+      "bg_col": "#f2f2f2",
+      "bg_image": "",
+      "bg_method": "repeatxy",
+      "font_col_base": "#8a8f93",
+      "font_col_link": "#3d4c4f",
+      "font_col_link_hover": "#00a2e1",
+      "font_col_heads": "#3f4b57",
+      "font_col_shoptitle": "#3f4b57",
+      "btn_col": "#00a2e1",
+      "btn_col_alt": "#00b0f3",
+      "btn_col_txt": "#ffffff",
+      "head_bg_col": "#f2f2f2",
+      "head_txt_col": "#3f4b57",
+      "head_nav_div_col": "#d1d6d9",
+      "font_col_nav": "#3f4b57",
+      "font_col_nav_hov": "#00a2e1",
+      "panel_nav_bg": "#f2f2f2",
+      "panel_nav_bg_gradation": "same",
+      "not_shade_bg": "#fafafa",
+      "head_not_col_bg": "#f2f2f2",
+      "head_not_col_txt1": "#3f4b57",
+      "head_not_col_txt2": "#8a8f93",
+      "slide_bg_col": "rgba(0,0,0,0)",
+      "slide_txt_col": "#ffffff",
+      "slide_txt_bg_col": "rgba(0,0,0,0)",
+      "home_sec_signup_bg": "#fafafa",
+      "home_overlay_txt_col": "#3f4b57",
+      "home_sec_collection_bg": "#f2f2f2",
+      "prod_hov_bg": "#ffffff",
+      "prod_thumb_detail_bg": "#f2f2f2",
+      "prod_thumb_detail_col": "#3f4b57",
+      "prod_thumb_detail_col_a": "#00a2e1",
+      "coll_col_st_txt": "#ffffff",
+      "coll_col_sale": "#1c223f",
+      "coll_col_sold": "#3f4b57",
+      "coll_col_gen": "#3f51b5",
+      "cross_page_promo_bg": "#1c223f",
+      "cross_page_promo_color": "#ffffff",
+      "foot_bg_col": "#fafafa",
+      "foot_text_col": "#3f4b57",
+      "foot_divider_col": "#d1d6d9",
+      "font_fam_base": "GWF|Cardo:400,400italic,700",
+      "font_fam_headings": "GWF|Karla:400,700",
+      "font_fam_shoptitle": "GWF|Karla:400,700",
+      "font_fam_nav": "GWF|Karla:400,700",
+      "font_fam_special": "GWF|Karla:400,700",
+      "font_size_base_int": 15,
+      "font_size_slideshow": "1",
+      "prod_thumb_detail_show": true,
+      "prod_thumb_height": "255",
+      "prod_thumb_variable_width": true,
+      "prod_hov_type": "permanent",
+      "prod_block_label_loc": "c",
+      "prod_stock_warn_show": true,
+      "prod_stock_warn_limit_int": 5,
+      "prod_show_vendor": true,
+      "prod_show_sku": false,
+      "soc_icons_double": false,
+      "cart_type": "drawer",
+      "show_multiple_currencies": false,
+      "currency_format": "money_format",
+      "supported_currencies": "CAD USD GBP",
+      "default_currency": "USD",
+      "checkout_use_header_image": true,
+      "checkout_header_image": "",
+      "checkout_logo": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_use_sidebar_background_image": false,
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#2a9dcc",
+      "checkout_button_color": "#2a9dcc",
+      "checkout_error_color": "#ff6d6d"
+    },
+    "Duke": {
+      "lightbox_imgs": true,
+      "use_fullwidth_layout": true,
+      "use_logo_img": false,
+      "logo": "",
+      "logo_img_width": "350",
+      "bg_col": "#ffffff",
+      "bg_image": "",
+      "bg_method": "repeatxy",
+      "font_col_base": "#8a8f93",
+      "font_col_link": "#3d4c4f",
+      "font_col_link_hover": "#e94b3f",
+      "font_col_heads": "#464e54",
+      "font_col_shoptitle": "#464e54",
+      "btn_col": "#eb2626",
+      "btn_col_alt": "#464e54",
+      "btn_col_txt": "#ffffff",
+      "head_bg_col": "#ffffff",
+      "head_txt_col": "#464e54",
+      "head_nav_div_col": "#d9d9d4",
+      "font_col_nav": "#464e54",
+      "font_col_nav_hov": "#eb2626",
+      "panel_nav_bg": "#ffffff",
+      "panel_nav_bg_gradation": "darken",
+      "not_shade_bg": "#fafafa",
+      "head_not_col_bg": "#ffffff",
+      "head_not_col_txt1": "#464e54",
+      "head_not_col_txt2": "#8a8f93",
+      "slide_bg_col": "rgba(0,0,0,0)",
+      "slide_txt_col": "#ffffff",
+      "slide_txt_bg_col": "rgba(0,0,0,0)",
+      "home_sec_signup_bg": "#ffffff",
+      "home_overlay_txt_col": "#ffffff",
+      "home_sec_collection_bg": "#ffffff",
+      "prod_hov_bg": "#ffffff",
+      "prod_thumb_detail_bg": "#eaeaea",
+      "prod_thumb_detail_col": "#464e54",
+      "prod_thumb_detail_col_a": "#eb2626",
+      "coll_col_st_txt": "#ffffff",
+      "coll_col_sale": "#e94b3f",
+      "coll_col_sold": "#464e54",
+      "coll_col_gen": "#bacee3",
+      "cross_page_promo_bg": "#f5f5f5",
+      "cross_page_promo_color": "#0a1634",
+      "foot_bg_col": "#ffffff",
+      "foot_text_col": "#464e54",
+      "foot_divider_col": "#e2e2e2",
+      "font_fam_base": "GWF|Open+Sans:400,700",
+      "font_fam_headings": "GWF|Quantico:400,700",
+      "font_fam_shoptitle": "GWF|Quantico:400,700",
+      "font_fam_nav": "GWF|Quantico:400,700",
+      "font_fam_special": "GWF|Lato:400,700",
+      "font_size_base_int": 15,
+      "font_size_slideshow": "1.4",
+      "prod_thumb_detail_show": true,
+      "prod_thumb_height": "347",
+      "prod_thumb_variable_width": true,
+      "prod_hov_type": "permanent",
+      "prod_block_label_loc": "c",
+      "prod_stock_warn_show": true,
+      "prod_stock_warn_limit_int": 5,
+      "prod_show_vendor": true,
+      "prod_show_sku": false,
+      "soc_icons_double": false,
+      "cart_type": "drawer",
+      "show_multiple_currencies": false,
+      "currency_format": "money_format",
+      "supported_currencies": "CAD USD GBP",
+      "default_currency": "USD",
+      "checkout_use_header_image": true,
+      "checkout_header_image": "",
+      "checkout_logo": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_use_sidebar_background_image": false,
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#2a9dcc",
+      "checkout_button_color": "#2a9dcc",
+      "checkout_error_color": "#ff6d6d"
+    }
+  },
+  "current": {
+    "lightbox_imgs": true,
+    "use_fullwidth_layout": true,
+    "font_col_base": "#8a8f93",
+    "font_col_link": "#000000",
+    "font_col_link_hover": "#8a8f93",
+    "font_col_heads": "#232323",
+    "font_col_shoptitle": "#000000",
+    "btn_col": "#232323",
+    "btn_col_alt": "#000000",
+    "btn_col_txt": "#ffffff",
+    "btn_alt_bg": "#fafafa",
+    "btn_alt_txt": "#232323",
+    "bg_col": "#ffffff",
+    "bg_image": "",
+    "bg_method": "repeatxy",
+    "head_bg_col": "#ffffff",
+    "head_txt_col": "#232323",
+    "head_nav_div_col": "rgba(0,0,0,0)",
+    "font_col_nav": "#000000",
+    "font_col_nav_hov": "#8a8f93",
+    "panel_nav_bg": "#ffffff",
+    "panel_nav_bg_gradation": "darken",
+    "not_shade_bg": "#fafafa",
+    "head_not_col_bg": "#ffffff",
+    "head_not_col_txt1": "#232323",
+    "head_not_col_txt2": "#8a8f93",
+    "prod_hov_bg": "#ffffff",
+    "prod_thumb_detail_bg": "#ffffff",
+    "prod_thumb_detail_col": "#232323",
+    "prod_thumb_detail_col_a": "#08c4ab",
+    "coll_col_st_txt": "#ffffff",
+    "coll_col_sale": "#fd8272",
+    "coll_col_sold": "#232323",
+    "coll_col_gen": "#8da5d0",
+    "cross_page_promo_bg": "#f5f5f5",
+    "cross_page_promo_color": "#232323",
+    "foot_bg_col": "#fafafa",
+    "foot_text_col": "#232323",
+    "foot_divider_col": "#000000",
+    "font_fam_base": "GWF|Cardo:400,400italic,700",
+    "font_fam_headings": "GWF|Cardo:400,400italic,700",
+    "font_fam_shoptitle": "GWF|Cardo:400,400italic,700",
+    "font_fam_nav": "GWF|Cardo:400,400italic,700",
+    "font_fam_special": "GWF|Cardo:400,400italic,700",
+    "font_size_base_int": 19,
+    "font_size_slideshow": "1.4",
+    "prod_show_vendor": false,
+    "prod_show_sku": false,
+    "prod_variant_style": "blocks",
+    "prod_thumb_detail_show": true,
+    "enable_payment_button": false,
+    "prod_thumb_height": "347",
+    "prod_thumb_variable_width": true,
+    "prod_thumb_hover_image": true,
+    "prod_hov_type": "permanent",
+    "prod_block_label_loc": "b",
+    "prod_stock_warn_show": false,
+    "prod_stock_warn_limit_int": 5,
+    "soc_icons_double": false,
+    "social_twitter_url": "",
+    "social_facebook_url": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_url": "https:\/\/pinterest.com\/shopify",
+    "social_vimeo_url": "https:\/\/vimeo.com\/shopify",
+    "social_youtube_url": "",
+    "social_instagram_url": "https:\/\/instagram.com\/shopify",
+    "social_google_url": "",
+    "social_custom_icon": "",
+    "social_custom_url": "",
+    "search_type": "product,article,page",
+    "favicon": "",
+    "cart_type": "drawer",
+    "show_multiple_currencies": true,
+    "currency_format": "money_with_currency_format",
+    "supported_currencies": "INR GBP CAD USD AUD EUR JPY",
+    "default_currency": "USD",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#00a690",
+    "checkout_button_color": "#52b4a7",
+    "checkout_error_color": "#e62208",
+    "social_rss_url": "",
+    "home_sec_signup_bg": "#fafafa",
+    "home_overlay_txt_col": "#ffffff",
+    "home_sec_collection_bg": "#fafafa",
+    "slide_bg_col": "rgba(0,0,0,0)",
+    "slide_txt_col": "#ffffff",
+    "slide_txt_bg_col": "rgba(0,0,0,0)",
+    "use_logo_img": false,
+    "logo": "",
+    "logo_img_width": "300",
+    "checkout_use_header_image": true,
+    "checkout_logo": "",
+    "checkout_use_body_background_image": false,
+    "checkout_use_sidebar_background_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu_linklist": "main-menu",
+          "use_btn_style_cart_link": false,
+          "nav_show_reg": true,
+          "show_social_icons": false,
+          "nav_autoexpand": false,
+          "logo": "shopify:\/\/shop_images\/ace_jiglogo.png",
+          "logo_img_width": "200",
+          "logo_pos": "",
+          "announcement_show": true,
+          "announcement_home_only": false,
+          "announcement_text": "$10 flat shipping to USA | $20 to Canada | $30 to Rest of World",
+          "announcement_link": "",
+          "announcement_bar_col": "#ffffff",
+          "announcement_text_col": "#000000",
+          "head_not_home_only": false,
+          "head_not_mob_show": false,
+          "head_not_mob_text": "",
+          "head_not_mob_url": ""
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_featured_image": true,
+          "show_date": false,
+          "show_author": false,
+          "show_article_tags": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "menu_linklist": "footer",
+          "show_social_icons": true,
+          "signup_show": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "prod_show_tags": false,
+          "prod_show_type": false,
+          "prod_gall_thumbs_under": "under",
+          "prod_desc_pos": "beside",
+          "enable_payment_button": false,
+          "show_related_products": true
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "coll_desc_pos": "below",
+          "coll_show_sort": false,
+          "coll_show_feat": false,
+          "coll_show_tags": true,
+          "show_tagfilt_custom1": true,
+          "tagfilt_custom1_name": "categories",
+          "tagfilt_custom1_tags": "tops, bottoms, dresses, one-pieces, outerwear, accessories, kids, no-waste, home,",
+          "show_tagfilt_custom2": true,
+          "tagfilt_custom2_name": "textiles",
+          "tagfilt_custom2_tags": "aloha,amber,ambrosia,brandy,calico,canyon,celadon,channel,charm,clay,cognac,corsica,daybreak,empress,fete,fiesta,hope,mardis gras,marine,martinique,nymph,orchid,parasol,pinwheel,pirouette,ribbon candy,rockaway,sardinia,seventies,sriracha,starboard,swell,topanga,voyage",
+          "show_tagfilt_custom3": true,
+          "tagfilt_custom3_name": "Size",
+          "tagfilt_custom3_tags": "xs, s, m, l, xl,xxs",
+          "coll_num_per_page_int": 16,
+          "coll_gridstream_mode": "grid",
+          "coll_gridstream_toggle": false
+        }
+      },
+      "cross-page-promos": {
+        "type": "cross-page-promos",
+        "blocks": {
+          "1478526632862": {
+            "type": "icon",
+            "settings": {
+              "icon": "heart",
+              "text": "Free delivery!",
+              "link_url": ""
+            }
+          },
+          "1478526645605": {
+            "type": "icon",
+            "settings": {
+              "icon": "location",
+              "text": "Your nearest store",
+              "link_url": ""
+            }
+          },
+          "1478526647261": {
+            "type": "icon",
+            "settings": {
+              "icon": "gift",
+              "text": "Gift Cards",
+              "link_url": ""
+            }
+          },
+          "1478527611164": {
+            "type": "icon",
+            "settings": {
+              "icon": "label",
+              "text": "Student Discount",
+              "link_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "1478526632862",
+          "1478526645605",
+          "1478526647261",
+          "1478527611164"
+        ],
+        "settings": {
+          "visibility": ""
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_date": false,
+          "show_author": false,
+          "show_article_tags": false
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "enable_cart_notes": false,
+          "cart_terms_page": "",
+          "show_shipping_calculator": false,
+          "shipping_calculator_default_country": "United States"
+        }
+      },
+      "1478795901388": {
+        "type": "slideshow",
+        "blocks": {
+          "1530291660987": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1512x1008_test.jpg",
+              "heading": "",
+              "text": "",
+              "button_text": "",
+              "position": "centre",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "#464654",
+              "link_url": "shopify:\/\/collections\/shop-now"
+            }
+          }
+        },
+        "block_order": [
+          "1530291660987"
+        ],
+        "settings": {}
+      },
+      "1480591889144": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "new arrivals",
+          "collection": "",
+          "use_carousel": true,
+          "background_color": "#ffffff"
+        }
+      },
+      "1480592300695": {
+        "type": "instagram",
+        "settings": {
+          "title": "follow @aceandjig",
+          "account": "",
+          "access_token": "",
+          "show_margins": true
+        }
+      },
+      "1526352296022": {
+        "type": "collage-with-text",
+        "settings": {
+          "layout": "right",
+          "layout_mobile": "above",
+          "style": "1",
+          "image_1": "shopify:\/\/shop_images\/textile-archive_img_collage_wide.jpg",
+          "image_2": "",
+          "title": "textile archive",
+          "text": "<p>every ace&amp;jig fabric is designed by us with care, working in unison with artisan weavers in india.<\/p>",
+          "cta_text": "Explore",
+          "cta_url": "shopify:\/\/pages\/textile-archive"
+        }
+      },
+      "1526353263832": {
+        "type": "video",
+        "settings": {
+          "title": "",
+          "video_url": "https:\/\/vimeo.com\/239692947",
+          "autoplay": true
+        }
+      },
+      "1526686729662": {
+        "type": "collage-with-text",
+        "settings": {
+          "layout": "left",
+          "layout_mobile": "above",
+          "style": "3",
+          "image_1": "shopify:\/\/shop_images\/textile_animation_reduced.gif",
+          "image_2": "",
+          "title": "process",
+          "text": "<p>ace&amp;jig is a textile love story. we design and create all our own yarn dye woven textiles, working intimately with artisan weavers in india. our textiles spark joy!<\/p>",
+          "cta_text": "learn more",
+          "cta_url": "shopify:\/\/pages\/process"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "title": "Our collections",
+          "overlay_mode": "m",
+          "show_count": true
+        }
+      },
+      "story-custom-one": {
+        "type": "story-custom-one",
+        "blocks": {
+          "1527199449692": {
+            "type": "image",
+            "settings": {
+              "width": "full",
+              "image": "shopify:\/\/shop_images\/ace_and_jig_about_us.jpg",
+              "link_url": "",
+              "text": "",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          }
+        },
+        "block_order": [
+          "1527199449692"
+        ],
+        "settings": {
+          "alignment": "middle"
+        }
+      },
+      "story-custom-two": {
+        "type": "story-custom-two",
+        "blocks": {
+          "1527201775134": {
+            "type": "image",
+            "settings": {
+              "width": "half",
+              "image": "shopify:\/\/shop_images\/ace_and_jig_about_us_600x600_2824607a-4b85-4f56-875c-fc64415c69c7.jpg",
+              "link_url": "",
+              "text": "",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1527201778865": {
+            "type": "text",
+            "settings": {
+              "width": "half",
+              "title": "",
+              "text": "<p>our search for the ideal manufacturer led us to India, where we found experienced textile specialists weaving on anient wooden hand looms. several times a year we travel there and work one-on-one with weavers to create our authentic fabrics. our indian partners share our core values and practice the holistic kaizen philosophy of continuing to improve. not only do they provide free childcare, but they also use reclaimed water to grown organic produce for their employees.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1527201775134",
+          "1527201778865"
+        ],
+        "settings": {
+          "alignment": "middle"
+        }
+      },
+      "story-rich-text": {
+        "type": "story-rich-text",
+        "settings": {
+          "title": "ace&jig is a textile love story.",
+          "text": "<p>in 2009, we set out to create a seasonless women&rsquo;s collection from one fabrication: our own yarn-dye, woven fabric. we wanted to create timeless garments from our own textile designs, as interesting in texture as in color and pattern. effortless clothing that could be worn in many ways, for many years. we are constantly inspired by our own ever-growing textile collections. at the start of each new season, we sit down with our most exciting finds&mdash;from the feedsack bags of antique french linens to japanese boro quilts&mdash;and begin to create our own woven story.<\/p>",
+          "alignment": "center"
+        }
+      },
+      "process-custom-one": {
+        "type": "process-custom-one",
+        "blocks": {
+          "1530050777423": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          },
+          "1530051195327": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n  <h5>headline<\/h5>\n  <p>line of copy can go here<\/p>\n<\/div>\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          },
+          "1530051445999": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n  <h5>headline<\/h5>\n  <p>line of copy can go here<\/p>\n<\/div>\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1530050777423",
+          "1530051195327",
+          "1530051445999"
+        ],
+        "settings": {
+          "alignment": "middle"
+        }
+      },
+      "values-custom-one": {
+        "type": "values-custom-one",
+        "blocks": {
+          "1528138394495": {
+            "type": "image",
+            "settings": {
+              "width": "half",
+              "image": "shopify:\/\/shop_images\/ace-and-jig-no-waste.jpg",
+              "link_url": "shopify:\/\/pages\/no-waste",
+              "text": "no waste",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530058201472": {
+            "type": "text",
+            "settings": {
+              "width": "half",
+              "title": "no waste",
+              "text": "<p>the fashion industry is the second largest polluter on the planet. we've committed to finding a use for each scrap of our custom yarn-dye woven textiles.<\/p>\n<p><a href=\"\/pages\/no-waste\" title=\"no waste\">learn&nbsp;more<\/a><\/p>"
+            }
+          },
+          "1530058725926": {
+            "type": "image",
+            "settings": {
+              "width": "half",
+              "image": "",
+              "link_url": "shopify:\/\/pages\/slow-fashion",
+              "text": "slow fashion",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530058730001": {
+            "type": "text",
+            "settings": {
+              "width": "half",
+              "title": "slow fashion",
+              "text": "<p>items are only available for purchase when they arrive at our excellent stockists and are physically in their hands. we believe in buying items that can be touched, felt, and tried on.<\/p>\n<p><a href=\"\/pages\/slow-fashion\" title=\"slow fashion\">learn&nbsp;more<\/a><\/p>"
+            }
+          },
+          "1530059800176": {
+            "type": "image",
+            "settings": {
+              "width": "half",
+              "image": "",
+              "link_url": "shopify:\/\/pages\/lifespan",
+              "text": "lifespan",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530059804817": {
+            "type": "text",
+            "settings": {
+              "width": "half",
+              "title": "lifespan",
+              "text": "<p>we are committed to helping extend the life of our clothing by repairing, hosting swap events, encouraging&nbsp; reselling of styles no longer being used, and upcycling.<\/p>\n<p><a href=\"\/pages\/lifespan\" title=\"lifespan\">learn more<\/a><\/p>"
+            }
+          },
+          "1530059884146": {
+            "type": "image",
+            "settings": {
+              "width": "half",
+              "image": "",
+              "link_url": "shopify:\/\/pages\/ecology",
+              "text": "ecology",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530059887534": {
+            "type": "text",
+            "settings": {
+              "width": "half",
+              "title": "ecology",
+              "text": "<p>our manufacturer ensures not a drop of water goes to waste in their facility. all the water comes from their own natural resource, and is processed in their own water softening plant.<\/p>\n<p><a href=\"\/pages\/ecology\" title=\"ecology\">learn more<\/a><\/p>"
+            }
+          },
+          "1530059932854": {
+            "type": "image",
+            "settings": {
+              "width": "half",
+              "image": "",
+              "link_url": "shopify:\/\/pages\/giving-back",
+              "text": "giving back",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530059958708": {
+            "type": "text",
+            "settings": {
+              "width": "half",
+              "title": "giving back",
+              "text": "<p>each year we partner with organizations and charities that are doing crucial work worldwide to promote human rights, sustainability, and earth conservation.<\/p>\n<p><a href=\"\/pages\/giving-back\" title=\"giving back\">learn more<\/a><\/p>"
+            }
+          },
+          "1530059975142": {
+            "type": "image",
+            "settings": {
+              "width": "half",
+              "image": "",
+              "link_url": "shopify:\/\/pages\/community",
+              "text": "community",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530059985207": {
+            "type": "text",
+            "settings": {
+              "width": "half",
+              "title": "community",
+              "text": "<p>our all-inclusive ace&amp;jig community attracts a diverse intelligent bunch who connect on social media and face to face, swapping ace&amp;jig clothing and stories from their lives!<\/p>\n<p><a href=\"\/pages\/community\" title=\"community\">learn more<\/a><\/p>"
+            }
+          },
+          "1530322966631": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n\n.header {\n    text-align: center;\n    margin-top: 0px;    \n    margin-bottom: 0px;\n}\n\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n<br>\n  <h5><a href=\"#\">textile archive »<\/a><\/h5>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1528138394495",
+          "1530058201472",
+          "1530058725926",
+          "1530058730001",
+          "1530059800176",
+          "1530059804817",
+          "1530059884146",
+          "1530059887534",
+          "1530059932854",
+          "1530059958708",
+          "1530059975142",
+          "1530059985207",
+          "1530322966631"
+        ],
+        "settings": {
+          "alignment": "middle"
+        }
+      },
+      "ss18-collection-carousel": {
+        "type": "ss18-collection-carousel",
+        "settings": {}
+      },
+      "ss18-video": {
+        "type": "ss18-video",
+        "settings": {
+          "title": "",
+          "video_url": "https:\/\/vimeo.com\/239692947",
+          "autoplay": true
+        }
+      },
+      "collection-stockists": {
+        "type": "collection-stockists",
+        "settings": {
+          "coll_desc_pos": "below",
+          "coll_show_sort": false,
+          "coll_show_feat": false,
+          "coll_show_tags": false,
+          "show_tagfilt_custom1": false,
+          "tagfilt_custom1_name": "",
+          "tagfilt_custom1_tags": "",
+          "show_tagfilt_custom2": false,
+          "tagfilt_custom2_name": "",
+          "tagfilt_custom2_tags": "",
+          "show_tagfilt_custom3": false,
+          "tagfilt_custom3_name": "",
+          "tagfilt_custom3_tags": "",
+          "coll_num_per_page_int": 16,
+          "coll_gridstream_mode": "grid",
+          "coll_gridstream_toggle": false
+        }
+      },
+      "video": {
+        "type": "video",
+        "settings": {
+          "title": "",
+          "video_url": "https:\/\/vimeo.com\/239692947",
+          "autoplay": true
+        }
+      },
+      "season": {
+        "type": "season",
+        "blocks": {
+          "1529024435833": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "sp-18",
+              "page_title": "spring\/summer 18"
+            }
+          },
+          "1529024495489": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "fall-winter-17",
+              "page_title": "fall\/winter 17"
+            }
+          }
+        },
+        "block_order": [
+          "1529024435833",
+          "1529024495489"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "community-custom-one": {
+        "type": "community-custom-one",
+        "blocks": {
+          "1530132905262": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1530132905262"
+        ],
+        "settings": {
+          "alignment": "top"
+        }
+      },
+      "community-rich-text": {
+        "type": "community-rich-text",
+        "settings": {
+          "title": "",
+          "text": "<p><\/p>\n<p>if you are interested in finding&nbsp;<a href=\"https:\/\/www.instagram.com\/explore\/tags\/aceandjigfriends\/\" title=\"https:\/\/www.instagram.com\/explore\/tags\/aceandjigfriends\/\">#aceandjigfriends<\/a>&nbsp;in your area,&nbsp;reach out to us at&nbsp;<a href=\"mailto:info@aceandjig.com\">info@aceandjig.com<\/a>&nbsp;and we can help connect you!<\/p>",
+          "alignment": "center"
+        }
+      },
+      "community-custom-two": {
+        "type": "community-custom-two",
+        "blocks": {
+          "1530135131342": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          },
+          "1530326749317": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n\n.header {\n    text-align: center;\n    margin-top: 0px;    \n    margin-bottom: 0px;\n}\n\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n<br>\n  <h5>\n<a href=\"\/pages\/community-quilt\">community quilt<\/a> »<\/h5>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1530135131342",
+          "1530326749317"
+        ],
+        "settings": {
+          "alignment": "top"
+        }
+      },
+      "quilt-custom-one": {
+        "type": "quilt-custom-one",
+        "blocks": {
+          "1530137511902": {
+            "type": "image",
+            "settings": {
+              "width": "full",
+              "image": "",
+              "link_url": "",
+              "text": "",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530137557344": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<div class=\"text-align-center\" style=\"text-align: center;\"><h5>make a community quilt square!<\/h5><\/div>\n\t\t<div class=\"text-align-center\" style=\"text-align: center;\">anyone can make a quilt square - so let your kids, partner, and grandparents know. if you'd like to make one of our community quilt squares, read through these instructions and sign up below.<\/div>\n\t\t\t<table width=\"100%\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><\/td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<p class=\"p1\" style=\"text-align: left;\"><\/p>\n<h5>1. sign up<\/h5>\n<p><\/p>\n\t\t\t\t\t\t\t<p class=\"p1\" style=\"text-align: left;\">read through all instructions and then sign up at the bottom of this page to create a community quilt square.<i>*note: due to the logistics involved with return shipping, we are only able to open this sign up to domestic (usa) participants.<\/i><\/p>\n\t\t\t\t\t\t<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><\/td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<p class=\"p1\" style=\"text-align: left;\"><\/p>\n<h5>2. get your scrap bundle<\/h5>\n<p><\/p>\n\t\t\t\t\t\t\t<p class=\"p1\" style=\"text-align: left;\">we will ship you a bundle of our scraps to use to create your quilt square. each square should be 16'' by 16'' - keep in mind your finished square will be a 14''x14'' square, with 1'' along all sides for seam allowance. need a guide? print our quilt square template <a href=\"#\" target=\"_blank\">here<\/a>.<\/p>\n\t\t\t\t\t\t<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><\/td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<p class=\"p1\" style=\"text-align: left;\"><\/p>\n<h5>3. get quilting!<\/h5>\n<p><\/p>\n\t\t\t\t\t\t\t<p class=\"p1\" style=\"text-align: left;\">you will have one month to create your quilt square. use the scraps in your bundle to piece your quilt square, then feel free to embellish, appliquè, embroider, felt, hand sew onto, etc. get creative, and go for it! we will be assembling each of your squares into a finished community quilt!<\/p>\n\t\t\t\t\t\t<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><\/td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<p class=\"p1\" style=\"text-align: left;\"><\/p>\n<h5>4. ship back<\/h5>\n<p><\/p>\n\t\t\t\t\t\t\t<p class=\"p1\" style=\"text-align: left;\">once you've finished your quilt square, use the prepaid return label included in your scrap bundle shipment to send back your square and any excess fabric (to be repurposed into other squares!) please ship back by june 15th.<\/p>\n\t\t\t\t\t\t<\/td>\n\t\t\t\t\t<\/tr>\n\t\t\t\t<\/tbody>\n\t\t\t<\/table>\n\t\t<div class=\"text-align-center\" style=\"text-align: center;\"><h5>please help us reach our goal of donating 100 night night bags! <\/h5><\/div>\n\t\t<div class=\"text-align-center\" style=\"text-align: center;\">for each three quilt squares that are completed, we will donate one project night night bag! project night night is a non-profit organization that gives out comforting night bags to children experiencing homelessness, which include a tote bag, a blanket, age-appropriate book, and stuffed animal. <i>*note: since our scraps are limited and this project is for charity, we ask that you only sign up for the number of quilt square bundles you believe you will be able to make.<\/i>\n<\/div>"
+            }
+          },
+          "1530139855000": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          },
+          "1530140179865": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<div class=\"text-align-center\" style=\"text-align: center;\"><h5>follow <a href=\"https:\/\/www.instagram.com\/aceandjigcommunityquilt\/\" target=\"_blank\">@aceandjigcommunityquilt<\/a> where we will be posting all of your amazing creations! any questions? <a href=\"mailto:email%20info@aceandjig.com\">email info@aceandjig.com<\/a>\n<\/h5><\/div>\n    <div class=\"text-align-center\" style=\"text-align: center;\">thanks to our ace&jig friends <a href=\"http:\/\/www.allroadsdesign.com\/\" target='_blank\"'>janelle pietrzak<\/a>, <a href=\"https:\/\/www.folkfibers.com\/\" target=\"_blank\">maura ambrose<\/a>, <a href=\"https:\/\/www.instagram.com\/shoplebouton\/?hl=en\" target=\"_blank\">lisa dorr<\/a>, <a href=\"http:\/\/www.counterpanestudio.com\/\" target=\"_blank\">pauline boyd<\/a>, <a href=\"http:\/\/www.thompsonstreetstudio.com\/about\/\" target=\"_blank\">kiva motnyk<\/a>, and <a href=\"http:\/\/www.natalie-ebaugh.com\/\" target=\"_blank\">natalie ebaugh<\/a> for creating these lovely squares!<\/div>"
+            }
+          },
+          "1530326814760": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n\n.header {\n    text-align: center;\n    margin-top: 0px;    \n    margin-bottom: 0px;\n}\n\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n<br>\n  <h5>\n<a href=\"\/blogs\/news\">happenings<\/a> »<\/h5>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1530137511902",
+          "1530137557344",
+          "1530139855000",
+          "1530140179865",
+          "1530326814760"
+        ],
+        "settings": {
+          "alignment": "top"
+        }
+      },
+      "story-rich-text-two": {
+        "type": "story-rich-text-two",
+        "settings": {
+          "title": "",
+          "text": "<p><strong>our colors and silhouettes shift, but each collection is anchored by the stripe. we believe yarn-dye stripes, whether created by alternating textures or through pops of saturated color, are an iconic and timeless medium, and an endless source for reinvention. <\/strong><\/p>",
+          "alignment": "center"
+        }
+      },
+      "story-custom-three": {
+        "type": "story-custom-three",
+        "blocks": {
+          "1530142764678": {
+            "type": "text",
+            "settings": {
+              "width": "half",
+              "title": "",
+              "text": "<p><strong>ace&amp;jig<\/strong> is based in brooklyn, new york, and portland, oregon, and is composed of cary vaughan and jenna wilson, who met more than ten years ago as fashion design interns and instantly bonded over their shared loved of antique textiles.&nbsp; after cary gave birth to daughter alice and jenna had her son james, they felt the time had come to collaborate again. thus, ace&amp;jig was born.<\/p>"
+            }
+          },
+          "1530142760840": {
+            "type": "image",
+            "settings": {
+              "width": "half",
+              "image": "",
+              "link_url": "",
+              "text": "",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          }
+        },
+        "block_order": [
+          "1530142764678",
+          "1530142760840"
+        ],
+        "settings": {
+          "alignment": "middle"
+        }
+      },
+      "textile-archive-images": {
+        "type": "textile-archive-images",
+        "blocks": {
+          "1530212289344": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "spring 18",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212908303": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "fall 17",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212912409": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "spring 17",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212916523": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "fall 16",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212921366": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "spring 16",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212925213": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "fall 15",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212929157": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "spring 15",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212933847": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "fall 14",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212939069": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "spring 14",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212943694": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "fall 13",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212957751": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "spring 13",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212963040": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "fall 12",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212968428": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "spring 12",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212973418": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "fall 11",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1530212979043": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "",
+              "link_url": "",
+              "text": "fall 10",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          }
+        },
+        "block_order": [
+          "1530212289344",
+          "1530212908303",
+          "1530212912409",
+          "1530212916523",
+          "1530212921366",
+          "1530212925213",
+          "1530212929157",
+          "1530212933847",
+          "1530212939069",
+          "1530212943694",
+          "1530212957751",
+          "1530212963040",
+          "1530212968428",
+          "1530212973418",
+          "1530212979043"
+        ],
+        "settings": {
+          "alignment": "middle"
+        }
+      },
+      "no-waste-custom": {
+        "type": "no-waste-custom",
+        "blocks": {
+          "1530320686069": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.list {\n    text-align: left;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Header -->\n<div class=\"list\">\n  <li>\n<strong>#nowaste pieces<\/strong> we use our scrap fabric to make ace&jig pieces - via patched quilts, fabric flags, kids styles, and more.<\/li>\n  <li>\n<strong>artist collabs<\/strong> we collaborate with many thoughtful and talented artists and designers who take our fabric scraps and reinterpret them in their own designs.  past collaborations include pauline boyd of counterpane, milena silvano, thompson streets studio, lisa dorr, b sides, clarkie kabler, janelle pietrzak of all roads, and many more.<\/li>\n  <li>\n<strong>artisan collabs<\/strong> we work with nest, a non-profit organization that employs fair trade artisans to create limited-run pieces from our scrap fabric with partial proceeds going to support their important mission.<\/li>\n  <li>\n<strong>community engagement<\/strong> we bring scrap fabrics to our community events, and give them to people who participate in our swaps to patch and repurpose in fun and inventive ways.<\/li>\n  <li>\n<strong>scrap donations<\/strong> we donate scraps to schools or other non-profits for educational purposes.<\/li>\n  <li>\n<strong>recycle<\/strong> we shred or recycle any pieces that are unable to be revived. thanks to all of our no waste initiatives, this pile is usually <i>very small!<\/i>\n<\/li>\n<br>          \n<\/div>\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          },
+          "1530323293585": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n\n.header {\n    text-align: center;\n    margin-top: 0px;    \n    margin-bottom: 0px;\n}\n\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n<br>\n  <h5>\n<a href=\"\/pages\/slow-fashion\">slow fashion<\/a> »<\/h5>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1530320686069",
+          "1530323293585"
+        ],
+        "settings": {
+          "alignment": "top"
+        }
+      },
+      "slow-fashion-custom": {
+        "type": "slow-fashion-custom",
+        "blocks": {
+          "1530323873365": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.list {\n    text-align: left;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Header -->\n<div class=\"list\">\n  <li>we strive to design pieces that are anything but disposable, timeless and effortless garments that can be worn in many ways, for many years. <\/li>\n  <li>we custom create our own yarn-dye woven textiles in a lengthy process that takes up to twelve months. we love that ace&jig's textiles help to highlight the artistry of the woven medium.<\/li>\n  <li>our manufacturer shares our ethical values and practices the holistic kaizen philosophy of always continuing to improve. they employ 90% women tailors and compensate them fairly. all employees benefit from free childcare, and fresh produce grown on site with reclaimed water.<\/li>\n  <li>we encourage thoughtful purchasing by creating our <a href=\"\/pages\/stockists-by-style\" target=\"_blank\">stockists by style<\/a> page each season - a guide to the styles in our upcoming collection, which fabrics they will be offered in, and where they will be available for purchase. <\/li>\n  <li>items are only available for purchase when they arrive at our excellent stockists and are physically in their hands. we believe in buying items that can be touched, felt, tried on, ready to become a long-lived part of your wardrobe.<\/li>\n<br>          \n<\/div>\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          },
+          "1530324035285": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n\n.header {\n    text-align: center;\n    margin-top: 0px;    \n    margin-bottom: 0px;\n}\n\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n<br>\n  <h5>\n<a href=\"\/pages\/lifespan\">lifespan<\/a> »<\/h5>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1530323873365",
+          "1530324035285"
+        ],
+        "settings": {
+          "alignment": "top"
+        }
+      },
+      "lifespan-custom": {
+        "type": "lifespan-custom",
+        "blocks": {
+          "1530325065427": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.list {\n    text-align: left;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Header -->\n<div class=\"list\">\n  <li>\n<strong>swap <\/strong>- fans of ace&jig swap styles that they no longer wear with each other, giving the pieces a new life! <\/li>\n  <li>\n<strong>repair <\/strong>- we are committed to helping extend the life of our clothing by repairing.  we offer complementary seamstress service at all of our community events to make repairs to well-loved ace&jig pieces.<\/li>\n  <li>\n<strong>resell <\/strong>- our online community participates in lively reselling of styles they no longer use, giving these styles a new and longer lifespan.<\/li>\n  <li>\n<strong>upcycle <\/strong>- many members of our community upcycle their ace&jig pieces into one-of-a-kind creations. we love that they share our commitment to finding a purpose for every last scrap.<\/li>\n<br>          \n<\/div>\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          },
+          "1530325166968": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n\n.header {\n    text-align: center;\n    margin-top: 0px;    \n    margin-bottom: 0px;\n}\n\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n<br>\n  <h5>\n<a href=\"\/pages\/ecology\">ecology<\/a> »<\/h5>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1530325065427",
+          "1530325166968"
+        ],
+        "settings": {
+          "alignment": "top"
+        }
+      },
+      "ecology-custom": {
+        "type": "ecology-custom",
+        "blocks": {
+          "1530325996651": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.list {\n    text-align: left;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Header -->\n<div class=\"list\">\n  <li>our manufacturer ensures not a drop of water goes to waste in their facility. all the water comes from their own natural resource, and is processed in their own water softening plant to make it pure and soft enough to use for washing clothes.<\/li>\n  <li>employees are able to enjoy fruit and vegetables grown on site with reclaimed water.<\/li>\n  <li>ace&jig fabrics are dyed with azo free dyes.<\/li>\n  <li>our factory is situated in a rich weaving hub, in part because there is an abundance of cotton farming in and around this region. we source our cotton locally.<\/li>\n  <li>our web orders ship in eco-mailers which are made with a minimum of 50% recycled paper. all web orders are shipped carbon neutral, to help offset environmental impact.<\/li>\n<br>          \n<\/div>\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          },
+          "1530326215324": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n\n.header {\n    text-align: center;\n    margin-top: 0px;    \n    margin-bottom: 0px;\n}\n\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n<br>\n  <h5>\n<a href=\"\/pages\/giving-back\">giving back<\/a> »<\/h5>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1530325996651",
+          "1530326215324"
+        ],
+        "settings": {
+          "alignment": "top"
+        }
+      },
+      "giving-back-custom": {
+        "type": "giving-back-custom",
+        "blocks": {
+          "1530326554812": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    margin: 0;\n}\n\n.header {\n    text-align: center;\n}\n\n.row {\n    display: -ms-flexbox; \/* IE10 *\/\n    display: flex;\n    -ms-flex-wrap: wrap; \/* IE10 *\/\n    flex-wrap: wrap;\n    padding: 0 4px;\n}\n\n\/* Create four equal columns that sits next to each other *\/\n.column {\n    -ms-flex: 25%; \/* IE10 *\/\n    flex: 25%;\n    max-width: 25%;\n    padding: 0 4px;\n}\n\n.column img {\n    margin-top: 8px;\n    vertical-align: middle;\n}\n\n\/* Responsive layout - makes a two column-layout instead of four columns *\/\n@media screen and (max-width: 800px) {\n    .column {\n        -ms-flex: 50%;\n        flex: 50%;\n        max-width: 50%;\n    }\n}\n\n\/* Responsive layout - makes the two columns stack on top of each other instead of next to each other *\/\n@media screen and (max-width: 360px) {\n    .column {\n        -ms-flex: 100%;\n        flex: 100%;\n        max-width: 100%;\n    }\n}\n<\/style>\n\n\n<!-- Photo Grid -->\n<div class=\"row\"> \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>  \n  <div class=\"column\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n  <div class=\"column\">\n   <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n    <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0073\/1375\/2121\/files\/ace_and_jig_ecology_01.jpg?10816512007194017555\" style=\"width:100%\">\n  <\/div>\n<\/div>"
+            }
+          },
+          "1530326667290": {
+            "type": "html",
+            "settings": {
+              "width": "full",
+              "code": "<style>\n\n.header {\n    text-align: center;\n    margin-top: 0px;    \n    margin-bottom: 0px;\n}\n\n<\/style>\n\n\n<!-- Header -->\n<div class=\"header\">\n<br>\n  <h5>\n<a href=\"\/pages\/community\">community<\/a> »<\/h5>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "1530326554812",
+          "1530326667290"
+        ],
+        "settings": {
+          "alignment": "top"
+        }
+      }
+    },
+    "content_for_index": [
+      "1478795901388",
+      "1480591889144",
+      "1526353263832",
+      "1526686729662",
+      "1526352296022",
+      "1480592300695"
+    ]
+  }
+}
