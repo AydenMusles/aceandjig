@@ -15,14 +15,14 @@
 
 <div class="container padded-row">
   <h4 class="align-center">{{ 'products.product.related_title' | t }}</h4>
-    
+
   <div class="collection-listing related-collection cf row-spacing">
     <div class="product-list">
       {% assign product_limit_plus_one = related_product_count | plus: 1 %}
       {% assign product_iter = 1 %}
       {% for related_product in product_collection.products limit: product_limit_plus_one %}
         {% if product.handle != related_product.handle and product_iter < product_limit_plus_one %}
-          {% include 'product-block' with related_product, product: related_product, collection: product_collection %}
+          {% include 'product-block-related' with related_product, product: related_product, collection: product_collection %}
           {% assign show_related = true %}
           {% assign product_iter = product_iter | plus: 1 %}
         {% endif %}

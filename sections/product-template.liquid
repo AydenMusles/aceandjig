@@ -159,12 +159,27 @@
                         if ($(this).hasClass('active')) {
                             var color = $(this).data('value');
                             $('.color-options .color-label').html(color);
+                            $('.thumbnails a').each(function(){
+                                if ($(this).attr('title') == color) {
+                                    $(this).show();
+                                } else {
+                                    $(this).hide();
+                                }
+                            });
                         }
                     });
 
                     $('#clickyboxes-option-color li a').click(function(){
                         var color = $(this).data('value');
                         $('.color-options .color-label').html(color);
+                        $('.color-options .color-label').html(color);
+                        $('.thumbnails a').each(function(){
+                            if ($(this).attr('title') == color) {
+                                $(this).show();
+                            } else {
+                                $(this).hide();
+                            }
+                        });
                     });
 
                 });

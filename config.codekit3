@@ -854,6 +854,13 @@
 		"oAP": "\/snippets\/pagination-control.liquid",
 		"oF": 0
 		},
+	"\/snippets\/product-block-related.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/snippets\/product-block-related.liquid",
+		"oF": 0
+		},
 	"\/snippets\/product-block-stockists.liquid": {
 		"cB": 0,
 		"ft": 8192,

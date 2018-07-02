@@ -5300,15 +5300,30 @@ $_review-border-color: rgba({{ settings.font_col_base }}, 0.2);
     float: left;
   }
 }
+@media only screen and (max-width: 768px) {
+    .product-block.fixed-width.product-block-related {
+            width: calc(48% - 20px);
+        }
+}
+
+@media only screen and (min-width: 1200px) {
+    .product-block.fixed-width.product-block-related {
+            width: calc(25% - 20px);
+        }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
-  .product-block.fixed-width {
-    @if $product-size < 250 {
-      width: calc(25% - 20px);
-    } @else {
-      width: calc(33.3% - 20px);
+    .product-block.fixed-width {
+        @if $product-size < 250 {
+          width: calc(25% - 20px);
+        } @else {
+          width: calc(33.3% - 20px);
+        }
+        &.product-block-related {
+            width: calc(25% - 20px);
+        }
     }
-  }
+
   .collection-slider .collection-listing .product-block.fixed-width {
     width: $product-size;
   }
