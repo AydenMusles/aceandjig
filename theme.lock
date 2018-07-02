@@ -124,7 +124,7 @@ sections/page-list-collections-template.liquid:
 sections/process-custom-one.liquid:
   development: 2018-06-30T19:16:42-04:00   10b717cba8973ac3bb339c763b414026
 sections/product-template.liquid:
-  development: 2018-07-02T02:25:56-04:00   40b8392e54027aed758d53b5241ed8e0
+  development: 2018-07-02T02:37:01-04:00   4a80b9e51a99ac600c2cf8f7ff52d27d
 sections/quilt-custom-one.liquid:
   development: 2018-06-30T19:16:42-04:00   b100fecc221772f06cfa5eef235667be
 sections/season.liquid:
