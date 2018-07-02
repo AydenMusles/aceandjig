@@ -152,11 +152,34 @@
             {% if product.variants.size > 1 %}
 
             <div class="option-selectors">
+                <script>
+                $(window).load(function(){
+
+                    $('#clickyboxes-option-color li a').each(function(){
+                        if ($(this).hasClass('active')) {
+                            var color = $(this).data('value');
+                            $('.color-options .color-label').html(color);
+                        }
+                    });
+
+                    $('#clickyboxes-option-color li a').click(function(){
+                        var color = $(this).data('value');
+                        $('.color-options .color-label').html(color);
+                    });
+
+                });
+                </script>
               {% for option in product.options_with_values %}
               <div class="selector-wrapper cf">
-                <label {% if option.name == 'default' %}class="hidden"{% endif %} for="option-{{ option.name | handle }}">
-                  {{ option.name }}
-                </label>
+                  {% if option.name == 'Color' %}
+                  <div class="color-options" style="display: flex; align-items: center; justify-content: flex-start;">
+                    <label {% if option.name == 'default' %}class="hidden"{% endif %} for="option-{{ forloop.index0 }}">
+                      {{ option.name }}
+                    </label>
+                    {% if option.name == 'Color' or option.name == 'textile' %}: <span class="color-label" style="margin-left:5px;"></span>
+                    {% endif %}
+                  </div>
+                  {% endif %}
                 <span class="styled-select" {% if settings.prod_variant_style == 'blocks' %}data-make-box{% endif %}>
                   <select id="option-{{ option.name | handle }}">
                     {% for value in option.values %}
@@ -167,16 +190,18 @@
                   </select>
                 </span>
               </div>
-              {% if option.name == 'Color' %}
+              {% if option.name == 'Color' or option.name == 'textile' %}
                   {% for value in option.values %}
                   <style>
                   {% capture color_file %}swatch-{{ value }}{% endcapture %}
                   {% assign file_extension = 'png' %}
-                  #clickyboxes-option-color li a.opt--{{ value }} {
+                  #clickyboxes-option-color li a.opt--{{ value }}, #clickyboxes-option-textile li a.opt--{{ value }} {
                       background-image: url('{{ color_file | handle | append: '.' | append: file_extension | asset_url }}') !important;
                       background-size: cover;
                       background-position: center center;
-                      padding: 1rem;
+                      width: 42px;
+                      height: 35px;
+                      padding: 0;
                   }
                   </style>
                   {% endfor %}

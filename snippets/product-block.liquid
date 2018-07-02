@@ -62,6 +62,17 @@
         </div>
       </div>
     </a>
+    <div style="display: flex; align-items:center; justify-content: center; flex-wrap: wrap;">
+        {% for option in product.options_with_values %}
+            {% if option.name == 'Color' or option.name == 'textile' %}
+            {% for value in option.values %}
+                {% capture color_file %}swatch-{{ value }}{% endcapture %}
+                {% assign file_extension = 'png' %}
+                <div style="width:25px; height:25px; background-image: url('{{ color_file | handle | append: '.' | append: file_extension | asset_url }}'); background-size: cover; background-position: center center; margin:0 2.5px;"></div>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
   </div>
 
   {% if settings.prod_thumb_detail_show or include_quick_buy_markup %}
@@ -136,11 +147,18 @@
               <div class="option-selectors">
                 {% for option in product.options_with_values %}
                 <div class="selector-wrapper cf">
-                  <label {% if option.name == 'default' %}class="hidden"{% endif %} for="option-{{ forloop.index0 }}">
-                    {{ option.name }}
-                  </label>
+                    <div class="color-options" style="display: flex; align-items: center; justify-content: flex-start;">
+                      <label {% if option.name == 'default' %}class="hidden"{% endif %} for="option-{{ forloop.index0 }}">
+                        {{ option.name }}
+                      </label>
+                      {% if option.name == 'Color' or option.name == 'textile' %}:
+                          {% for value in option.values %}
+                              <span style="margin-left:5px;">{{ value }}</span>
+                          {% endfor %}
+                          {% endif %}
+                    </div>
                   <span class="styled-select" {% if settings.prod_variant_style == 'blocks' %}data-make-box{% endif %}>
-                    <select id="option-{{ forloop.index0 }}">
+                    <select id="option-{{ forloop.index0 }}" class="option--{{ option.name | downcase }}">
                       {% for value in option.values %}
                       <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>
                         {{ value }}
@@ -149,6 +167,22 @@
                     </select>
                   </span>
                 </div>
+                {% if option.name == 'Color' or option.name == 'textile' %}
+                    {% for value in option.values %}
+                    <style>
+                    {% capture color_file %}swatch-{{ value }}{% endcapture %}
+                    {% assign file_extension = 'png' %}
+                    .options--color li a.opt--{{ value }}, .options--textile li a.opt--{{ value }} {
+                        background-image: url('{{ color_file | handle | append: '.' | append: file_extension | asset_url }}') !important;
+                        background-size: cover;
+                        background-position: center center;
+                        width: 42px;
+                        height: 35px;
+                        padding: 0;
+                    }
+                    </style>
+                    {% endfor %}
+                {% endif %}
                 {% endfor %}
               </div>
 

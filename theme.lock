@@ -56,7 +56,7 @@ assets/theme.js.liquid:
 assets/vendor-min.js:
   development: 2018-06-30T23:09:31-04:00   cdee07bb83c903ade4fe8cc16bd83bd2
 assets/vendor.js:
-  development: 2018-06-30T23:09:28-04:00   ee5b65a88a1e17918c6df4fc42519609
+  development: 2018-07-01T21:40:31-04:00   c3316d3c0ef798408e46209ba6620ca3
 config/settings_data.json:
   development: 2018-06-30T19:16:53-04:00   e7c6bdb6a0583ae456385e6f7a5780fa
 config/settings_schema.json:
@@ -103,6 +103,8 @@ sections/giving-back-custom.liquid:
   development: 2018-06-30T19:16:42-04:00   7a00f307cb8074b31c66991b7361db5a
 sections/header.liquid:
   development: 2018-06-30T19:16:42-04:00   2a9c0426da194b3cbd44d801ea1de557
+sections/homepage_content-section.liquid:
+  development: 2018-07-01T21:12:31-04:00   57ac66c25707bb21e40a5972a014d79e
 sections/image-with-text.liquid:
   development: 2018-06-30T19:16:42-04:00   c573bfca20e229377e0512d70140b9bc
 sections/instagram.liquid:
@@ -122,7 +124,7 @@ sections/page-list-collections-template.liquid:
 sections/process-custom-one.liquid:
   development: 2018-06-30T19:16:42-04:00   10b717cba8973ac3bb339c763b414026
 sections/product-template.liquid:
-  development: 2018-06-30T23:10:18-04:00   41204cbb28815a17b5b76ad94bf337bd
+  development: 2018-07-01T23:46:18-04:00   a3ff123f982db449028c701ac40f2778
 sections/quilt-custom-one.liquid:
   development: 2018-06-30T19:16:42-04:00   b100fecc221772f06cfa5eef235667be
 sections/season.liquid:
@@ -204,7 +206,7 @@ snippets/pagination-control.liquid:
 snippets/product-block-stockists.liquid:
   development: 2018-06-30T19:50:24-04:00   47564d64f5e45e8534031e52599d0682
 snippets/product-block.liquid:
-  development: 2018-06-30T19:16:49-04:00   a8341bf784afcafa0932cb7e38bcbdd2
+  development: 2018-07-01T22:04:05-04:00   9d2824c70aceb69f19b521faa5e8567d
 snippets/product-label.liquid:
   development: 2018-06-30T19:16:49-04:00   d684e2b3c9f1da276ad9df69e64f26e1
 snippets/related-products.liquid:

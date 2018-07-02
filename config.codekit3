@@ -252,6 +252,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/old-theme.js.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/old-theme.js.liquid",
+		"oF": 0
+		},
 	"\/assets\/styles.scss.liquid": {
 		"cB": 0,
 		"ft": 8192,
@@ -495,6 +502,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sections\/header.liquid",
+		"oF": 0
+		},
+	"\/sections\/homepage_content-section.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sections\/homepage_content-section.liquid",
 		"oF": 0
 		},
 	"\/sections\/image-with-text.liquid": {
