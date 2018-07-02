@@ -61,7 +61,7 @@
   {% endif %}
 
 
-  <div class="product-detail spaced-row container cf">
+  <div class="product-{{ product.title | handle }} product-detail spaced-row container cf">
 
     <div class="gallery gallery-layout-{{ section.settings.prod_gall_thumbs_under }} layout-column-half-left {% if product.images.size > 1 %}has-thumbnails{% endif %}">
       {% assign lightbox_size = 'master' %}
@@ -89,16 +89,16 @@
 
       <div class="mobile-slideshow">
         <div class="slideshow" data-slick='{"adaptiveHeight":true}'>
+            {% comment %}
           {% assign featured_image = product.selected_or_first_available_variant.featured_image | default: product.featured_image %}
-          <div class="slide" data-full-size-url="{{ featured_image | product_img_url: 'master' }}">
+          <div class="slide {{ image.alt | escape }}" data-full-size-url="{{ featured_image | product_img_url: 'master' }}">
             {% include 'responsive-image', image: featured_image %}
           </div>
+          {% endcomment %}
           {% for image in product.images %}
-          {% unless image contains featured_image %}
-          <div class="slide" data-full-size-url="{{ image | product_img_url: 'master' }}">
+          <div class="slide {{ image.alt | escape }}" data-full-size-url="{{ image | product_img_url: 'master' }}">
             {% include 'responsive-image', image: image %}
           </div>
-          {% endunless %}
           {% endfor %}
         </div>
       </div>
@@ -153,33 +153,48 @@
 
             <div class="option-selectors">
                 <script>
+                $(document).ready(function(){
+                    $('body').hide();
+                });
+
                 $(window).load(function(){
+                    $('body').fadeIn(500);
 
                     $('#clickyboxes-option-color li a').each(function(){
                         if ($(this).hasClass('active')) {
                             var color = $(this).data('value');
                             $('.color-options .color-label').html(color);
-                            $('.thumbnails a').each(function(){
+                            $('.product-{{ product.title | handle }} .thumbnails a').each(function(){
                                 if ($(this).attr('title') == color) {
                                     $(this).show();
                                 } else {
                                     $(this).hide();
                                 }
                             });
+                            $('.slideshow').slick('slickFilter', '.'+ color +'');
                         }
                     });
 
                     $('#clickyboxes-option-color li a').click(function(){
                         var color = $(this).data('value');
                         $('.color-options .color-label').html(color);
-                        $('.color-options .color-label').html(color);
-                        $('.thumbnails a').each(function(){
+                        $('.product-{{ product.title | handle }} .thumbnails a').each(function(){
                             if ($(this).attr('title') == color) {
                                 $(this).show();
                             } else {
                                 $(this).hide();
                             }
                         });
+
+                        $('.slideshow').slick('slickUnfilter');
+                        $('.slideshow').slick('slickFilter', '.'+ color +'');
+                        // if (filtered == false) {
+                        //     $('.slideshow').slick('slickFilter','.'+ color +'');
+                        //     filtered = true;
+                        // } else {
+                        //     $('.slideshow').slick('slickUnfilter');
+                        //     filtered = false;
+                        // }
                     });
 
                 });

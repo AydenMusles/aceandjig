@@ -124,7 +124,7 @@ sections/page-list-collections-template.liquid:
 sections/process-custom-one.liquid:
   development: 2018-06-30T19:16:42-04:00   10b717cba8973ac3bb339c763b414026
 sections/product-template.liquid:
-  development: 2018-07-02T00:09:55-04:00   c08400d47f4def854ccd150ced582d38
+  development: 2018-07-02T02:25:56-04:00   40b8392e54027aed758d53b5241ed8e0
 sections/quilt-custom-one.liquid:
   development: 2018-06-30T19:16:42-04:00   b100fecc221772f06cfa5eef235667be
 sections/season.liquid:
@@ -204,11 +204,11 @@ snippets/opengraph-tags.liquid:
 snippets/pagination-control.liquid:
   development: 2018-06-30T19:16:49-04:00   454ebfde3efff161bd98c58917ecd551
 snippets/product-block-related.liquid:
-  development: 2018-07-02T00:07:15-04:00   043b1f4c98c7b0f719ecd1899857fb9d
+  development: 2018-07-02T00:13:12-04:00   7d013a6d37c1d8c898d61f577a0401de
 snippets/product-block-stockists.liquid:
   development: 2018-06-30T19:50:24-04:00   47564d64f5e45e8534031e52599d0682
 snippets/product-block.liquid:
-  development: 2018-07-01T22:04:05-04:00   9d2824c70aceb69f19b521faa5e8567d
+  development: 2018-07-02T01:00:04-04:00   fd5df5c0d7889384eccad2d4d48e22df
 snippets/product-label.liquid:
   development: 2018-06-30T19:16:49-04:00   d684e2b3c9f1da276ad9df69e64f26e1
 snippets/related-products.liquid:
