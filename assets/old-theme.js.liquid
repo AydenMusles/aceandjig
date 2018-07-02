@@ -1648,111 +1648,110 @@ $(function($){
     var $slider = $(this).closest('.collection-slider');
     var pageWidth = $(window).width();
     //Only show dropdown if screen is large enough for it to be useful
-        if(pageWidth > 767 && !$block.hasClass('regular')) {
-          if($slider.length > 0) {
-            //Inside a collection slider
-            var $detailCont = $slider.closest('.collection-slider-row').find('.slider-collection-listing .product-detail');
-            if($detailCont.length == 1) {
-              if($block.hasClass('expanded')) {
-                //Just shrink it
-                $block.removeClass('expanded');
-                $detailCont.stop().animate({height: 0}, droppyDownAnimSpeed);
-              } else {
-                // there's no way to run something when reviews are loaded, so we run this on expand instead
-                if(window.SPR) {
-                  theme.ProductBlockManager.alignProductBlockHeights();
-                }
-
-                //Unexpand others, reveal this
-                $('html:not(:animated),body:not(:animated)').animate({ scrollTop: $block.offset().top }, 500 );
-                var noneExpanded = $slider.find('.product-block.expanded').removeClass('expanded').length == 0;
-                if(noneExpanded) {
-                  $detailCont.height(0);
-                }
-                $detailCont.html($block.children('.product-detail').html());
-                //Set close button data
-                $detailCont.find('.close-detail').data('block', $block);
-                theme.awakenImagesFromSlumber($detailCont);
-
-                //Event for when image size changes
-                var $inner = $detailCont.children('.inner');
-                $inner.unbind('changedsize').bind('changedsize', function(){
-                  $detailCont.stop().animate({height: $detailCont.children('.inner').outerHeight()}, droppyDownAnimSpeed);
-                });
-
-                //Init dropdowns
-                $detailCont.find('select[name="id"]').trigger('optionate');
-
-                // extra payment buttons
-                if (Shopify.PaymentButton) {
-                  document.addEventListener('shopify:payment_button:loaded.themeQuickBuy', function(){
-                    $(document).off('shopify:payment_button:loaded.themeQuickBuy');
-                    $inner.trigger('changedsize');
-                  });
-                  Shopify.PaymentButton.init();
-                }
-
-                //Adjust height
-                $inner.trigger('changedsize');
-
-                $block.addClass('expanded');
-              }
-            }
+    if(pageWidth > 767) {
+      if($slider.length > 0) {
+        //Inside a collection slider
+        var $detailCont = $slider.closest('.collection-slider-row').find('.slider-collection-listing .product-detail');
+        if($detailCont.length == 1) {
+          if($block.hasClass('expanded')) {
+            //Just shrink it
+            $block.removeClass('expanded');
+            $detailCont.stop().animate({height: 0}, droppyDownAnimSpeed);
           } else {
-            //Normal collection page
-            if($block.toggleClass('expanded').hasClass('expanded')) {
-              //Expand this one
-
-              // there's no way to run something when reviews are loaded, so we run this on expand instead
-              if(window.SPR) {
-                theme.ProductBlockManager.alignProductBlockHeights();
-              }
-
-              //Contract neighbours
-              var $expandedSiblings = $block.siblings('.expanded');
-              contractDetail($expandedSiblings, 0);
-
-              var $inner = $block.find('.product-detail > .inner');
-
-              //Restore images
-              theme.awakenImagesFromSlumber($inner);
-
-              //Init dropdowns (do after images init'd)
-              $block.find('select[name="id"]').trigger('optionate');
-
-              // extra payment buttons
-              if (Shopify.PaymentButton) {
-                document.addEventListener('shopify:payment_button:loaded.themeQuickBuy', function(){
-                  $(document).off('shopify:payment_button:loaded.themeQuickBuy');
-                  $inner.trigger('changedsize');
-                });
-                Shopify.PaymentButton.init();
-              }
-
-              $inner.unbind('changedsize').bind('changedsize', function(){
-                //Check class in case slid-up before image loaded
-                if($block.hasClass('expanded')) {
-                  var targetHeight = $inner.outerHeight();
-                  var speed = $expandedSiblings.length > 0 ? 0 : droppyDownAnimSpeed;
-                  $block.stop().animate({ paddingBottom: targetHeight + 20 }, speed); // extra for gap underneath
-                  $block.find('.product-detail').stop().animate({ height: targetHeight }, speed);
-                }
-              });
-
-              //Slide down now
-              $inner.trigger('changedsize');
-
-              //Scroll to position the block at top of page
-              saveCollectionPageData();
-              var offsetTop = typeof($block.data('offsetTop')) != 'undefined' ? $block.data('offsetTop') : $block.offset().top;
-              $('html:not(:animated),body:not(:animated)').animate({ scrollTop: offsetTop }, 500 );
-            } else {
-              //Contract
-              contractDetail($block, droppyDownAnimSpeed);
+            // there's no way to run something when reviews are loaded, so we run this on expand instead
+            if(window.SPR) {
+              theme.ProductBlockManager.alignProductBlockHeights();
             }
-         }
-          return false;
 
+            //Unexpand others, reveal this
+            $('html:not(:animated),body:not(:animated)').animate({ scrollTop: $block.offset().top }, 500 );
+            var noneExpanded = $slider.find('.product-block.expanded').removeClass('expanded').length == 0;
+            if(noneExpanded) {
+              $detailCont.height(0);
+            }
+            $detailCont.html($block.children('.product-detail').html());
+            //Set close button data
+            $detailCont.find('.close-detail').data('block', $block);
+            theme.awakenImagesFromSlumber($detailCont);
+
+            //Event for when image size changes
+            var $inner = $detailCont.children('.inner');
+            $inner.unbind('changedsize').bind('changedsize', function(){
+              $detailCont.stop().animate({height: $detailCont.children('.inner').outerHeight()}, droppyDownAnimSpeed);
+            });
+
+            //Init dropdowns
+            $detailCont.find('select[name="id"]').trigger('optionate');
+
+            // extra payment buttons
+            if (Shopify.PaymentButton) {
+              document.addEventListener('shopify:payment_button:loaded.themeQuickBuy', function(){
+                $(document).off('shopify:payment_button:loaded.themeQuickBuy');
+                $inner.trigger('changedsize');
+              });
+              Shopify.PaymentButton.init();
+            }
+
+            //Adjust height
+            $inner.trigger('changedsize');
+
+            $block.addClass('expanded');
+          }
+        }
+      } else {
+        //Normal collection page
+        if($block.toggleClass('expanded').hasClass('expanded')) {
+          //Expand this one
+
+          // there's no way to run something when reviews are loaded, so we run this on expand instead
+          if(window.SPR) {
+            theme.ProductBlockManager.alignProductBlockHeights();
+          }
+
+          //Contract neighbours
+          var $expandedSiblings = $block.siblings('.expanded');
+          contractDetail($expandedSiblings, 0);
+
+          var $inner = $block.find('.product-detail > .inner');
+
+          //Restore images
+          theme.awakenImagesFromSlumber($inner);
+
+          //Init dropdowns (do after images init'd)
+          $block.find('select[name="id"]').trigger('optionate');
+
+          // extra payment buttons
+          if (Shopify.PaymentButton) {
+            document.addEventListener('shopify:payment_button:loaded.themeQuickBuy', function(){
+              $(document).off('shopify:payment_button:loaded.themeQuickBuy');
+              $inner.trigger('changedsize');
+            });
+            Shopify.PaymentButton.init();
+          }
+
+          $inner.unbind('changedsize').bind('changedsize', function(){
+            //Check class in case slid-up before image loaded
+            if($block.hasClass('expanded')) {
+              var targetHeight = $inner.outerHeight();
+              var speed = $expandedSiblings.length > 0 ? 0 : droppyDownAnimSpeed;
+              $block.stop().animate({ paddingBottom: targetHeight + 20 }, speed); // extra for gap underneath
+              $block.find('.product-detail').stop().animate({ height: targetHeight }, speed);
+            }
+          });
+
+          //Slide down now
+          $inner.trigger('changedsize');
+
+          //Scroll to position the block at top of page
+          saveCollectionPageData();
+          var offsetTop = typeof($block.data('offsetTop')) != 'undefined' ? $block.data('offsetTop') : $block.offset().top;
+          $('html:not(:animated),body:not(:animated)').animate({ scrollTop: offsetTop }, 500 );
+        } else {
+          //Contract
+          contractDetail($block, droppyDownAnimSpeed);
+        }
+      }
+      return false;
     }
   });
 

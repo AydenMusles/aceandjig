@@ -41,6 +41,8 @@ assets/jquery.currencies.min.js:
   development: 2018-06-30T19:16:47-04:00   3714c8863fad54fbb64c4d24e9e61a01
 assets/link-sq.png:
   development: 2018-06-30T19:16:47-04:00   97a7b1837c0c24c4d5a816a95d7e8d85
+assets/old-theme.js.liquid:
+  development: 2018-07-01T20:04:40-04:00   8650a34fe053f03603fcdd5bab91e247
 assets/styles.scss.liquid:
   development: 2018-06-30T22:23:17-04:00   584c42d99528314f91fca56cb28f6366
 assets/swatch-fete.png:
@@ -50,7 +52,7 @@ assets/swatch-fiesta.png:
 assets/swatch-seventies.png:
   development: 2018-06-30T22:17:35-04:00   68840f4ca0c7e0fa1d2c080fc3ddfd42
 assets/theme.js.liquid:
-  development: 2018-06-30T22:58:18-04:00   1587893f6b49d8bf2fe811c1ccef171f
+  development: 2018-07-01T20:12:53-04:00   a7fd8caf8e16084f1fd4aa20ad37fa90
 assets/vendor-min.js:
   development: 2018-06-30T23:09:31-04:00   cdee07bb83c903ade4fe8cc16bd83bd2
 assets/vendor.js:
@@ -72,9 +74,9 @@ sections/cart-template.liquid:
 sections/collage-with-text.liquid:
   development: 2018-06-30T19:16:41-04:00   57ac66c25707bb21e40a5972a014d79e
 sections/collection-stockists.liquid:
-  development: 2018-06-30T19:45:55-04:00   ee83f3ea5b0556a5cc32f7559d631a80
+  development: 2018-07-01T16:58:18-04:00   b57f89daf1de963136044fc8ed90ec77
 sections/collection-template.liquid:
-  development: 2018-06-30T21:42:57-04:00   0bf27d758922ae5e89e250369e592c4c
+  development: 2018-07-01T16:57:58-04:00   436b5e2efd01627b4562f7077a920c29
 sections/community-custom-one.liquid:
   development: 2018-06-30T19:16:41-04:00   9377277ed473838fb2be49b84b90d5d3
 sections/community-custom-two.liquid:
