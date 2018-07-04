@@ -184,7 +184,7 @@ snippets/bgset.liquid:
 snippets/collection-block.liquid:
   development: 2018-06-30T19:16:48-04:00   bfe62b778fd0bc81f244b632fa35d1e2
 snippets/collections_product-img-switch.liquid:
-  development: 2018-07-04T16:52:09-04:00   4e617dc3b6c59615735fe823ea3d304f
+  development: 2018-07-04T17:06:07-04:00   cfd065a11bab46120982d426c00d8095
 snippets/currencies-switcher.liquid:
   development: 2018-06-30T19:16:48-04:00   c22db5b97b1de1d19bd3028e36273c3b
 snippets/currencies.liquid:
@@ -232,7 +232,7 @@ snippets/product-block-related.liquid:
 snippets/product-block-stockists.liquid:
   development: 2018-06-30T19:50:24-04:00   47564d64f5e45e8534031e52599d0682
 snippets/product-block.liquid:
-  development: 2018-07-04T16:43:04-04:00   9d27a5a5f0e27bcce22782ae54605852
+  development: 2018-07-04T17:05:01-04:00   1c0ffe66c2e37953f298b91d4349d94f
 snippets/product-label.liquid:
   development: 2018-06-30T19:16:49-04:00   d684e2b3c9f1da276ad9df69e64f26e1
 snippets/products_product-img-switch.liquid:

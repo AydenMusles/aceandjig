@@ -147,7 +147,7 @@
               <div class="option-selectors">
                 {% for option in product.options_with_values %}
                 <div class="selector-wrapper cf">
-                {% if option.name == 'Color' %}
+                {% if option.name == 'Color' or option.name == 'textile' %}
                 <div class="color-options" style="display: flex; align-items: center; justify-content: flex-start;">
                   <label {% if option.name == 'default' %}class="hidden"{% endif %} for="option-{{ forloop.index0 }}">
                     {{ option.name }}
