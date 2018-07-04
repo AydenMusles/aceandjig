@@ -10,7 +10,7 @@
   {%- assign show_hover_image = false -%}
 {%- endif -%}
 
-<div data-product-id="{{ product.id }}" class="product-block product-block-related detail-mode-{{ settings.prod_hov_type }} {% if settings.prod_thumb_variable_width %}variable-width{% else %}fixed-width{% endif %}">
+<div id="{{ product.title | handle }}-wrapper" data-product-id="{{ product.id }}" class="product-block product-block-related detail-mode-{{ settings.prod_hov_type }} {% if settings.prod_thumb_variable_width %}variable-width{% else %}fixed-width{% endif %}">
   <div class="block-inner">
     <a class="product-link" href="{{ product_url }}">
       <div class="image-cont {% if show_hover_image %}with-secondary-image {% if product.featured_image.aspect_ratio == product.images[1].aspect_ratio %}same-aspect-ratio{% endif %}{% endif %}">
@@ -90,9 +90,9 @@
         </div>
 
         {% if product.images.size > 1 %}
-        <div class="thumbnails">
+        <div class="product-{{ product.title | handle }} thumbnails">
           {% for image in product.images %}
-          <a {% if image.src == featured_image.src %} class="active" {% endif %} title="{{ image.alt | escape }}"
+          <a {% if image.src == featured_image.src %} class="active" {% endif %} data-value="{{ image.alt | escape }}"
              href="{{ image | product_img_url: 'master' }}"
              data-full-size-url="{{ image | product_img_url: 'master' }}">
             {% include 'responsive-image', image: image, manual_trigger: true, max_height: 500 %}
@@ -138,6 +138,7 @@
         {% endif %}
 
         <div class="product-form section">
+        {% include 'collections_product-img-switch' %}
           {% if product.available %}
 
           {% form 'product', product, class: 'form', data-product-id: product.id %}
@@ -147,7 +148,7 @@
               <div class="option-selectors">
                 {% for option in product.options_with_values %}
                 <div class="selector-wrapper cf">
-                    {% if option.name == 'Color' %}
+                    {% if option.name == 'Color' or option.name == 'textile' %}
                         <div class="color-options" style="display: flex; align-items: center; justify-content: flex-start;">
                           <label {% if option.name == 'default' %}class="hidden"{% endif %} for="option-{{ forloop.index0 }}">
                             {{ option.name }}

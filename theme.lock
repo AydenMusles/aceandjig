@@ -184,7 +184,7 @@ snippets/bgset.liquid:
 snippets/collection-block.liquid:
   development: 2018-06-30T19:16:48-04:00   bfe62b778fd0bc81f244b632fa35d1e2
 snippets/collections_product-img-switch.liquid:
-  development: 2018-07-04T17:06:07-04:00   cfd065a11bab46120982d426c00d8095
+  development: 2018-07-04T17:10:42-04:00   f16befc5fbf1bedc2f78fd547806d5b3
 snippets/currencies-switcher.liquid:
   development: 2018-06-30T19:16:48-04:00   c22db5b97b1de1d19bd3028e36273c3b
 snippets/currencies.liquid:
@@ -228,7 +228,7 @@ snippets/opengraph-tags.liquid:
 snippets/pagination-control.liquid:
   development: 2018-06-30T19:16:49-04:00   454ebfde3efff161bd98c58917ecd551
 snippets/product-block-related.liquid:
-  development: 2018-07-02T00:13:12-04:00   7d013a6d37c1d8c898d61f577a0401de
+  development: 2018-07-04T17:11:35-04:00   19334d77336ca5e8de4a9691030d02ba
 snippets/product-block-stockists.liquid:
   development: 2018-06-30T19:50:24-04:00   47564d64f5e45e8534031e52599d0682
 snippets/product-block.liquid:
