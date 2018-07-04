@@ -2,4 +2,8 @@
   The contents of the blog.liquid template can be found in /sections/blog-template.liquid
 {% endcomment %}
 
+{% if blog.handle == 'press' or blog.handle == 'news' %}
+{% section 'blog_happenings-template' %}
+{% else %}
 {% section 'blog-template' %}
+{% endif %}

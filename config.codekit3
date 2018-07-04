@@ -506,6 +506,13 @@
 		"oAP": "\/sections\/blog-template.liquid",
 		"oF": 0
 		},
+	"\/sections\/blog_happenings-template.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sections\/blog_happenings-template.liquid",
+		"oF": 0
+		},
 	"\/sections\/cart-template.liquid": {
 		"cB": 0,
 		"ft": 8192,

@@ -6394,6 +6394,7 @@ html.template-password {
 .two-half-section {
     @media (min-width: 768px) {
         display: flex;
+        flex-wrap: wrap;
     }
     .half-section {
         @media (max-width: 768px) {
@@ -6403,8 +6404,9 @@ html.template-password {
             }
         }
         @media (min-width: 768px) {
-            width: 50%;
+            width: calc(50% - 6rem);
             padding: 1rem 3rem 4rem;
+            margin-bottom: 2rem;
             position: relative;
             .spaced-row-above {
                 position: absolute;
@@ -6427,5 +6429,21 @@ html.template-password {
                 background-position: center center;
             }
         }
+    }
+}
+
+#blog-grid {
+    @media (min-width: 768px) {
+        .article-list {
+            display: flex;
+            flex-wrap: wrap;
+            .article {
+                width: 50%;
+                padding: 0 !important;
+            }
+        }
+    }
+    .article-list .article {
+        border-top: 1px solid transparent !important;
     }
 }
