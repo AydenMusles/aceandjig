@@ -150,55 +150,7 @@
         {% form 'product', product, class: 'form', data-product-id: product.id, data-enable-history-state: 'true' %}
           <div class="input-row">
             {% if product.variants.size > 1 %}
-
-            <div class="option-selectors">
-                <script>
-                $(document).ready(function(){
-                    $('body').hide();
-                });
-
-                $(window).load(function(){
-                    $('body').fadeIn(500);
-
-                    $('#clickyboxes-option-color li a, #clickyboxes-option-textile li a').each(function(){
-                        if ($(this).hasClass('active')) {
-                            var color = $(this).data('value');
-                            $('.color-options .color-label').html(color);
-                            $('.product-{{ product.title | handle }} .thumbnails a').each(function(){
-                                if ($(this).attr('title') == color) {
-                                    $(this).show();
-                                } else {
-                                    $(this).hide();
-                                }
-                            });
-                            $('.slideshow').slick('slickFilter', '.'+ color +'');
-                        }
-                    });
-
-                    $('#clickyboxes-option-color li a, #clickyboxes-option-textile li a').click(function(){
-                        var color = $(this).data('value');
-                        $('.color-options .color-label').html(color);
-                        $('.product-{{ product.title | handle }} .thumbnails a').each(function(){
-                            if ($(this).attr('title') == color) {
-                                $(this).show();
-                            } else {
-                                $(this).hide();
-                            }
-                        });
-
-                        $('.slideshow').slick('slickUnfilter');
-                        $('.slideshow').slick('slickFilter', '.'+ color +'');
-                        // if (filtered == false) {
-                        //     $('.slideshow').slick('slickFilter','.'+ color +'');
-                        //     filtered = true;
-                        // } else {
-                        //     $('.slideshow').slick('slickUnfilter');
-                        //     filtered = false;
-                        // }
-                    });
-
-                });
-                </script>
+                {% include 'products_product-img-switch' %}
               {% for option in product.options_with_values %}
               <div class="selector-wrapper cf">
                   {% if option.name == 'Color' %}

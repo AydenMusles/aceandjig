@@ -10,7 +10,7 @@
   {%- assign show_hover_image = false -%}
 {%- endif -%}
 
-<div data-product-id="{{ product.id }}" class="product-block detail-mode-{{ settings.prod_hov_type }} {% if settings.prod_thumb_variable_width %}variable-width{% else %}fixed-width{% endif %}">
+<div id="{{ product.title | handle }}-wrapper" data-product-id="{{ product.id }}" class="product-block detail-mode-{{ settings.prod_hov_type }} {% if settings.prod_thumb_variable_width %}variable-width{% else %}fixed-width{% endif %}">
   <div class="block-inner">
     <a class="product-link" href="{{ product_url }}">
       <div class="image-cont {% if show_hover_image %}with-secondary-image {% if product.featured_image.aspect_ratio == product.images[1].aspect_ratio %}same-aspect-ratio{% endif %}{% endif %}">
@@ -68,7 +68,7 @@
             {% for value in option.values %}
                 {% capture color_file %}swatch-{{ value }}{% endcapture %}
                 {% assign file_extension = 'png' %}
-                <div style="width:25px; height:25px; background-image: url('{{ color_file | handle | append: '.' | append: file_extension | asset_url }}'); background-size: cover; background-position: center center; margin:0 2.5px;"></div>
+                <div style="width:25px; height:25px; background-image: url('{{ color_file | handle | append: '.' | append: file_extension | asset_url }}'); background-size: cover; background-position: center center; margin:2.5px;"></div>
                 {% endfor %}
             {% endif %}
         {% endfor %}
@@ -76,7 +76,7 @@
   </div>
 
   {% if settings.prod_thumb_detail_show or include_quick_buy_markup %}
-  <div class="product-detail">
+  <div id="{{ product.title | handle }}" class="product-detail">
     <a href="#" class="close-detail">{% include 'svg-x' %}</a>
     <div class="container inner cf">
 
@@ -137,9 +137,9 @@
         <div class="sku {% if product.selected_or_first_available_variant.sku == blank %}sku--no-sku{% endif %}">{{ 'products.product.sku' | t }} <span class="sku__value">{{ product.selected_or_first_available_variant.sku }}</span></div>
         {% endif %}
 
-        <div class="product-form section">
+        <div id="{{ product.title | handle }}" class="product-form section">
+        {% include 'collections_product-img-switch' %}
           {% if product.available %}
-
           {% form 'product', product, class: 'form', data-product-id: product.id %}
             <div class="input-row">
               {% if product.variants.size > 1 %}
@@ -256,38 +256,6 @@
 
       <script type="application/json" id="ProductJson-{{ product.id }}">
         {{ product | json }}
-      </script>
-
-      <script>
-      $(window).load(function(){
-
-          $('.clickyboxes.options--color li a').each(function(){
-              if ($(this).hasClass('active')) {
-                  var color = $(this).data('value');
-                  $('.color-options .color-label').html(color);
-                  $('.product-{{ product.title | handle }}.thumbnails a').each(function(){
-                      if ($(this).data('value') == color) {
-                          $(this).show();
-                      } else {
-                          $(this).hide();
-                      }
-                  });
-              }
-          });
-
-          $('.clickyboxes.options--color li a').click(function(){
-              var color = $(this).data('value');
-              $('.color-options .color-label').html(color);
-              $('.product-{{ product.title | handle }}.thumbnails a').each(function(){
-                  if ($(this).data('value') == color) {
-                      $(this).show();
-                  } else {
-                      $(this).hide();
-                  }
-              });
-          });
-
-      });
       </script>
 
     </div>

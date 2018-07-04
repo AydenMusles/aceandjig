@@ -1,0 +1,94 @@
+<script>
+$(window).load(function(){
+    $('#{{ product.title | handle }}-wrapper').each(
+        function(){
+            var self = $(this);
+            self.find('select.option--color, select.option--textile').each(function(){
+                var selectedColor = $(this).val();
+                console.log(selectedColor);
+                self.find('.color-options .color-label').html(selectedColor);
+                self.find('.product-{{ product.title | handle }}.thumbnails a').each(function(){
+                    if ($(this).data('value') == selectedColor) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+        });
+
+    // KEEP THIS
+    // $('#{{ product.title | handle }}.product-detail .clickyboxes.options--color li a, #{{ product.title | handle }}.product-detail .clickyboxes.options--textile li a').each(function(){
+    //     if ($(this).hasClass('active')) {
+    //         var color = $(this).data('value');
+    //         console.log(color);
+    //         $('.color-options .color-label').html(color);
+    //         $(this).parents('#{{ product.title | handle }}.product-detail').find('.product-{{ product.title | handle }}.thumbnails a').each(function(){
+    //             if ($(this).data('value') == color) {
+    //                 $(this).show();
+    //             } else {
+    //                 $(this).hide();
+    //             }
+    //         });
+    //     }
+    // });
+
+    // $('#{{ product.title | handle }}.product-detail .clickyboxes.options--color li a, #{{ product.title | handle }}.product-detail .clickyboxes.options--textile li a').click(function(){
+    //     var color = $(this).data('value');
+    //     console.log(color);
+    //     $('.color-options .color-label').html(color);
+    //     $(this).parents('#{{ product.title | handle }}.product-detail').find('.product-{{ product.title | handle }}.thumbnails a').each(function(){
+    //         if ($(this).data('value') == color) {
+    //             $(this).show();
+    //         } else {
+    //             $(this).hide();
+    //         }
+    //     });
+    // });
+
+    // $('#{{ product.title | handle }}.product-detail .clickyboxes.options--color li a, #{{ product.title | handle }}.product-detail .clickyboxes.options--textile li a').each(function(){
+    //     console.log(this);
+    //     if ($(this).hasClass('active')) {
+    //         var color = $(this).data('value');
+    //         console.log(color);
+    //         $('.color-options .color-label').html(color);
+    //         $(this).closest('.product-{{ product.title | handle }}.thumbnails a').each(function(){
+    //             if ($(this).data('value') == color) {
+    //                 $(this).show();
+    //             } else {
+    //                 $(this).hide();
+    //             }
+    //         });
+    //     }
+    // });
+
+        // $(this).children('.clickyboxes.options--color li a, .clickyboxes.options--textile li a').each(function(){
+        //     if ($(this).hasClass('active')) {
+        //         var color = $(this).data('value');
+        //         $('.color-options .color-label').html(color);
+        //         $('.product-{{ product.title | handle }} .thumbnails a').each(function(){
+        //             if ($(this).attr('title') == color) {
+        //                 $(this).show();
+        //             } else {
+        //                 $(this).hide();
+        //             }
+        //         });
+        //     }
+        // });
+        //
+        // $(this).children('.clickyboxes.options--color li a, .clickyboxes.options--textile li a').click(function(){
+        //     var color = $(this).data('value');
+        //     console.log(color);
+        //     $('.color-options .color-label').html(color);
+        //     $('.product-{{ product.title | handle }} .thumbnails a').each(function(){
+        //         if ($(this).attr('title') == color) {
+        //             $(this).show();
+        //         } else {
+        //             $(this).hide();
+        //         }
+        //     });
+        // });
+    // });
+
+});
+</script>

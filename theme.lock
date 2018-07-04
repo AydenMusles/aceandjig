@@ -45,12 +45,34 @@ assets/old-theme.js.liquid:
   development: 2018-07-01T20:04:40-04:00   8650a34fe053f03603fcdd5bab91e247
 assets/styles.scss.liquid:
   development: 2018-07-02T00:08:35-04:00   830eaf419ee28402a97ae6bd25368e78
+assets/swatch-aloha.png:
+  development: 2018-07-04T13:54:21-04:00   0e59b3753de9621840270d4e969330b7
+assets/swatch-ambrosia.png:
+  development: 2018-07-04T13:57:20-04:00   8d25e9efd76bc821cf6902b36febc3bf
+assets/swatch-brandy.png:
+  development: 2018-07-04T13:54:21-04:00   3e8e99220fd09b2c8291686b383a3bc4
+assets/swatch-celadon.png:
+  development: 2018-07-04T13:54:21-04:00   16dfeb07f2e1b2e861fcf64e8417465a
+assets/swatch-clay.png:
+  development: 2018-07-04T13:58:44-04:00   ad639570a9ed006c31c65af32b8d487c
+assets/swatch-cognac.png:
+  development: 2018-07-04T13:54:30-04:00   fde5962aafc6cbaa47858c1f387812c5
+assets/swatch-daybreak.png:
+  development: 2018-07-04T13:57:21-04:00   a2a5721c8f8250d20f4b6049bb64fa4f
 assets/swatch-fete.png:
   development: 2018-06-30T22:17:36-04:00   b804e211c0186351d6d320797435b1c7
 assets/swatch-fiesta.png:
   development: 2018-06-30T22:17:35-04:00   d91c5b03c0ceeceb082d160387e3447b
+assets/swatch-pinwheel.png:
+  development: 2018-07-04T13:57:21-04:00   0cbddf348760c4f173534a070af0a515
 assets/swatch-seventies.png:
   development: 2018-06-30T22:17:35-04:00   68840f4ca0c7e0fa1d2c080fc3ddfd42
+assets/swatch-sriracha.png:
+  development: 2018-07-04T13:54:26-04:00   2d7ded29d1803ed6c3f30de5ea994dc3
+assets/swatch-starboard.png:
+  development: 2018-07-04T13:54:26-04:00   ec6188bef9186f2fd18ac4730eafd5dd
+assets/swatch-voyage.png:
+  development: 2018-07-04T13:54:30-04:00   6d5493bbd0b1b0c21d9f8c640e6622bb
 assets/theme.js.liquid:
   development: 2018-07-01T20:12:53-04:00   a7fd8caf8e16084f1fd4aa20ad37fa90
 assets/vendor-min.js:
@@ -76,7 +98,7 @@ sections/collage-with-text.liquid:
 sections/collection-stockists.liquid:
   development: 2018-07-01T16:58:18-04:00   b57f89daf1de963136044fc8ed90ec77
 sections/collection-template.liquid:
-  development: 2018-07-01T16:57:58-04:00   436b5e2efd01627b4562f7077a920c29
+  development: 2018-07-04T14:06:32-04:00   4307ff5c8cd141c087bd09e33c26bc4f
 sections/community-custom-one.liquid:
   development: 2018-06-30T19:16:41-04:00   9377277ed473838fb2be49b84b90d5d3
 sections/community-custom-two.liquid:
@@ -124,7 +146,7 @@ sections/page-list-collections-template.liquid:
 sections/process-custom-one.liquid:
   development: 2018-06-30T19:16:42-04:00   10b717cba8973ac3bb339c763b414026
 sections/product-template.liquid:
-  development: 2018-07-02T02:37:01-04:00   4a80b9e51a99ac600c2cf8f7ff52d27d
+  development: 2018-07-04T14:17:23-04:00   1301e34f6d3143b80aec37f46add7807
 sections/quilt-custom-one.liquid:
   development: 2018-06-30T19:16:42-04:00   b100fecc221772f06cfa5eef235667be
 sections/season.liquid:
@@ -161,6 +183,8 @@ snippets/bgset.liquid:
   development: 2018-06-30T19:16:48-04:00   85889bbc39b57621f32fad66317366fc
 snippets/collection-block.liquid:
   development: 2018-06-30T19:16:48-04:00   bfe62b778fd0bc81f244b632fa35d1e2
+snippets/collections_product-img-switch.liquid:
+  development: 2018-07-04T16:52:09-04:00   4e617dc3b6c59615735fe823ea3d304f
 snippets/currencies-switcher.liquid:
   development: 2018-06-30T19:16:48-04:00   c22db5b97b1de1d19bd3028e36273c3b
 snippets/currencies.liquid:
@@ -208,9 +232,11 @@ snippets/product-block-related.liquid:
 snippets/product-block-stockists.liquid:
   development: 2018-06-30T19:50:24-04:00   47564d64f5e45e8534031e52599d0682
 snippets/product-block.liquid:
-  development: 2018-07-02T01:00:04-04:00   fd5df5c0d7889384eccad2d4d48e22df
+  development: 2018-07-04T16:43:04-04:00   9d27a5a5f0e27bcce22782ae54605852
 snippets/product-label.liquid:
   development: 2018-06-30T19:16:49-04:00   d684e2b3c9f1da276ad9df69e64f26e1
+snippets/products_product-img-switch.liquid:
+  development: 2018-07-04T14:17:01-04:00   3bab2d8da11d5cbe358cb2146a5907c3
 snippets/related-products.liquid:
   development: 2018-07-02T00:01:56-04:00   cdfcbf8cfbe09bd3f1c520099c073843
 snippets/responsive-image.liquid:

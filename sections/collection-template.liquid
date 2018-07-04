@@ -251,7 +251,7 @@
       <div class="product-list">
         {% for product in collection.products %}
         	{% unless product.type == 'Stockists' %}
-        {% include 'product-block' with product, include_quick_buy_markup: include_quick_buy_markup %}
+                {% include 'product-block' with product, include_quick_buy_markup: include_quick_buy_markup %}
         	{% endunless %}
         {% endfor %}
       </div>
