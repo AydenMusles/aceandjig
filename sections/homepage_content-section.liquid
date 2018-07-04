@@ -1,162 +1,138 @@
-  <div class="container strongly-spaced-row layout-content-with-image-{{ section.settings.layout }} layout-content-with-image-mobile-{{ section.settings.layout_mobile }} layout-content-with-image--large-image valign-middle cf" data-section-type="collage-with-text">
-  {%- capture image_html -%}
-    <div class="image-cont micro-collage micro-collage--style-{{ section.settings.style }}">
-      <div class="micro-collage__image-1-frame lazyload--placeholder">
-        {% if section.settings.cta_url != blank %}<a href="{{ section.settings.cta_url }}">{% endif %}
-        {% if section.settings.image_1 == blank %}
-        <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
-        {% else %}
-          <div class="micro-collage__image fade-in lazyload"
-            data-bgset="{% include 'bgset', image: section.settings.image_1 %}"
-            data-sizes="auto"
-            data-parent-fit="cover"></div>
-        {% endif %}
-        {% if section.settings.cta_url != blank %}</a>{% endif %}
-      </div>
-      <div class="micro-collage__image-2-frame lazyload--placeholder">
-        {% if section.settings.image_2 == blank %}
-        <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
-        {% else %}
-          <div class="micro-collage__image fade-in lazyload"
-            data-bgset="{% include 'bgset', image: section.settings.image_2 %}"
-            data-sizes="auto"
-            data-parent-fit="cover"></div>
-        {% endif %}
-      </div>
+<div class="container strongly-spaced-row layout-content-with-image-{{ section.settings.layout }} layout-content-with-image-mobile-{{ section.settings.layout_mobile }} layout-content-with-image--large-image valign-middle cf two-half-section" data-section-type="collage-with-text">
+    {%- capture image_html -%}
+        <div>
+            <div class="custom-img-wrapper micro-collage__image-1-frame lazyload--placeholder">
+                {% if section.settings.cta_url01 != blank %}<a href="{{ section.settings.cta_url01 }}">{% endif %}
+                {% if section.settings.image01 == blank %}
+                    <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                {% else %}
+                    <div class="img-custom micro-collage__image fade-in lazyload" data-bgset="{% include 'bgset', image: section.settings.image01 %}" data-sizes="auto" data-parent-fit="cover"></div>
+                {% endif %}
+                {% if section.settings.cta_url01 != blank %}</a>{% endif %}
+            </div>
+        </div>
+    {%- endcapture -%}
+
+    {%- capture image_html02 -%}
+        <div>
+            <div class="custom-img-wrapper micro-collage__image-1-frame lazyload--placeholder">
+                {% if section.settings.cta_url02 != blank %}<a href="{{ section.settings.cta_url02 }}">{% endif %}
+                {% if section.settings.image02 == blank %}
+                    <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                {% else %}
+                    <div class="img-custom micro-collage__image fade-in lazyload" data-bgset="{% include 'bgset', image: section.settings.image02 %}" data-sizes="auto" data-parent-fit="cover"></div>
+                {% endif %}
+                {% if section.settings.cta_url02 != blank %}</a>{% endif %}
+            </div>
+        </div>
+    {%- endcapture -%}
+
+    <div class="half-section">
+        {{ image_html }}
+        <div>
+            {% if section.settings.title01 != blank %}
+            <h1 class="majortitle in-content">{{ section.settings.title01 | escape }}</h1>
+            {% endif %}
+            <div class="user-content">{{ section.settings.text01 }}</div>
+
+            {% if section.settings.cta_text01 != blank %}
+            <div class="spaced-row-above">
+                <a class="button altcolour" href="{{ section.settings.cta_url | default: '#' }}">{{ section.settings.cta_text01 | escape }}</a>
+            </div>
+            {% endif %}
+        </div>
     </div>
-  {%- endcapture -%}
 
-  {% if section.settings.layout == 'left' %}{{ image_html }}{% endif %}<div class="content">
+    <div class="half-section">
+        {{ image_html02 }}
+        <div>
+            {% if section.settings.title02 != blank %}
+            <h1 class="majortitle in-content">{{ section.settings.title02 | escape }}</h1>
+            {% endif %}
+            <div class="user-content">{{ section.settings.text02 }}</div>
 
-  {% if section.settings.title != blank %}
-  <h1 class="majortitle in-content">{{ section.settings.title | escape }}</h1>
-  {% endif %}
+            {% if section.settings.cta_text02 != blank %}
+            <div class="spaced-row-above">
+                <a class="button altcolour" href="{{ section.settings.cta_url02 | default: '#' }}">{{ section.settings.cta_text02 | escape }}</a>
+            </div>
+            {% endif %}
 
-  <div class="user-content">{{ section.settings.text }}</div>
-
-  {% if section.settings.cta_text != blank %}
-  <div class="spaced-row-above">
-    <a class="button altcolour" href="{{ section.settings.cta_url | default: '#' }}">{{ section.settings.cta_text | escape }}</a>
-  </div>
-  {% endif %}
-
-  </div>{% if section.settings.layout == 'right' %}{{ image_html }}{% endif %}
+        </div>
+    </div>
 </div>
-
 
 {% schema %}
   {
-    "name": "Collage with text",
+    "name": "Homepage Content Section",
     "settings": [
       {
-        "type": "select",
-        "id": "layout",
-        "label": "Collage alignment - desktop",
-        "options": [
-          {
-            "value": "left",
-            "label": "Left"
-          },
-          {
-            "value": "right",
-            "label": "Right"
-          }
-        ],
-        "default": "right"
-      },
-      {
-        "type": "select",
-        "id": "layout_mobile",
-        "label": "Collage position - mobile",
-        "options": [
-          {
-            "value": "above",
-            "label": "Above"
-          },
-          {
-            "value": "below",
-            "label": "Below"
-          }
-        ],
-        "default": "above"
-      },
-      {
-        "type": "select",
-        "id": "style",
-        "label": "Collage style",
-        "options": [
-          {
-            "value": "1",
-            "label": "1"
-          },
-          {
-            "value": "2",
-            "label": "2"
-          },
-          {
-            "value": "3",
-            "label": "3"
-          },
-          {
-            "value": "4",
-            "label": "4"
-          },
-          {
-            "value": "5",
-            "label": "5"
-          }
-        ],
-        "default": "1"
-      },
-      {
         "type": "header",
-        "content": "Image 1"
+        "content": "First Block"
       },
       {
         "type": "image_picker",
-        "id": "image_1",
+        "id": "image01",
         "label": "Image"
-      },
-      {
-        "type": "header",
-        "content": "Image 2"
-      },
-      {
-        "type": "image_picker",
-        "id": "image_2",
-        "label": "Image"
-      },
-      {
-        "type": "header",
-        "content": "Text"
       },
       {
         "type": "text",
-        "id": "title",
+        "id": "title01",
         "label": "Heading",
-        "default": "Collage with text"
+        "default": "Homepage Content Section"
       },
 	    {
         "type": "richtext",
-        "id": "text",
+        "id": "text01",
         "label": "Text",
         "default": "<p>Pair some text with a couple of images to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
       },
 	    {
         "type": "text",
-        "id": "cta_text",
+        "id": "cta_text01",
         "label": "Button text",
         "default": "Read more"
       },
       {
         "type": "url",
-        "id": "cta_url",
+        "id": "cta_url01",
         "label": "Button link"
-      }
+        },
+        {
+          "type": "header",
+          "content": "Second Block"
+        },
+        {
+          "type": "image_picker",
+          "id": "image02",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title02",
+          "label": "Heading",
+          "default": "Homepage Content Section"
+        },
+  	    {
+          "type": "richtext",
+          "id": "text02",
+          "label": "Text",
+          "default": "<p>Pair some text with a couple of images to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+        },
+  	    {
+          "type": "text",
+          "id": "cta_text02",
+          "label": "Button text",
+          "default": "Read more"
+        },
+        {
+          "type": "url",
+          "id": "cta_url02",
+          "label": "Button link"
+        }
     ],
     "presets": [
       {
-        "name": "Collage with text",
+        "name": "Homepage Content Section",
         "category": "Image",
         "settings": {}
       }

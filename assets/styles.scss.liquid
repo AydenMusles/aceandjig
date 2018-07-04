@@ -6390,3 +6390,42 @@ html.template-password {
 /*************    ---                   ---                   ---   *************/
 /*************    |     ENTER YOUR CUSTOM CODE BELOW HERE       |   *************/
 /*************    ---                   ---                   ---   *************/
+
+.two-half-section {
+    @media (min-width: 768px) {
+        display: flex;
+    }
+    .half-section {
+        @media (max-width: 768px) {
+            margin-bottom: 2.5rem;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+        @media (min-width: 768px) {
+            width: 50%;
+            padding: 1rem 3rem 4rem;
+            position: relative;
+            .spaced-row-above {
+                position: absolute;
+                height: 3rem;
+                width: 100%;
+                bottom: 0;
+                left: 3rem;
+            }
+        }
+        .custom-img-wrapper {
+            padding-bottom: 100%;
+            position: relative;
+            .img-custom {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center center;
+            }
+        }
+    }
+}
