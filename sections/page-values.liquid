@@ -1,0 +1,53 @@
+<div id="blog-grid">
+    <div class="container">
+        <div class="page-header cf">
+            <h1 class="majortitle">{{ page.title }}</h1>
+        </div>
+    </div>
+    <div class="article-list">
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'page-nav' %}
+                {% include 'snippet_page-nav' %}
+            {% endcase %}
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+    "blocks": [
+        {
+            "type": "page-nav",
+            "name": "Page Block",
+            "settings": [
+                {
+                    "id": "valuesImg",
+                    "type": "image_picker",
+                    "label": "Image"
+                },
+                {
+                    "id": "valuesTitle",
+                    "type": "text",
+                    "label": "Title"
+                },
+                {
+                    "id": "valuesDesc",
+                    "type": "richtext",
+                    "label": "Body Text"
+                },
+                {
+                    "id": "valuesUrl",
+                    "type": "url",
+                    "label": "Link URL"
+                },
+                {
+                    "id": "valuesLink",
+                    "type": "text",
+                    "label": "Link Text"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

@@ -128,7 +128,7 @@ sections/giving-back-custom.liquid:
 sections/header.liquid:
   development: 2018-06-30T19:16:42-04:00   2a9c0426da194b3cbd44d801ea1de557
 sections/homepage_content-section.liquid:
-  development: 2018-07-04T18:33:07-04:00   e74cbece8940f7b52e4dd4cafa64b594
+  development: 2018-07-04T19:20:44-04:00   4a758dcf7d6b629550a7fe4f843e10a0
 sections/image-with-text.liquid:
   development: 2018-06-30T19:16:42-04:00   c573bfca20e229377e0512d70140b9bc
 sections/instagram.liquid:
@@ -145,6 +145,8 @@ sections/no-waste-custom.liquid:
   development: 2018-06-30T19:16:42-04:00   a07d2251e6b15262003e5906621b7eb1
 sections/page-list-collections-template.liquid:
   development: 2018-06-30T19:16:42-04:00   45f573f3633f9dc34214595dcd75f561
+sections/page-values.liquid:
+  development: 2018-07-04T19:47:23-04:00   64d9d96fb524a343ec0784060b56b28e
 sections/process-custom-one.liquid:
   development: 2018-06-30T19:16:42-04:00   10b717cba8973ac3bb339c763b414026
 sections/product-template.liquid:
@@ -247,6 +249,8 @@ snippets/shipping-calculator.liquid:
   development: 2018-06-30T19:16:49-04:00   0ce0c83e81f482d9b1b604f73e5c0a58
 snippets/signup-form.liquid:
   development: 2018-06-30T19:16:50-04:00   9de44bd7e728e9b5ccc50a6c06fa7b57
+snippets/snippet_page-nav.liquid:
+  development: 2018-07-04T19:41:33-04:00   3f5520a24be28e5399943ac5fdbe0e81
 snippets/social-icons.liquid:
   development: 2018-06-30T19:16:50-04:00   1164ba4f290639d58b7e924b51d5d608
 snippets/social-sharing.liquid:
@@ -360,7 +364,7 @@ templates/page.story.liquid:
 templates/page.textile-archive.liquid:
   development: 2018-06-30T19:16:52-04:00   b544f7512a594f100233ae3d38323f73
 templates/page.values.liquid:
-  development: 2018-06-30T19:16:52-04:00   d6f3f745f9cf9350e2a56fa8e4c1a7a4
+  development: 2018-07-04T19:18:37-04:00   807f18419a20061a302a9ff620f0954b
 templates/password.liquid:
   development: 2018-06-30T19:16:52-04:00   3ead256f98776c1704e70484a3393613
 templates/product.liquid:

@@ -37,7 +37,7 @@
 
             {% if section.settings.cta_text01 != blank %}
             <div class="spaced-row-above">
-                <a class="button altcolour" href="{{ section.settings.cta_url | default: '#' }}">{{ section.settings.cta_text01 | escape }}</a>
+                <a class="button altcolour" href="{{ section.settings.cta_url01 | default: '#' }}">{{ section.settings.cta_text01 | escape }}</a>
             </div>
             {% endif %}
         </div>

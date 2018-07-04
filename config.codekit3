@@ -695,6 +695,13 @@
 		"oAP": "\/sections\/page-list-collections-template.liquid",
 		"oF": 0
 		},
+	"\/sections\/page-values.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sections\/page-values.liquid",
+		"oF": 0
+		},
 	"\/sections\/process-custom-one.liquid": {
 		"cB": 0,
 		"ft": 8192,
@@ -1050,6 +1057,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/snippets\/signup-form.liquid",
+		"oF": 0
+		},
+	"\/snippets\/snippet_page-nav.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/snippets\/snippet_page-nav.liquid",
 		"oF": 0
 		},
 	"\/snippets\/social-icons.liquid": {
