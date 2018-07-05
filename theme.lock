@@ -41,10 +41,8 @@ assets/jquery.currencies.min.js:
   development: 2018-06-30T19:16:47-04:00   3714c8863fad54fbb64c4d24e9e61a01
 assets/link-sq.png:
   development: 2018-06-30T19:16:47-04:00   97a7b1837c0c24c4d5a816a95d7e8d85
-assets/old-theme.js.liquid:
-  development: 2018-07-01T20:04:40-04:00   8650a34fe053f03603fcdd5bab91e247
 assets/styles.scss.liquid:
-  development: 2018-07-04T18:57:46-04:00   f9afa4436b1ec2afcbe450ffb11183ce
+  development: 2018-07-05T00:20:41-04:00   4b33f5f07b3d66d2898f7280d14ee307
 assets/swatch-aloha.png:
   development: 2018-07-04T13:54:21-04:00   0e59b3753de9621840270d4e969330b7
 assets/swatch-ambrosia.png:
@@ -74,7 +72,7 @@ assets/swatch-starboard.png:
 assets/swatch-voyage.png:
   development: 2018-07-04T13:54:30-04:00   6d5493bbd0b1b0c21d9f8c640e6622bb
 assets/theme.js.liquid:
-  development: 2018-07-01T20:12:53-04:00   a7fd8caf8e16084f1fd4aa20ad37fa90
+  development: 2018-07-04T20:47:58-04:00   ddde8ec9141c5b25edc03118eff08625
 assets/vendor-min.js:
   development: 2018-06-30T23:09:31-04:00   cdee07bb83c903ade4fe8cc16bd83bd2
 assets/vendor.js:
@@ -126,7 +124,7 @@ sections/footer.liquid:
 sections/giving-back-custom.liquid:
   development: 2018-06-30T19:16:42-04:00   7a00f307cb8074b31c66991b7361db5a
 sections/header.liquid:
-  development: 2018-06-30T19:16:42-04:00   2a9c0426da194b3cbd44d801ea1de557
+  development: 2018-07-04T21:16:49-04:00   7f57019e56020c7aac4462bf3269f5eb
 sections/homepage_content-section.liquid:
   development: 2018-07-04T19:20:44-04:00   4a758dcf7d6b629550a7fe4f843e10a0
 sections/image-with-text.liquid:

@@ -19,70 +19,25 @@
 {% else %}
 
 <div data-section-type="header">
-  {% if section.settings.announcement_show %}
-  {% unless template != 'index' and section.settings.announcement_home_only %}
-    <style type="text/css">
-      .announcement {
-        background: {{ section.settings.announcement_bar_col }};
-        color: {{ section.settings.announcement_text_col }};
-      }
-    </style>
+
+  <div id="pageheader">
     <div class="announcement">
+    {% if section.settings.announcement_show %}
+    {% unless template != 'index' and section.settings.announcement_home_only %}
+      <style type="text/css">
+        .announcement {
+          background: {{ section.settings.announcement_bar_col }};
+          color: {{ section.settings.announcement_text_col }};
+        }
+      </style>
       {% if section.settings.announcement_link != blank %}<a href="{{ section.settings.announcement_link }}">{% endif %}
       <div class="announcement__inner">
         {{ section.settings.announcement_text }}
       </div>
       {% if section.settings.announcement_link != blank %}</a>{% endif %}
-    </div>
-  {% endunless %}
-  {% endif %}
-
-  <div id="pageheader">
-
-    {% capture logo_html %}
-    <div class="logo">
-      <a href="/" title="{{ shop.name }}">
-        {% if section.settings.logo != blank %}
-        {% capture img_size %}{{ section.settings.logo_img_width | times: 2 }}x{% endcapture %}
-        <img src="{{ section.settings.logo | img_url: img_size }}" alt="{{ section.settings.logo.alt | escape }}" />
-        {% else %}
-        <span class="logotext">{{ shop.name }}</span>
-        {% endif %}
-      </a>
-    </div><!-- /#logo -->
-    {% endcapture %}
-
-    <div id="mobile-header" class="cf">
-      <button class="notabutton mobile-nav-toggle" aria-label="{{ 'general.navigation.menu_toggle_aria_label' | t | escape }}" aria-controls="main-nav">
-        {% include 'svg-menu' %}
-      </button>
-      {{ logo_html }}
-      <a href="/{% if template != 'cart' %}cart{% else %}checkout{% endif %}" class="cart-count">
-        <span class="beside-svg">({{ cart.item_count }})</span>
-        {% include 'svg-cart' %}
-      </a>
-    </div>
-
-    <div class="logo-area logo-pos-{{ section.settings.logo_pos }} cf">
-
-      {% unless section.settings.logo_pos == 'below' %}<div class="container">{{ logo_html }}</div>{% endunless %}
-
-      <div class="util-area">
-        <div class="search-box elegant-input">
-          <form class="search-form" action="/search" method="get">
-            {% include 'svg-search' %}
-            <label class="search-box-label" for="header-search">{{ 'layout.header.search' | t }}</label>
-            <input type="text" id="header-search" name="q" autocomplete="off"/>
-            <button class="button" type="submit"><span class="button__icon">{% include 'svg-chevron-right' %}</span></button>
-            <input type="hidden" name="type" value="{{ settings.search_type }}" />
-          </form>
-
-          {% if section.settings.show_social_icons %}
-          {% include 'social-icons' %}
-          {% endif %}
-        </div>
-
-        <div class="utils">
+      {% endunless %}
+      {% endif %}
+      <div class="announcement-opt">
           {% if shop.customer_accounts_enabled %}
             <div class="account-links-inline contains-dropdown">
               {% if customer %}
@@ -109,23 +64,50 @@
 
           {% include 'currencies-switcher' %}
 
-          <div class="cart-summary">
-            <a href="/{% if template != 'cart' %}cart{% else %}checkout{% endif %}" class="cart-count {% if section.settings.use_btn_style_cart_link %}button{% endif %}">
-              <span class="cart-count__text">{{ 'layout.header.cart' | t }} ({{ cart.item_count }})</span>
-              {% unless section.settings.use_btn_style_cart_link %}
-                {% include 'svg-cart' %}
-              {% endunless %}
-            </a>
+          <div class="search-box elegant-input">
+            <form class="search-form" action="/search" method="get">
+              <label class="search-box-label" for="header-search">{% include 'svg-search' %}{{ 'layout.header.search' | t }}</label>
+              <input type="text" id="header-search" name="q" autocomplete="off"/>
+              <button class="button" type="submit"><span class="button__icon">{% include 'svg-chevron-right' %}</span></button>
+              <input type="hidden" name="type" value="{{ settings.search_type }}" />
+            </form>
+
+            {% if section.settings.show_social_icons %}
+            {% include 'social-icons' %}
+            {% endif %}
           </div>
-        </div><!-- /.utils -->
-      </div><!-- /.util-area -->
+      </div>
+    </div>
 
-      {% if section.settings.logo_pos == 'below' %}<div class="container">{{ logo_html }}</div>{% endif %}
+    {% capture logo_html %}
+    <div class="logo">
+      <a href="/" title="{{ shop.name }}">
+        {% if section.settings.logo != blank %}
+        {% capture img_size %}{{ section.settings.logo_img_width | times: 2 }}x{% endcapture %}
+        <img src="{{ section.settings.logo | img_url: img_size }}" alt="{{ section.settings.logo.alt | escape }}" />
+        {% else %}
+        <span class="logotext">{{ shop.name }}</span>
+        {% endif %}
+      </a>
+    </div><!-- /#logo -->
+    {% endcapture %}
 
-    </div><!-- /.logo-area -->
+    <div id="mobile-header" class="cf">
+      <button class="notabutton mobile-nav-toggle" aria-label="{{ 'general.navigation.menu_toggle_aria_label' | t | escape }}" aria-controls="main-nav">
+        {% include 'svg-menu' %}
+      </button>
+      {{ logo_html }}
+      <a href="/{% if template != 'cart' %}cart{% else %}checkout{% endif %}" class="cart-count">
+        <span class="beside-svg">({{ cart.item_count }})</span>
+        {% include 'svg-cart' %}
+      </a>
+    </div>
   </div><!-- /#pageheader -->
 
   <div id="main-nav" class="nav-row {% if section.settings.nav_autoexpand %}autoexpand{% endif %}">
+     <div class="large-logo">
+      {{ logo_html }}
+    </div>
     <div class="mobile-features">
       <form class="mobile-search" action="/search" method="get">
         <i></i>
@@ -194,6 +176,20 @@
       </div>
     </div>
     <div class="mobile-currency-switcher">{% include 'currencies-switcher' %}</div>
+    <div class="cart-large util-area">
+
+      <div class="utils">
+
+        <div class="cart-summary">
+          <a href="/{% if template != 'cart' %}cart{% else %}checkout{% endif %}" class="cart-count {% if section.settings.use_btn_style_cart_link %}button{% endif %}">
+            <span class="cart-count__text">{{ 'layout.header.cart' | t }} ({{ cart.item_count }})</span>
+            {% unless section.settings.use_btn_style_cart_link %}
+              {% include 'svg-cart' %}
+            {% endunless %}
+          </a>
+        </div>
+      </div><!-- /.utils -->
+    </div><!-- /.util-area -->
   </div><!-- /#main-nav -->
 
 

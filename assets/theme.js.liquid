@@ -2093,6 +2093,8 @@ $(function($){
     });
     $(document).on('focusin focusout', '#pageheader .search-box input[type="text"]', function(e){
       $(this).closest('.search-box').toggleClass('focus', e.type == 'focusin');
+      console.log($('.announcement__inner'));
+      $('.announcement__inner').toggleClass('invisible');
     });
     $(document).on('mousedown', '#pageheader .search-box button', function(e){
       $(this).click();
