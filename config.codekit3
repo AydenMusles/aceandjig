@@ -499,11 +499,11 @@
 		"oAP": "\/sections\/blog-template.liquid",
 		"oF": 0
 		},
-	"\/sections\/blog_happenings-template.liquid": {
+	"\/sections\/blog_two-grid.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/blog_happenings-template.liquid",
+		"oAP": "\/sections\/blog_two-grid.liquid",
 		"oF": 0
 		},
 	"\/sections\/cart-template.liquid": {
@@ -826,6 +826,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/snippets\/bgset.liquid",
+		"oF": 0
+		},
+	"\/snippets\/blog_responsive-image.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/snippets\/blog_responsive-image.liquid",
 		"oF": 0
 		},
 	"\/snippets\/collection-block.liquid": {

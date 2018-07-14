@@ -89,8 +89,8 @@ sections/article-template.liquid:
   development: 2018-06-30T19:16:41-04:00   4583bf7b84b672f3d8e95623221078e3
 sections/blog-template.liquid:
   development: 2018-06-30T19:16:41-04:00   60b69110922d03d29a6c5ad6e343a769
-sections/blog_happenings-template.liquid:
-  development: 2018-07-04T18:53:05-04:00   940efb2f462978b2fdab3803397ee817
+sections/blog_two-grid.liquid:
+  development: 2018-07-14T14:15:20-04:00   534e98172789adc2e3488a4f2b60bbe0
 sections/cart-template.liquid:
   development: 2018-06-30T19:16:41-04:00   c5da8f3ecae24e596d1aa3f4474d7c67
 sections/collage-with-text.liquid:
@@ -98,7 +98,7 @@ sections/collage-with-text.liquid:
 sections/collection-stockists.liquid:
   development: 2018-07-01T16:58:18-04:00   b57f89daf1de963136044fc8ed90ec77
 sections/collection-template.liquid:
-  development: 2018-07-04T14:06:32-04:00   4307ff5c8cd141c087bd09e33c26bc4f
+  development: 2018-07-07T16:43:10-04:00   cb2367398fc6906bdda9ddc47e7d330f
 sections/community-custom-one.liquid:
   development: 2018-06-30T19:16:41-04:00   9377277ed473838fb2be49b84b90d5d3
 sections/community-custom-two.liquid:
@@ -183,6 +183,8 @@ sections/video.liquid:
   development: 2018-06-30T19:16:43-04:00   d17626a74326c6320ba15c3591f97bd1
 snippets/bgset.liquid:
   development: 2018-06-30T19:16:48-04:00   85889bbc39b57621f32fad66317366fc
+snippets/blog_responsive-image.liquid:
+  development: 2018-07-14T14:16:12-04:00   61f6d034e80f41fd6c218ed13b7784d6
 snippets/collection-block.liquid:
   development: 2018-06-30T19:16:48-04:00   bfe62b778fd0bc81f244b632fa35d1e2
 snippets/collections_product-img-switch.liquid:
@@ -234,7 +236,7 @@ snippets/product-block-related.liquid:
 snippets/product-block-stockists.liquid:
   development: 2018-06-30T19:50:24-04:00   47564d64f5e45e8534031e52599d0682
 snippets/product-block.liquid:
-  development: 2018-07-04T17:05:01-04:00   1c0ffe66c2e37953f298b91d4349d94f
+  development: 2018-07-07T16:43:07-04:00   4cb922b1b78e4e8836ed297f3471f0ec
 snippets/product-label.liquid:
   development: 2018-06-30T19:16:49-04:00   d684e2b3c9f1da276ad9df69e64f26e1
 snippets/products_product-img-switch.liquid:
@@ -298,7 +300,7 @@ templates/404.liquid:
 templates/article.liquid:
   development: 2018-06-30T19:16:51-04:00   f57aa873e803471418c3c40f8b9b5f5c
 templates/blog.liquid:
-  development: 2018-07-04T18:56:16-04:00   452180dadfdde41b2dc0d26529cb5cb4
+  development: 2018-07-14T14:12:01-04:00   619d162e01b9202eb7b490b881a7f09f
 templates/cart.liquid:
   development: 2018-06-30T19:16:51-04:00   714b4b7c62d583b231f339bbd1b85d03
 templates/collection.liquid:
