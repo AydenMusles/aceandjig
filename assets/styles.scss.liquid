@@ -6497,6 +6497,7 @@ html.template-password {
 }
 
 #article-collections {
+    margin-bottom: 4rem;
     .video-wrapper {
         content: '';
         position: relative;
@@ -6514,15 +6515,27 @@ html.template-password {
 
     .collection-slider-bottom {
         .slick-prev {
-            left: -50px;
+            left: -28px;
         }
         .slick-next {
-            right: -50px;
+            right: -28px;
+        }
+        @media (min-width: 768px) {
+            .slick-prev {
+                left: -50px;
+            }
+            .slick-next {
+                right: -50px;
+            }
         }
         .slick-prev, .slick-next {
             height: auto;
             width: auto;
-            svg { width: 50px;
+            svg {
+                width: 35px;
+                @media (min-width: 768px) {
+                    width: 50px;
+                }
                 &.feather {
                     stroke: $slick-dot-color;
                     stroke-width: 1.6px;
@@ -6530,4 +6543,8 @@ html.template-password {
             }
         }
     }
+}
+
+.collection-nav {
+    text-align: center;
 }

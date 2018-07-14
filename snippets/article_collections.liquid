@@ -15,25 +15,28 @@
       {{ article.content }}
     </div>
 
-    <div class="pagination-row pagination-row-tabular">
-      <div class="inner">
-        <span class="prev">
-          {% if blog.previous_article %}
-          <a href="{{ blog.previous_article }}"><span class="icon-small icon-natcol">{% include 'svg-chevron-left' %}</span> <span>{{ 'blogs.article.older_post' | t }}</span></a>
-          {% endif %}
-        </span>
+    <div class="collection-nav">
+        {% assign current_found = false %}
+        {% assign done = false %}
+        {% for a in blog.articles %}
+            {% if current_found and done == false %}
+                {% assign next_article = a %}
+                {% assign done = true %}
+            {% endif %}
+            {% unless done %}
+                {% if a.id == article.id %}
+                    {% assign current_found = true %}
+                {% else %}
+                    {% assign prev_article = a %}
+                {% endif %}
+            {% endunless %}
+        {% endfor %}
 
-        {% comment %}
-        <span class="back">{{ 'blogs.article.back_to_blog' | t: blog: blog.title | link_to: blog.url }}</span>
-        {% endcomment %}
-
-        <span class="next">
-          {% if blog.next_article %}
-          <a href="{{ blog.next_article }}"><span>{{ 'blogs.article.newer_post' | t }}</span> <span class="icon-small icon-natcol">{% include 'svg-chevron-right' %}</span></a>
-          {% endif %}
-        </span>
-      </div>
+        {% if next_article %}
+            <a href="{{ next_article.url }}"><h4>{{ next_article.title }} »</h4></a>
+        {% endif %}
     </div>
+
 
   </div><!-- /.container -->
 </div><!-- /.article -->
