@@ -1,9 +1,11 @@
-{% comment %
+{% comment %}
 {% if article.image and section.settings.show_featured_image %}
 <div class="article-image align-center {% unless settings.use_fullwidth_layout %}container{% endunless %}">{% include 'responsive-image', image: article.image %}</div>
 {% endif %}
 {% endcomment %}
-
+{% if blog.title contains 'collection' %}
+    {% include 'article_collections' %}
+{% else %}
 <div class="container">
     <div class="page-header cf">
       <h1 class="majortitle">{{ article.title }}</h1>
@@ -70,6 +72,7 @@
 
   </div><!-- /.container -->
 </div><!-- /.article -->
+{% endif %}
 
 {% schema %}
   {

@@ -63,11 +63,12 @@
 {% comment %}
       {{ powered_by_link }}
     </div><!-- /.copyright -->
-{% endcomment %}
+
     <div class="payment-methods">
       {% for type in shop.enabled_payment_types %}
       <img src="{{ type | payment_type_img_url }}" />
       {% endfor %}
+{% endcomment %}
     </div>
   </div>
 </div>

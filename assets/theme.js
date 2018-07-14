@@ -2,10 +2,10 @@
 var $ = jQuery = $;
 
 theme.strings = {
-  addressError: {{ 'map.errors.address_error' | t | json }},
-  addressNoResults: {{ 'map.errors.address_no_results' | t | json }},
-  addressQueryLimit: {{ 'map.errors.address_query_limit_html' | t | json }},
-  authError: {{ 'map.errors.auth_error_html' | t | json }}
+  addressError: "error looking up that address",
+  addressNoResults: "no results for that address",
+  addressQueryLimit: "you have exceeded the Google API usage limit. Consider upgrading to a \u003ca href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\"\u003ePremium Plan\u003c\/a\u003e.",
+  authError: "there was a problem authenticating your Google Maps API Key."
 }
 
 theme.icons = {
@@ -293,10 +293,10 @@ theme.ProductTemplateSection = new function(){
 
     theme.ProductBlockManager.loadImages(target);
 
-    {% if settings.show_multiple_currencies %}
+    
     // Reload multi-currency
     Currency.convertAll(shopCurrency, $('[name=currencies]').val(), theme.money_container);
-    {% endif %}
+    
   }
 
   this.onSectionUnload = function(target){
@@ -348,9 +348,9 @@ theme.CartTemplateSection = new function(){
           }
         });
 
-        {% if settings.show_multiple_currencies %}
+        
         Currency.convertAll(shopCurrency, jQuery('[name=currencies]').val(), theme.money_container);
-        {% endif %}
+        
       },
       error: function(data){
         console.log('Error processing update');
@@ -364,7 +364,7 @@ theme.CartTemplateSection = new function(){
     if($('#cartform input#terms', container).length > 0) {
       $(document).on('click.cartTemplateSection', '#cartform [name="checkout"], .additional-checkout-buttons input, a[href="/checkout"]', function() {
         if($('#cartform input#terms:checked').length == 0) {
-          alert({{ 'cart.terms.confirmation' | t | json }});
+          alert("you must agree to the terms and conditions before continuing.");
           return false;
         }
       });
@@ -466,10 +466,10 @@ theme.CollectionTemplateSection = new function(){
 
     theme.ProductBlockManager.loadImages(target);
 
-    {% if settings.show_multiple_currencies %}
+    
     // Reload multi-currency
     Currency.convertAll(shopCurrency, $('[name=currencies]').val(), theme.money_container);
-    {% endif %}
+    
   }
 
   this.onSectionUnload = function(target){
@@ -817,10 +817,10 @@ theme.CollageWithTextSection = new function(){
 
 theme.FeaturedCollectionSection = new function(){
   this.onSectionLoad = function(container){
-    {% if settings.show_multiple_currencies %}
+    
     // Reload multi-currency
     Currency.convertAll(shopCurrency, $('[name=currencies]').val(), theme.money_container);
-    {% endif %}
+    
 
     theme.loadCarousels(container);
 
@@ -1045,11 +1045,11 @@ theme.OptionManager = new function(){
   };
 
   _.strings = {
-    priceNonExistent: {{ 'products.variant.non_existent' | t | json }},
-    priceSoldOut: '[PRICE] <span class="productlabel soldout"><span>'+{{ 'products.labels.sold_out' | t | json }}+'</span></span>',
-    buttonDefault: {{ 'products.product.add_to_cart' | t | json }},
-    buttonNoStock: {{ 'products.variant.no_stock' | t | json }},
-    buttonNoVariant: {{ 'products.variant.non_existent' | t | json }}
+    priceNonExistent: "unavailable",
+    priceSoldOut: '[PRICE] <span class="productlabel soldout"><span>'+"sold out"+'</span></span>',
+    buttonDefault: "add to cart",
+    buttonNoStock: "out of stock",
+    buttonNoVariant: "unavailable"
   };
 
   _._getString = function(key, variant){
@@ -1280,16 +1280,16 @@ theme.loadCarousels = function(container) {
         dots: false,
         responsive: {
           0: {
-            items: {% if settings.prod_thumb_height == "347" %}1{% elsif settings.prod_thumb_height == "255" %}2{% else %}2{% endif %}
+            items: 2
           },
           480: {
-            items: {% if settings.prod_thumb_height == "347" %}2{% elsif settings.prod_thumb_height == "255" %}2{% else %}3{% endif %}
+            items: 3
           },
           767: {
-            items: {% if settings.prod_thumb_height == "347" %}2{% elsif settings.prod_thumb_height == "255" %}3{% else %}4{% endif %}
+            items: 4
           },
           1000: {
-            items: {% if settings.prod_thumb_height == "347" %}3{% elsif settings.prod_thumb_height == "255" %}4{% else %}5{% endif %}
+            items: 5
           }
         }
       };
@@ -1628,7 +1628,7 @@ $(function($){
     return false;
   });
 
-  {% if settings.prod_thumb_detail_show %}
+  
   /// Collection-rows - show dropdown product detail
   function contractDetail($blocks, speed) {
     if($blocks.length == 0) {
@@ -1793,7 +1793,7 @@ $(function($){
     });
   }
   //End of code specific to collection-page slide-downs
-  {% endif %}
+  
 
   /// Collection slider
   jQuery.fn.reverse = [].reverse; //Genius deserves credit: http://stackoverflow.com/questions/1394020/jquery-each-backwards
@@ -1883,12 +1883,12 @@ $(function($){
         return false;
     });
 
-    {% if settings.cart_type == 'drawer' %}
+    
     /// AJAX add to cart
     var cartPopupTemplate = [
         '<div id="cart-summary-overlay" class="cf">',
             '<div class="item">',
-                '<div class="just-title">'+{{ 'products.added_notification.title' | t | json }}+'</div>',
+                '<div class="just-title">'+"just added:"+'</div>',
                 '<div class="cols">',
                     '<div class="img"><img src="[[image_url]]" /></div>',
                     '<div class="info">',
@@ -1896,19 +1896,19 @@ $(function($){
                         '<div><span class="theme-money">[[price]]</span></div>',
                     '</div>',
                     '<div class="detail">',
-                        '<div>'+{{ 'products.added_notification.quantity' | t | json }}+' [[quantity]]</div>',
-                        '<div>'+{{ 'products.added_notification.total' | t | json }}+' <span class="theme-money">[[line_price]]</span></div>',
+                        '<div>'+"qty"+' [[quantity]]</div>',
+                        '<div>'+"total"+' <span class="theme-money">[[line_price]]</span></div>',
                     '</div>',
                 '</div>',
             '</div>',
             '<div class="cart">',
                 '<div>',
-                    {{ 'products.added_notification.subtotal' | t | json }}+' <span class="theme-money">[[subtotal]]</span>',
+                    "subtotal"+' <span class="theme-money">[[subtotal]]</span>',
                 '</div>',
-                '<div class="cart-text">'+{{ 'products.added_notification.shipping_note' | t | json }}+'&nbsp;</div>',
+                '<div class="cart-text">'+"excl. shipping"+'&nbsp;</div>',
                 '<div>',
-                    '<a id="shop-more" class="button altcolour" href="#">'+{{ 'products.added_notification.keep_shopping' | t | json }}+'</a>',
-                    '<a class="button to-cart" href="/cart">'+{{ 'products.added_notification.cart' | t | json }}+'</a>',
+                    '<a id="shop-more" class="button altcolour" href="#">'+"keep Shopping"+'</a>',
+                    '<a class="button to-cart" href="/cart">'+"cart"+'</a>',
                 '</div>',
             '</div>',
         '</div>'
@@ -1922,7 +1922,7 @@ $(function($){
         //Disable add button
         $form.find('input[type="submit"]').attr('disabled', 'disabled').each(function(){
             $(this).data('previous-value', $(this).val());
-        }).val({{ 'products.product.adding_to_cart' | t | json }});
+        }).val("adding...");
 
         //Hide any existing notifications
         $('#cart-summary-overlay #shop-more').triggerHandler('click');
@@ -1933,7 +1933,7 @@ $(function($){
             $form.find('input[type="submit"]').removeAttr('disabled').each(function(){
                 $btn = $(this);
                 //Set to 'DONE', alter button style, wait a few secs, revert to normal
-                $btn.val({{ 'products.product.added_to_cart' | t | json }}).addClass('inverted');
+                $btn.val("thank you!").addClass('inverted');
                 window.setTimeout(function(){
                     $btn.removeClass('inverted').val($btn.data('previous-value'));
                 }, 3000);
@@ -1964,10 +1964,10 @@ $(function($){
               });
               $cartShade.prependTo('body').css('top', - $cartShade.outerHeight()).animate({top: 0}, 500);
 
-              {% if settings.show_multiple_currencies %}
+              
               //Update currency of amount
               Currency.convertAll(shopCurrency, jQuery('[name=currencies]').val(), theme.money_container);
-              {% endif %}
+              
             }, 'html');
 
             //Update header summaries
@@ -2001,7 +2001,7 @@ $(function($){
         //Hide notifications on scroll
         $('#cart-summary-overlay #shop-more').triggerHandler('click');
     });
-    {% endif %}
+    
 
 
   // load any images that aren't inside a section
@@ -2102,7 +2102,7 @@ $(function($){
 
 
     /// Live search
-    var preLoadLoadGif = $('<img src="{{ 'ajax-load.gif' | asset_url }}" />');
+    var preLoadLoadGif = $('<img src="//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?8391311190153418811" />');
     var searchTimeoutThrottle = 500;
     var searchTimeoutID = -1;
     var currReqObj = null;
@@ -2152,7 +2152,7 @@ $(function($){
               currReqObj = null;
               if(data.results_total == 0) {
                 //No results
-                $resultsBox.html('<div class="note">'+ {{ 'layout.live_search.no_results' | t | json }} +'</div>');
+                $resultsBox.html('<div class="note">'+ "no results found" +'</div>');
               } else {
                 //Numerous results
                 $resultsBox.empty();
@@ -2164,7 +2164,7 @@ $(function($){
                 });
                 $resultsBox.append([
                   '<a href="', linkURL, '" class="note">',
-                  {{ 'layout.live_search.see_all' | t | json }},
+                  "see all results",
                   ' (', data.results_total, ')</a>'].join(''));
               }
             }
@@ -2284,24 +2284,6 @@ $(function($){
       return false;
     }
   });
-
-  $('.collection-slider-top').each(function(){
-      $(this).slick({
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          dots: true
-      });
-  });
-  $('.collection-slider-bottom').each(function(){
-      $(this).slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: true,
-          prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>',
-          nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>'
-      });
-  });
-
 
   /// Register all sections
   theme.Sections.init();

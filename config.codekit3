@@ -15,7 +15,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/ajax-load.gif",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/arrow-line.png": {
 		"ft": 32768,
@@ -23,8 +23,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/arrow-line.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -34,7 +34,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/blank.gif",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/block-cross.png": {
 		"ft": 32768,
@@ -42,8 +42,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/block-cross.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -53,8 +53,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancy_close.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -64,8 +64,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancy_loading.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -75,8 +75,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancy_nav_left.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -86,8 +86,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancy_nav_right.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -97,8 +97,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancy_title_left.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -108,8 +108,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancy_title_main.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -119,8 +119,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancy_title_over.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -130,8 +130,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancy_title_right.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -141,8 +141,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancybox-x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -152,8 +152,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancybox-y.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -163,8 +163,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/fancybox.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -174,8 +174,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/flexslider-leftright.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -185,8 +185,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/gravatar_def.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -196,20 +196,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/ico-checkout-lock-contrasty.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/assets\/jquery.cart.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/jquery.cart.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"\/assets\/jquery.cart.min.js": {
 		"ft": 64,
@@ -217,16 +207,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/jquery.cart.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/assets\/jquery.currencies.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/jquery.currencies.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -247,10 +227,23 @@
 		"oA": 0,
 		"oAP": "\/assets\/link-sq.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/assets\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/assets\/styles.scss.liquid": {
 		"cB": 0,
@@ -413,6 +406,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/theme.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/theme-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/assets\/theme.js.liquid": {
 		"cB": 0,
 		"ft": 8192,
@@ -439,13 +442,6 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
-		},
-	"\/build\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/.gitignore",
-		"oF": 0
 		},
 	"\/config.yml": {
 		"cB": 0,
@@ -497,6 +493,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sections\/blog-template.liquid",
+		"oF": 0
+		},
+	"\/sections\/blog_collections.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sections\/blog_collections.liquid",
 		"oF": 0
 		},
 	"\/sections\/blog_two-grid.liquid": {
@@ -819,6 +822,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sections\/video.liquid",
+		"oF": 0
+		},
+	"\/snippets\/article_collections.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/snippets\/article_collections.liquid",
 		"oF": 0
 		},
 	"\/snippets\/bgset.liquid": {

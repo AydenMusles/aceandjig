@@ -1,0 +1,39 @@
+{% if article.image and section.settings.show_featured_image %}
+<div class="article-image align-center {% unless settings.use_fullwidth_layout %}container{% endunless %}">{% include 'responsive-image', image: article.image %}</div>
+{% endif %}
+
+<div class="container">
+    <div class="page-header cf">
+      <h1 class="majortitle">{{ article.title }}</h1>
+    </div>
+</div>
+
+<div class="article">
+  <div class="container">
+
+    <div id="article-collections" class="user-content spaced-row">
+      {{ article.content }}
+    </div>
+
+    <div class="pagination-row pagination-row-tabular">
+      <div class="inner">
+        <span class="prev">
+          {% if blog.previous_article %}
+          <a href="{{ blog.previous_article }}"><span class="icon-small icon-natcol">{% include 'svg-chevron-left' %}</span> <span>{{ 'blogs.article.older_post' | t }}</span></a>
+          {% endif %}
+        </span>
+
+        {% comment %}
+        <span class="back">{{ 'blogs.article.back_to_blog' | t: blog: blog.title | link_to: blog.url }}</span>
+        {% endcomment %}
+
+        <span class="next">
+          {% if blog.next_article %}
+          <a href="{{ blog.next_article }}"><span>{{ 'blogs.article.newer_post' | t }}</span> <span class="icon-small icon-natcol">{% include 'svg-chevron-right' %}</span></a>
+          {% endif %}
+        </span>
+      </div>
+    </div>
+
+  </div><!-- /.container -->
+</div><!-- /.article -->

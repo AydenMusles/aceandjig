@@ -7,7 +7,9 @@
   {% assign inv_mngmt_size = product-label.variants.first.inventory_management | size %}
   {% assign limit_as_int = settings.prod_stock_warn_limit_int | plus: 0 %}
   {% if product-label.compare_at_price > product-label.price %}
+{% comment %}
     <span class="productlabel sale"><span>{{ 'products.labels.sale' | t }}</span></span>
+{% endcomment %}
   {% elsif settings.prod_stock_warn_show and product-label.variants.size == 1 and inv_mngmt_size > 0 and product-label.variants.first.inventory_quantity > 0 and product-label.variants.first.inventory_quantity <= limit_as_int %}
     <span class="productlabel general"><span>{{ 'products.labels.only_x_left' | t: quantity: product-label.variants.first.inventory_quantity }}</span></span>
   {% else %}

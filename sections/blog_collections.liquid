@@ -1,0 +1,17 @@
+{% capture chevron_right %}<span class="icon-small icon-natcol">{% include 'svg-chevron-right' %}</span>{% endcapture %}
+<div data-section-type="blog-template">
+    {% paginate blog.articles by 1 %}
+        {% for article in blog.articles %}
+            {% include 'article_collections' %}
+        {% endfor %}
+        <div class="container pagination-row">{% include 'pagination-control' %}</div>
+    {% endpaginate %}
+</div>
+
+
+{% schema %}
+{
+    "name": "Collections Blog",
+    "settings": []
+}
+{% endschema %}
