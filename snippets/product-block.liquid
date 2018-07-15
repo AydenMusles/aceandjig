@@ -64,7 +64,7 @@
     </a>
     <div style="display: flex; align-items:center; justify-content: center; flex-wrap: wrap;">
         {% for option in product.options_with_values %}
-            {% if option.name == 'Color' or option.name == 'textile' %}
+            {% if option.name == 'Color' or option.name == 'textile' or option.name == 'Textile' %}
             {% for value in option.values %}
                 {% capture color_file %}swatch-{{ value }}{% endcapture %}
                 {% assign file_extension = 'png' %}
@@ -147,12 +147,12 @@
               <div class="option-selectors">
                 {% for option in product.options_with_values %}
                 <div class="selector-wrapper cf">
-                {% if option.name == 'Color' or option.name == 'textile' %}
+                {% if option.name == 'Color' or option.name == 'textile' or option.name == 'Textile' %}
                 <div class="color-options" style="display: flex; align-items: center; justify-content: flex-start;">
                   <label {% if option.name == 'default' %}class="hidden"{% endif %} for="option-{{ forloop.index0 }}">
                     {{ option.name }}
                   </label>
-                  {% if option.name == 'Color' or option.name == 'textile' %}: <span class="color-label" style="margin-left:5px;"></span>
+                  {% if option.name == 'Color' or option.name == 'textile' or option.name == 'Textile' %}: <span class="color-label" style="margin-left:5px;"></span>
                   {% endif %}
                 </div>
                 {% endif %}
@@ -166,7 +166,7 @@
                     </select>
                   </span>
                 </div>
-                {% if option.name == 'Color' or option.name == 'textile' %}
+                {% if option.name == 'Color' or option.name == 'textile' or option.name == 'Textile' %}
                     {% for value in option.values %}
                     <style>
                     {% capture color_file %}swatch-{{ value }}{% endcapture %}

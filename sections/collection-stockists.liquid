@@ -192,7 +192,7 @@
     <div class="collection-listing{% if section.settings.coll_gridstream_mode == 'stream' %}-stream{% endif %} cf">
       <div class="product-list">
         {% for product in collection.products %}
-        	{% if product.type == 'Stockists' %}
+        	{% if product.type contains 'stockists' %}
                 {% include 'product-block-stockists' with product, include_quick_buy_markup: include_quick_buy_markup %}
         	{% endif %}
         {% endfor %}

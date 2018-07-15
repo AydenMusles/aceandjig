@@ -43,8 +43,8 @@
           {% for item in search.results %}
             {% if item.featured_image %}
           		{% assign product = item %}
-          			{% unless item.type == 'Stockists' %}
-                {% include 'product-block' with item %}
+          			{% unless item.type contains 'stockists' %}
+                        {% include 'product-block' with item %}
           			{% endunless %}
             {% else %}
                 <div class="product-block page-block {% if settings.prod_thumb_variable_width %}variable-width{% else %}fixed-width{% endif %}">
