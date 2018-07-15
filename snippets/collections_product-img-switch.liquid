@@ -3,7 +3,7 @@ $(window).load(function(){
 
     $('#{{ product.title | handle }}-wrapper').each(function(){
         var self = $(this);
-        self.find('select.option--color, select.option--textile').each(function(){
+        self.find('select.option--color, select.option--textile, select.option--textiles').each(function(){
             var selectedColor = $(this).val();
             self.find('.color-options .color-label').html(selectedColor);
             self.find('.product-{{ product.title | handle }}.thumbnails a').each(function(){

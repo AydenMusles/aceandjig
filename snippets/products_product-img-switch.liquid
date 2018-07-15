@@ -7,7 +7,7 @@
     $(window).load(function(){
         $('body').fadeIn(500);
 
-        $('#clickyboxes-option-color li a, #clickyboxes-option-textile li a').each(function(){
+        $('#clickyboxes-option-color li a, #clickyboxes-option-textile li a, #clickyboxes-option-textiles li a').each(function(){
             if ($(this).hasClass('active')) {
                 var color = $(this).data('value');
                 $('.color-options .color-label').html(color);
@@ -22,7 +22,7 @@
             }
         });
 
-        $('#clickyboxes-option-color li a, #clickyboxes-option-textile li a').click(function(){
+        $('#clickyboxes-option-color li a, #clickyboxes-option-textile li a, #clickyboxes-option-textiles li a').click(function(){
             var color = $(this).data('value');
             $('.color-options .color-label').html(color);
             $('.product-{{ product.title | handle }} .thumbnails a').each(function(){

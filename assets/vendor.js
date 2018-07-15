@@ -168,7 +168,7 @@ jQuery.cookie=function(b,j,m){if(typeof j!="undefined"){m=m||{};if(j===null){j="
       }
 
       //Add options to container
-      if ($(this).is('#option-color') || $(this).is('#option-textile') || $(this).is('.option--color') || $(this).is('.option--textile')) {
+      if ($(this).is('#option-color') || $(this).is('#option-textile') || $(this).is('.option--color') || $(this).is('.option--textile') || $(this).is('#option-textiles') || $(this).is('.option--textiles')) {
           $(this).find('option').each(function(){
             $('<li/>').appendTo($optCont).append(
               $('<a href="#"/>').attr('data-value', $(this).val()).addClass('opt-' + $(this).text().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/-*$/, ''))

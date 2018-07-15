@@ -423,6 +423,16 @@
 		"oAP": "\/assets\/theme.js.liquid",
 		"oF": 0
 		},
+	"\/assets\/tricky3.infinitescroll.v2.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/tricky3.infinitescroll.v2.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/assets\/vendor-min.js": {
 		"ft": 64,
 		"ma": 0,
