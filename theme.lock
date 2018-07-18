@@ -16,13 +16,15 @@ sections/article-template.liquid:
 sections/blog_collections.liquid:
   development: 2018-07-14T17:07:59-04:00   1302f1016b27ac6a754bfaa0b0fa4d78
 sections/blog_two-grid.liquid:
-  development: 2018-07-14T15:50:48-04:00   534e98172789adc2e3488a4f2b60bbe0
+  development: 2018-07-16T23:44:45-04:00   4388e77696ae69b475e16bb216fa4100
 sections/collection-stockists.liquid:
-  development: 2018-07-14T18:59:20-04:00   d33d6a19bdb83be6a3852294982b4183
+  development: 2018-07-16T23:40:51-04:00   bbdb09361fbdba25fb5ba4a430236baa
 sections/collection-template.liquid:
-  development: 2018-07-14T21:35:37-04:00   cb2367398fc6906bdda9ddc47e7d330f
+  development: 2018-07-16T23:47:30-04:00   7fca85785b010fb5c088e2e51180082e
 sections/product-template.liquid:
   development: 2018-07-15T15:14:36-04:00   ef98654813067037ca38b7013ed8fe85
+sections/product-template_stockists.liquid:
+  development: 2018-07-18T11:03:55-04:00   ffe8879b68ea4be91395591350644517
 snippets/article_collections.liquid:
   development: 2018-07-14T18:38:44-04:00   462ff703f55a2a0a32d4e66fca2e5ea6
 snippets/blog_responsive-image.liquid:
@@ -30,7 +32,7 @@ snippets/blog_responsive-image.liquid:
 snippets/collections_product-img-switch.liquid:
   development: 2018-07-15T15:10:30-04:00   426a665cfeb50e98fb374f984d424335
 snippets/pagination-control.liquid:
-  development: 2018-07-15T14:50:29-04:00   1b0d12ee252616bd5c04900e244d1a9b
+  development: 2018-07-16T23:48:47-04:00   92a25c51258bed148f20d5b415af7508
 snippets/product-block-related.liquid:
   development: 2018-07-15T15:11:24-04:00   be41c6ca42c5a40cdef0e156cdb33532
 snippets/product-block.liquid:
@@ -41,5 +43,7 @@ templates/article.liquid:
   development: 2018-07-14T16:27:36-04:00   58410de390496168f37fa3e9e5a22af0
 templates/blog.liquid:
   development: 2018-07-14T16:01:18-04:00   b494178ec2e3c735573321a91ad1d5e4
+templates/product.stockists.liquid:
+  development: 2018-07-18T11:02:45-04:00   28ff4c7d9b62dab1bc517bc558e84556
 templates/search.liquid:
   development: 2018-07-14T18:56:54-04:00   93d8f8388234d5c9b73823ee9b5f43d1

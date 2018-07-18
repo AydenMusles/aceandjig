@@ -1,5 +1,5 @@
 {% if paginate.pages > 1 %}
-  <div class="pagination" style="display: none;">
+  <div class="pagination"{% if template contains 'collection' %} style="display: none;"{% endif %}>
     {% if paginate.previous %}
       <a class="prev" href="{{ paginate.previous.url }}">&laquo; {{ 'general.pagination.previous' | t }}</a>
       <span class="pagination__sep">&middot;</span>

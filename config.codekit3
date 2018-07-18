@@ -722,6 +722,13 @@
 		"oAP": "\/sections\/product-template.liquid",
 		"oF": 0
 		},
+	"\/sections\/product-template_stockists.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sections\/product-template_stockists.liquid",
+		"oF": 0
+		},
 	"\/sections\/quilt-custom-one.liquid": {
 		"cB": 0,
 		"ft": 8192,
@@ -1497,6 +1504,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/templates\/product.liquid",
+		"oF": 0
+		},
+	"\/templates\/product.stockists.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/templates\/product.stockists.liquid",
 		"oF": 0
 		},
 	"\/templates\/search.json.liquid": {

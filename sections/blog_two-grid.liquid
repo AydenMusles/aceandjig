@@ -52,9 +52,13 @@
 
                 {% if article.image %}
                 <div class="article-image">
+                    {% unless blog.title contains 'textile' %}
                     <a href="{{ article.url }}">
+                    {% endunless %}
                         {% include 'blog_responsive-image', image: article.image %}
+                    {% unless blog.title contains 'textile' %}
                     </a>
+                    {% endunless %}
                 </div>
                 {% endif %}
 
@@ -89,8 +93,10 @@
           {% endif %}
         </div>
 
+        {% unless blog.title contains 'textile' %}
         <div class="continue-reading">{{ 'blogs.article.read_more_html' | t: icon: chevron_right | link_to: article.url }}</div>
-
+        {% endunless %}
+        
       </div><!-- /.container -->
     </div><!-- /.article -->
 
