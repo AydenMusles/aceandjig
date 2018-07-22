@@ -48,7 +48,7 @@
           <div class="innerer">
             <div class="title">{{ product.title }}</div>
             <div class="dash">-</div>
-
+{% comment %}
             {% if product.compare_at_price_max > product.price %}
             <div class="reducedfrom"><span class="amount theme-money">{{ product.compare_at_price_max | money }}</span></div>
             {% endif %}
@@ -60,7 +60,9 @@
               <span class="theme-money">{{ product.price | money }}</span>
             </span>
 			{% endunless %}
+ 
             <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+{% endcomment %} 
           </div>
         </div>
       </div>
@@ -145,7 +147,7 @@
                   <span class="styled-select" {% if settings.prod_variant_style == 'blocks' %}data-make-box{% endif %}>
                     <select id="option-{{ forloop.index0 }}">
                       {% for value in option.values %}
-                      <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>
+                      <option value="{{ value | handle | escape }}" {% if option.selected_value == value %}selected{% endif %}>
                         {{ value }}
                       </option>
                       {% endfor %}
@@ -154,13 +156,13 @@
                 </div>
                 {% endfor %}
               </div>
-
+{% comment %}
               <select name="id" class="original-selector">
                 {% for variant in product.variants %}
                 <option value="{{ variant.id }}" {% if variant == product.selected_or_first_available_variant %} selected="selected"{% endif %} data-stock="{% if variant.inventory_management == 'shopify' and variant.inventory_quantity <= 0 %}out{% endif %}">{{ variant.title | escape }}</option>
                 {% endfor %}
               </select>
-
+{% endcomment %}
 
               {% else %}
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" />
@@ -176,6 +178,7 @@
 
               {% endif %}
             </div>
+{% comment %}
             <div class="input-row quantity-submit-row {% if settings.enable_payment_button %}has-spb{% endif %}">
               <span class="quantity-submit-row__quantity">
                 <label for="quantity_{{ product.id }}">{{ 'products.product.quantity' | t }}</label>
@@ -188,9 +191,10 @@
                 {{ form | payment_button }}
               {% endif %}
             </div>
-
+{% endcomment %}
             {% capture backorder_message %}{{ 'products.product.backorder' | t }}{% endcapture %}
             {% unless backorder_message == blank %}
+
               {% if product.variants.size == 1 %}
                 {% if product.variants.first.inventory_management == 'shopify' and product.variants.first.inventory_quantity < 1 %}
                   <div class="backorder">

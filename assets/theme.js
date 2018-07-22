@@ -2102,7 +2102,7 @@ $(function($){
 
 
     /// Live search
-    var preLoadLoadGif = $('<img src="//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?8391311190153418811" />');
+    var preLoadLoadGif = $('<img src="//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?13782241162828507186" />');
     var searchTimeoutThrottle = 500;
     var searchTimeoutID = -1;
     var currReqObj = null;
@@ -2283,6 +2283,34 @@ $(function($){
       $(this).closest('tr').toggleClass('expanded');
       return false;
     }
+  });
+
+  $('.collection-slider-top').each(function(){
+      $(this).slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows: true,
+          prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>',
+          nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>',
+          responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+          ]
+      });
+  });
+
+  $('.collection-slider-bottom').each(function(){
+      $(this).slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>',
+          nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>'
+      });
   });
 
   /// Register all sections

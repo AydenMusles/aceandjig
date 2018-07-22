@@ -1450,7 +1450,7 @@ $header-search-form-text: #666;
   letter-spacing: $special-letter-spacing;
   line-height: 1.4em;
   text-align: center;
-
+  padding-bottom: 1rem;
   a {
     display: block;
     color: inherit;
@@ -6393,9 +6393,10 @@ html.template-password {
 /*************    ---                   ---                   ---   *************/
 
 .two-half-section {
+    flex-wrap: wrap;
     @media (min-width: 768px) {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .half-section {
         @media (max-width: 768px) {
@@ -6440,12 +6441,16 @@ html.template-password {
             flex-wrap: wrap;
             .article {
                 width: 50%;
-                padding: 0 !important;
+                padding: 0 0 40px 0 !important;
             }
         }
     }
     .article-list .article {
         border-top: 1px solid transparent !important;
+        @media (max-width: 768px) {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
     }
 }
 
@@ -6493,7 +6498,12 @@ html.template-password {
 @media (max-width: 950px) {
     .large-logo, .cart-large {
         display: none;
+        margin-right: 0;
     }
+}
+
+.cart-large {
+    margin-right: 10px;
 }
 
 #article-collections {

@@ -93,10 +93,8 @@
           {% endif %}
         </div>
 
-        {% unless blog.title contains 'textile' %}
-        <div class="continue-reading">{{ 'blogs.article.read_more_html' | t: icon: chevron_right | link_to: article.url }}</div>
-        {% endunless %}
-        
+        <div class="continue-reading">{% unless blog.title contains 'textile' %}{{ 'blogs.article.read_more_html' | t: icon: chevron_right | link_to: article.url }}{% endunless %}</div>
+
       </div><!-- /.container -->
     </div><!-- /.article -->
 

@@ -76,6 +76,16 @@
             {% include 'social-icons' %}
             {% endif %}
           </div>
+          <div class="cart-large">
+              <div class="cart-summary">
+                <a href="/{% if template != 'cart' %}cart{% else %}checkout{% endif %}" class="cart-count {% if section.settings.use_btn_style_cart_link %}button{% endif %}">
+                  <span class="cart-count__text">{{ 'layout.header.cart' | t }} ({{ cart.item_count }})</span>
+                  {% unless section.settings.use_btn_style_cart_link %}
+                    {% include 'svg-cart' %}
+                  {% endunless %}
+                </a>
+              </div>
+          </div>
       </div>
     </div>
 
@@ -176,10 +186,9 @@
       </div>
     </div>
     <div class="mobile-currency-switcher">{% include 'currencies-switcher' %}</div>
+    {% comment %}
     <div class="cart-large util-area">
-
       <div class="utils">
-
         <div class="cart-summary">
           <a href="/{% if template != 'cart' %}cart{% else %}checkout{% endif %}" class="cart-count {% if section.settings.use_btn_style_cart_link %}button{% endif %}">
             <span class="cart-count__text">{{ 'layout.header.cart' | t }} ({{ cart.item_count }})</span>
@@ -190,6 +199,7 @@
         </div>
       </div><!-- /.utils -->
     </div><!-- /.util-area -->
+    {% endcomment %}
   </div><!-- /#main-nav -->
 
 

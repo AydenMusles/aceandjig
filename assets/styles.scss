@@ -394,7 +394,7 @@ $slick-prevnext-font-size: 80px;
 
 .slick-list {
   .slick-loading & {
-    background: #fff url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?8391311190153418811) center center no-repeat;
+    background: #fff url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?13782241162828507186) center center no-repeat;
   }
 }
 
@@ -545,7 +545,7 @@ $slick-prevnext-font-size: 80px;
 /* Theme styles */
 
 body {
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.6em;
   color: #8a8f93;
 
@@ -566,9 +566,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-$base-text-size: 19px;
-$smaller-text-size: 19px * 0.8;
-$larger-text-size: 38px;
+$base-text-size: 16px;
+$smaller-text-size: 16px * 0.8;
+$larger-text-size: 32px;
 
 ::selection{/* Webkit & Opera */
   background: #232323;
@@ -603,8 +603,8 @@ $input-border-col: mix($input-text-col, $input-background-col, 25%);
 
 input,
 textarea {
-  font-size: 19px;
-  line-height: 19px;
+  font-size: 16px;
+  line-height: 16px;
   background: $input-background-col;
   color: $input-text-col;
   border: 1px solid $input-border-col;
@@ -655,7 +655,7 @@ textarea {
 .input--large {
   padding-top: $input-btn-padding-vert-large;
   padding-bottom: $input-btn-padding-vert-large;
-  height: $input-btn-padding-vert-large * 2 + 19px + 2px;
+  height: $input-btn-padding-vert-large * 2 + 16px + 2px;
 }
 
 .button,
@@ -668,7 +668,7 @@ input[type="button"] {
   border: 1px solid #232323;
   color:#ffffff;
   font-size: $smaller-text-size;
-  line-height: 19px;
+  line-height: 16px;
   letter-spacing: $special-letter-spacing;
   @if($uppercase-special-mode == true) {
     text-transform: lowercase;
@@ -717,7 +717,7 @@ input[type="button"] {
 
   &.button--large {
     padding: $input-btn-padding-vert-large $btn-padding-hori;
-    font-size: 19px;
+    font-size: 16px;
   }
 }
 
@@ -810,7 +810,7 @@ input[type="button"][disabled] {
   vertical-align: middle;
   position: relative;
   width: 24px;
-  height: 19px;
+  height: 16px;
 
   svg {
     position: absolute;
@@ -1335,7 +1335,7 @@ $header-search-form-text: #666;
 }
 
 #pageheader .search-box .results-box .load {
-  background: url('//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?8391311190153418811') center center no-repeat;
+  background: url('//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?13782241162828507186') center center no-repeat;
   text-align: center;
 }
 
@@ -1698,7 +1698,7 @@ $main-nav-level3-bg: darken($main-nav-level1-bg, 12%);
 }
 
 #main-nav .multi-level-nav .tier-1 { background: $main-nav-level1-bg; }
-#main-nav .multi-level-nav .tier-2 { background: $main-nav-level2-bg; }
+#main-nav .multi-level-nav .tier-2 { background: transparent; }
 
 #main-nav a {
   color: #000000;
@@ -2523,7 +2523,7 @@ ul.inline li {
 }
 
 .price-area .was-price {
-  font-size: 19px;
+  font-size: 16px;
   margin-right: 10px;
   text-decoration: line-through;
 }
@@ -2638,8 +2638,8 @@ $spb-button-height: 48px;
 
   .shopify-payment-button__button {
     min-height: $spb-button-height;
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 16px;
     letter-spacing: $special-letter-spacing;
     box-sizing: border-box;
     padding: $input-btn-padding-vert-large $btn-padding-hori;
@@ -2764,7 +2764,7 @@ $spb-button-height: 48px;
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
-  height: 45px;
+  height: 42px;
   overflow: hidden;
   width: 240px;
   position: relative;
@@ -2793,7 +2793,7 @@ $spb-button-height: 48px;
     border: none!important;
     font-size: 14px!important;
     height: 100%!important;
-    line-height: 45px!important;
+    line-height: 42px!important;
     padding: 0 50px 0 #{ $input-padding-hori }!important; /* If you add too much padding here, the options won't show in IE */
     width: 268px!important;
     width: calc(100% + 28px)!important;
@@ -3264,8 +3264,8 @@ $spb-button-height: 48px;
   }
 
   svg {
-    width: 19px;
-    height: 19px;
+    width: 16px;
+    height: 16px;
   }
 
   input {
@@ -3288,8 +3288,8 @@ $spb-button-height: 48px;
   margin-top: 5px;
 
   svg {
-    width: 19px;
-    height: 19px;
+    width: 16px;
+    height: 16px;
   }
 }
 
@@ -4709,7 +4709,7 @@ $flexible-layout-gutter: 16px;
   left: 0;
   width: 40px;
   height: 480px;
-  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancybox.png?8391311190153418811);
+  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancybox.png?13782241162828507186);
 }
 
 #fancybox-overlay {
@@ -4815,7 +4815,7 @@ $flexible-layout-gutter: 16px;
   width: 35%;
   cursor: pointer;
   outline: none;
-  background: transparent url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/blank.gif?8391311190153418811);
+  background: transparent url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/blank.gif?13782241162828507186);
   z-index: 5102;
   display: none;
 }
@@ -4841,12 +4841,12 @@ $flexible-layout-gutter: 16px;
 }
 
 #fancybox-left-ico {
-  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancybox.png?8391311190153418811);
+  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancybox.png?13782241162828507186);
   background-position: -40px -30px;
 }
 
 #fancybox-right-ico {
-  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancybox.png?8391311190153418811);
+  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancybox.png?13782241162828507186);
   background-position: -40px -60px;
 }
 
@@ -4951,7 +4951,7 @@ $flexible-layout-gutter: 16px;
 
 #fancybox-title-over {
   padding: 10px;
-  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancy_title_over.png?8391311190153418811);
+  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancy_title_over.png?13782241162828507186);
   display: block;
 }
 
@@ -6442,9 +6442,10 @@ html.template-password {
 /*************    ---                   ---                   ---   *************/
 
 .two-half-section {
+    flex-wrap: wrap;
     @media (min-width: 768px) {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .half-section {
         @media (max-width: 768px) {
@@ -6489,12 +6490,16 @@ html.template-password {
             flex-wrap: wrap;
             .article {
                 width: 50%;
-                padding: 0 !important;
+                padding: 0 0 40px 0 !important;
             }
         }
     }
     .article-list .article {
         border-top: 1px solid transparent !important;
+        @media (max-width: 768px) {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
     }
 }
 
@@ -6543,4 +6548,57 @@ html.template-password {
     .large-logo, .cart-large {
         display: none;
     }
+}
+
+#article-collections {
+    margin-bottom: 4rem;
+    .video-wrapper {
+        content: '';
+        position: relative;
+    	padding-bottom: 56.25%;
+    	padding-top: 25px;
+    	height: 0;
+        iframe {
+            position: absolute;
+        	top: 0;
+        	left: 0;
+        	width: 100%;
+        	height: 100%;
+        }
+    }
+
+    .collection-slider-bottom, .collection-slider-top {
+        .slick-prev {
+            left: -28px;
+        }
+        .slick-next {
+            right: -28px;
+        }
+        @media (min-width: 870px) {
+            .slick-prev {
+                left: -50px;
+            }
+            .slick-next {
+                right: -50px;
+            }
+        }
+        .slick-prev, .slick-next {
+            height: auto;
+            width: auto;
+            svg {
+                width: 35px;
+                @media (min-width: 870px) {
+                    width: 50px;
+                }
+                &.feather {
+                    stroke: $slick-dot-color;
+                    stroke-width: 1.6px;
+                }
+            }
+        }
+    }
+}
+
+.collection-nav {
+    text-align: center;
 }

@@ -160,7 +160,7 @@
                   <span class="styled-select" {% if settings.prod_variant_style == 'blocks' %}data-make-box{% endif %}>
                     <select id="option-{{ forloop.index0 }}" class="option--{{ option.name | downcase }}">
                       {% for value in option.values %}
-                      <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>
+                      <option value="{{ value | handle | escape }}" {% if option.selected_value == value %}selected{% endif %}>
                         {{ value }}
                       </option>
                       {% endfor %}
@@ -172,7 +172,7 @@
                     <style>
                     {% capture color_file %}swatch-{{ value }}{% endcapture %}
                     {% assign file_extension = 'png' %}
-                    .options--color li a.opt--{{ value }}, .options--textile li a.opt--{{ value }}, .options--textiles li a.opt--{{ value }} {
+                    .options--color li a.opt--{{ value | handle }}, .options--textile li a.opt--{{ value | handle }}, .options--textiles li a.opt--{{ value | handle }} {
                         background-image: url('{{ color_file | handle | append: '.' | append: file_extension | asset_url }}') !important;
                         background-size: cover;
                         background-position: center center;

@@ -165,7 +165,7 @@
                 <span class="styled-select" {% if settings.prod_variant_style == 'blocks' %}data-make-box{% endif %}>
                   <select id="option-{{ option.name | handle }}">
                     {% for value in option.values %}
-                    <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>
+                    <option value="{{ value | handle | escape }}" {% if option.selected_value == value %}selected{% endif %}>
                       {{ value }}
                     </option>
                     {% endfor %}
@@ -175,9 +175,9 @@
               {% if option.name == 'Color' or option.name == 'textile' or option.name == 'Textile' or option.name == 'textiles' or option.name == 'Textiles' %}
                   {% for value in option.values %}
                   <style>
-                  {% capture color_file %}swatch-{{ value }}{% endcapture %}
+                  {% capture color_file %}swatch-{{ value | handle }}{% endcapture %}
                   {% assign file_extension = 'png' %}
-                  #clickyboxes-option-color li a.opt--{{ value }}, #clickyboxes-option-textile li, #clickyboxes-option-textiles li a.opt--{{ value }} {
+                  #clickyboxes-option-color li a.opt--{{ value | handle }}, #clickyboxes-option-textile li, #clickyboxes-option-textiles li a.opt--{{ value | handle }} {
                       background-image: url('{{ color_file | handle | append: '.' | append: file_extension | asset_url }}') !important;
                       background-size: cover;
                       background-position: center center;

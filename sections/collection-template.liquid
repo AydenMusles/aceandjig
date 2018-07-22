@@ -62,22 +62,15 @@
     {% if section.settings.show_tagfilt_custom3 %}
         {% assign custom_tag_arr3 = section.settings.tagfilt_custom3_tags | replace: ', ',',' | split: ',' %}
         {% capture filter3_html %}
-        {% for tag in collection.all_tags %}
+        {% for tag in custom_tag_arr3 %}
             {% if tag == 'one size' %}
-              {% unless tag contains 'meta-' %}
-              {% if custom_tag_arr3 contains tag %}
-                {% assign show_custom_filter_3 = true %}
-                {% if current_tags contains tag %}
-                <li class="active" data-tag="{{tag | handleize}}">{{ tag | append: ' <span class="x">&times;</span>' | link_to_remove_tag: tag }}</li>
-                {% else %}
-                <li data-tag="{{tag | handleize}}">{{ tag | link_to_add_tag: tag }}</li>
-                {% endif %}
-              {% endif %}
-              {% endunless %}
+              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
             {% endif %}
         {% endfor %}
-        {% for tag in collection.all_tags %}
+        {% for tag in custom_tag_arr3 %}
             {% if tag == 'extra small' %}
+                <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
+                {% comment %}
               {% unless tag contains 'meta-' %}
               {% if custom_tag_arr3 contains tag %}
                 {% assign show_custom_filter_3 = true %}
@@ -88,48 +81,22 @@
                 {% endif %}
               {% endif %}
               {% endunless %}
+              {% endcomment %}
             {% endif %}
         {% endfor %}
         {% for tag in collection.all_tags %}
             {% if tag == 'small' %}
-              {% unless tag contains 'meta-' %}
-              {% if custom_tag_arr3 contains tag %}
-                {% assign show_custom_filter_3 = true %}
-                {% if current_tags contains tag %}
-                <li class="active" data-tag="{{tag | handleize}}">{{ tag | append: ' <span class="x">&times;</span>' | link_to_remove_tag: tag }}</li>
-                {% else %}
-                <li data-tag="{{tag | handleize}}">{{ tag | link_to_add_tag: tag }}</li>
-                {% endif %}
-              {% endif %}
-              {% endunless %}
+              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
             {% endif %}
         {% endfor %}
         {% for tag in collection.all_tags %}
             {% if tag == 'medium' %}
-              {% unless tag contains 'meta-' %}
-              {% if custom_tag_arr3 contains tag %}
-                {% assign show_custom_filter_3 = true %}
-                {% if current_tags contains tag %}
-                <li class="active" data-tag="{{tag | handleize}}">{{ tag | append: ' <span class="x">&times;</span>' | link_to_remove_tag: tag }}</li>
-                {% else %}
-                <li data-tag="{{tag | handleize}}">{{ tag | link_to_add_tag: tag }}</li>
-                {% endif %}
-              {% endif %}
-              {% endunless %}
+              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
             {% endif %}
         {% endfor %}
         {% for tag in collection.all_tags %}
             {% if tag == 'large' %}
-              {% unless tag contains 'meta-' %}
-              {% if custom_tag_arr3 contains tag %}
-                {% assign show_custom_filter_3 = true %}
-                {% if current_tags contains tag %}
-                <li class="active" data-tag="{{tag | handleize}}">{{ tag | append: ' <span class="x">&times;</span>' | link_to_remove_tag: tag }}</li>
-                {% else %}
-                <li data-tag="{{tag | handleize}}">{{ tag | link_to_add_tag: tag }}</li>
-                {% endif %}
-              {% endif %}
-              {% endunless %}
+              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
             {% endif %}
         {% endfor %}
         {% for tag in collection.all_tags %}
@@ -138,9 +105,9 @@
               {% if custom_tag_arr3 contains tag %}
                 {% assign show_custom_filter_3 = true %}
                 {% if current_tags contains tag %}
-                <li class="active" data-tag="{{tag | handleize}}">{{ tag | append: ' <span class="x">&times;</span>' | link_to_remove_tag: tag }}</li>
+                <li class="active"><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
                 {% else %}
-                <li data-tag="{{tag | handleize}}">{{ tag | link_to_add_tag: tag }}</li>
+                <li><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
                 {% endif %}
               {% endif %}
               {% endunless %}
@@ -265,7 +232,9 @@
       <div class="product-list">
         {% for product in collection.products %}
         	{% unless product.type == 'Stockists' %}
-                {% include 'product-block' with product, include_quick_buy_markup: include_quick_buy_markup %}
+        		{% if product.available %}
+                	{% include 'product-block' with product, include_quick_buy_markup: include_quick_buy_markup %}
+       			{% endif %}
         	{% endunless %}
         {% endfor %}
       </div>
@@ -282,6 +251,7 @@
 </div>
 
 {% if template contains 'collection' %}
+{% unless collection.all_products_count <= 12 %}
 {{ 'tricky3.infinitescroll.v2.min.js' | asset_url | script_tag }}
 <script>
   //Ref: templates/collections.v2.liquid
@@ -345,6 +315,7 @@
       //End scrolling loading example
   });
   </script>
+ {% endunless %}
 {% endif %}
 
 
