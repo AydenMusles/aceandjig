@@ -146,7 +146,7 @@ sections/blog_collections.liquid:
 sections/blog_two-grid.liquid:
   development: 2018-07-21T16:15:06-04:00   06d8a48b80c4c1953cf3ecb924d7f240
 sections/cart-template.liquid:
-  development: 2018-07-21T16:15:06-04:00   c5da8f3ecae24e596d1aa3f4474d7c67
+  development: 2018-07-28T15:39:44-04:00   7c3b280dc324118a34df8d9fc4b24de1
 sections/collage-with-text.liquid:
   development: 2018-07-21T16:15:07-04:00   57ac66c25707bb21e40a5972a014d79e
 sections/collection-stockists.liquid:
@@ -246,7 +246,7 @@ snippets/blog_responsive-image.liquid:
 snippets/collection-block.liquid:
   development: 2018-07-21T16:15:15-04:00   bfe62b778fd0bc81f244b632fa35d1e2
 snippets/collections_product-img-switch.liquid:
-  development: 2018-07-27T23:49:42-04:00   2f4cb4e4ad6d39516a5ed12e53df5362
+  development: 2018-07-28T16:15:49-04:00   978f6ecea19d0da975629177a15a26d2
 snippets/currencies-switcher.liquid:
   development: 2018-07-21T16:15:16-04:00   c22db5b97b1de1d19bd3028e36273c3b
 snippets/currencies.liquid:
