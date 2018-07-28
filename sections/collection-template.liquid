@@ -243,6 +243,10 @@
     {% unless settings.use_fullwidth_layout %}</div>{% endunless %}
 {% endif %}
 
+{% unless collection.products_count <= 12 %}
+<div class="loading" style="text-align: center; margin-top: 5rem;">{{ 'loading.gif' | asset_url | img_tag }}</div>
+{% endunless %}
+
 <div class="container pagination-row">{% include 'pagination-control' %}</div>
 
 <div id="product-list-foot"></div>
@@ -273,13 +277,10 @@
                 callBacks: {
                   onAllPagesLoaded: function(){
                     $('.pagination').css("display", "none");
-                    // console.log('All pages loaded callback called...');
                   },
                   onPageLoad: function(items){
-                    // console.log("Page loaded callback called..");
                   },
                   beforePageLoad: function(){
-                    // console.log("Before page load callback called..");
                   }
                 }
       };
@@ -301,13 +302,16 @@
                 callBacks: {
                   onAllPagesLoaded: function(){
                     $('.pagination').css("display", "none");
-                    //console.log('All pages loaded callback called...');
+                    $('.loading').hide();
+                    // console.log('All pages loaded callback called...');
                   },
                   onPageLoad: function(items){
-                    //console.log("Page loaded callback called..");
+                      $('.loading').hide();
+                    // console.log("Page loaded callback called..");
                   },
                   beforePageLoad: function(){
-                    //console.log("Before page load callback called..");
+                      $('.loading').show();
+                    // console.log("Before page load callback called..");
                   }
                 }
       };

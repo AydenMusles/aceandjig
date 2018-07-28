@@ -41,6 +41,8 @@ assets/jquery.currencies.min.js:
   development: 2018-07-21T16:15:11-04:00   3714c8863fad54fbb64c4d24e9e61a01
 assets/link-sq.png:
   development: 2018-07-21T16:15:11-04:00   97a7b1837c0c24c4d5a816a95d7e8d85
+assets/loading.gif:
+  development: 2018-07-28T16:22:08-04:00   035bdcba309e8f29b71abcf11d3e6ba3
 assets/styles.scss.liquid:
   development: 2018-07-21T16:28:54-04:00   2bd65d66e430029fe1ce9543a46eb636
 assets/swatch-aloha.png:
@@ -152,7 +154,7 @@ sections/collage-with-text.liquid:
 sections/collection-stockists.liquid:
   development: 2018-07-21T16:15:07-04:00   bbdb09361fbdba25fb5ba4a430236baa
 sections/collection-template.liquid:
-  development: 2018-07-28T00:09:40-04:00   3dffcb27bccc54eb672fce2d93f61297
+  development: 2018-07-28T16:25:30-04:00   6abc1190da4e0498d56d1668b162cd2a
 sections/community-custom-one.liquid:
   development: 2018-07-21T16:15:07-04:00   9377277ed473838fb2be49b84b90d5d3
 sections/community-custom-two.liquid:

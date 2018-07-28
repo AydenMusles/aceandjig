@@ -252,6 +252,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/loading.gif": {
+		"ft": 4194304,
+		"iS": 6561,
+		"oA": 0,
+		"oAP": "\/assets\/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/styles.scss": {
 		"aP": 0,
 		"bl": 0,
