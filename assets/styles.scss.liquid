@@ -6434,13 +6434,33 @@ html.template-password {
     }
 }
 
-#blog-grid {
+#blog-two-grid {
     @media (min-width: 768px) {
         .article-list {
             display: flex;
             flex-wrap: wrap;
             .article {
                 width: 50%;
+                padding: 0 0 40px 0 !important;
+            }
+        }
+    }
+    .article-list .article {
+        border-top: 1px solid transparent !important;
+        @media (max-width: 768px) {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    }
+}
+
+#blog-three-grid {
+    @media (min-width: 768px) {
+        .article-list {
+            display: flex;
+            flex-wrap: wrap;
+            .article {
+                width: 33.3%;
                 padding: 0 0 40px 0 !important;
             }
         }

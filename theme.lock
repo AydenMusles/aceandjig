@@ -44,7 +44,7 @@ assets/link-sq.png:
 assets/loading.gif:
   development: 2018-07-28T16:22:08-04:00   035bdcba309e8f29b71abcf11d3e6ba3
 assets/styles.scss.liquid:
-  development: 2018-07-21T16:28:54-04:00   2bd65d66e430029fe1ce9543a46eb636
+  development: 2018-07-28T16:31:57-04:00   0910c03a597f78861e83e4bb7d82ddaf
 assets/swatch-aloha.png:
   development: 2018-07-21T16:15:11-04:00   0e59b3753de9621840270d4e969330b7
 assets/swatch-ambrosia.png:
@@ -145,8 +145,10 @@ sections/blog-template.liquid:
   development: 2018-07-21T16:15:06-04:00   60b69110922d03d29a6c5ad6e343a769
 sections/blog_collections.liquid:
   development: 2018-07-21T16:15:06-04:00   1302f1016b27ac6a754bfaa0b0fa4d78
+sections/blog_three-grid.liquid:
+  development: 2018-07-28T16:32:12-04:00   618a463411ac09c4cbe9e033c1bf5484
 sections/blog_two-grid.liquid:
-  development: 2018-07-21T16:15:06-04:00   06d8a48b80c4c1953cf3ecb924d7f240
+  development: 2018-07-28T16:30:17-04:00   19ee32523ba3d01abd84529c70af43b0
 sections/cart-template.liquid:
   development: 2018-07-28T15:39:44-04:00   7c3b280dc324118a34df8d9fc4b24de1
 sections/collage-with-text.liquid:
@@ -360,7 +362,7 @@ templates/404.liquid:
 templates/article.liquid:
   development: 2018-07-21T16:15:18-04:00   58410de390496168f37fa3e9e5a22af0
 templates/blog.liquid:
-  development: 2018-07-21T16:15:18-04:00   b494178ec2e3c735573321a91ad1d5e4
+  development: 2018-07-28T16:32:41-04:00   3bdbc411483bc8e43019bdb1fd8ff02d
 templates/cart.liquid:
   development: 2018-07-21T16:15:18-04:00   714b4b7c62d583b231f339bbd1b85d03
 templates/collection.liquid:

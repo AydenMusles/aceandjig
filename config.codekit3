@@ -826,6 +826,13 @@
 		"oAP": "\/sections\/blog_collections.liquid",
 		"oF": 0
 		},
+	"\/sections\/blog_three-grid.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sections\/blog_three-grid.liquid",
+		"oF": 0
+		},
 	"\/sections\/blog_two-grid.liquid": {
 		"cB": 0,
 		"ft": 8192,

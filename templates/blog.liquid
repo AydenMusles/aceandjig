@@ -2,8 +2,10 @@
   The contents of the blog.liquid template can be found in /sections/blog-template.liquid
 {% endcomment %}
 
-{% if blog.handle == 'press' or blog.handle == 'news' or blog.handle == 'happenings' or blog.handle contains 'textiles' %}
+{% if blog.handle == 'press' or blog.handle == 'news' %}
     {% section 'blog_two-grid' %}
+{% elsif blog.handle == 'happenings' or blog.handle contains 'textiles' %}
+    {% section 'blog_three-grid' %}
 {% elsif blog.title contains 'collection' or blog.handle contains 'spring' or  blog.handle contains 'summer' or blog.handle contains 'autumn' or blog.handle contains 'winter' %}
     {% section 'blog_collections' %}
 {% else %}
