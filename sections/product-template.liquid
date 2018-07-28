@@ -78,7 +78,7 @@
       {% if product.images.size > 1 %}
       <div class="thumbnails">
         {% for image in product.images %}
-        <a {% if forloop.first %} class="active" {% endif %} title="{{ image.alt | escape }}"
+        <a {% if forloop.first %} class="active" {% endif %} title="{{ image.alt | handle }}"
           href="{{ image | product_img_url: lightbox_size }}"
           data-full-size-url="{{ image | product_img_url: 'master' }}">
           {% include 'responsive-image', image: image %}
@@ -96,7 +96,7 @@
           </div>
           {% endcomment %}
           {% for image in product.images %}
-          <div class="slide {{ image.alt | escape }}" data-full-size-url="{{ image | product_img_url: 'master' }}">
+          <div class="slide {{ image.alt | handle }}" data-full-size-url="{{ image | product_img_url: 'master' }}">
             {% include 'responsive-image', image: image %}
           </div>
           {% endfor %}
@@ -120,7 +120,7 @@
         <span class="price theme-money">{{ variant.price | money }}</span>
       </h2>
       {% else %}
-      <h2 class="h4-style price-area">{{ product.price }}</h2>
+      <h2 class="h4-style price-area">{{ product.price | money }}</h2>
       {% endif %}
 
 
@@ -167,7 +167,7 @@
                 <span class="styled-select" {% if settings.prod_variant_style == 'blocks' %}data-make-box{% endif %}>
                   <select id="option-{{ option.name | handle }}">
                     {% for value in option.values %}
-                    <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>
+                    <option value="{{ value | handle }}" {% if option.selected_value == value %}selected{% endif %}>
                       {{ value }}
                     </option>
                     {% endfor %}

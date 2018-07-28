@@ -92,7 +92,7 @@
         {% if product.images.size > 1 %}
         <div class="product-{{ product.title | handle }} thumbnails">
           {% for image in product.images %}
-          <a {% if image.src == featured_image.src %} class="active" {% endif %} data-value="{{ image.alt | escape }}"
+          <a {% if image.src == featured_image.src %} class="active" {% endif %} data-value="{{ image.alt | handle }}"
              href="{{ image | product_img_url: 'master' }}"
              data-full-size-url="{{ image | product_img_url: 'master' }}">
             {% include 'responsive-image', image: image, manual_trigger: true, max_height: 500 %}

@@ -251,7 +251,7 @@
 </div>
 
 {% if template contains 'collection' %}
-{% unless collection.all_products_count <= 12 %}
+{% unless collection.products_count <= 12 %}
 {{ 'tricky3.infinitescroll.v2.min.js' | asset_url | script_tag }}
 <script>
   //Ref: templates/collections.v2.liquid

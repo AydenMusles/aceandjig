@@ -201,12 +201,32 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/jquery.cart.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/jquery.cart.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/assets\/jquery.cart.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/jquery.cart.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/assets\/jquery.currencies.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/jquery.currencies.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -571,6 +591,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/swatch-pirouette.png": {
+		"ft": 32768,
+		"iS": 2480,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-pirouette.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/swatch-plume.png": {
 		"ft": 32768,
 		"iS": 3378,
@@ -601,6 +632,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/swatch-scorpio.png": {
+		"ft": 32768,
+		"iS": 2370,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-scorpio.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -687,22 +729,22 @@
 		"oAP": "\/assets\/theme.js.liquid",
 		"oF": 0
 		},
+	"\/assets\/tricky3.infinitescroll.v2.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/tricky3.infinitescroll.v2.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/assets\/tricky3.infinitescroll.v2.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/tricky3.infinitescroll.v2.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/assets\/vendor-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/vendor-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

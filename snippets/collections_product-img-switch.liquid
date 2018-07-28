@@ -5,7 +5,8 @@ $(window).load(function(){
         var self = $(this);
         self.find('select.option--color, select.option--textile, select.option--textiles').each(function(){
             var selectedColor = $(this).val();
-            self.find('.color-options .color-label').html(selectedColor);
+            self.find('.color-options .color-label').html(selectedColor.replace(/-/g, ' '));
+            console.log(editColor);
             self.find('.product-{{ product.title | handle }}.thumbnails a').each(function(){
                 if ($(this).data('value') == selectedColor) {
                     $(this).show();
@@ -15,7 +16,7 @@ $(window).load(function(){
             });
             $(this).change(function(){
                 var newVal = $(this).val();
-                self.find('.color-options .color-label').html(newVal);
+                self.find('.color-options .color-label').html(newVal.replace(/-/g, ' '));
                 self.find('.thumbnails a').each(function(){
                     if ($(this).data('value') == newVal) {
                         $(this).show();

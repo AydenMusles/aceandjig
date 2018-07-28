@@ -10,7 +10,7 @@
         $('#clickyboxes-option-color li a, #clickyboxes-option-textile li a, #clickyboxes-option-textiles li a').each(function(){
             if ($(this).hasClass('active')) {
                 var color = $(this).data('value');
-                $('.color-options .color-label').html(color);
+                $('.color-options .color-label').html(color.replace(/-/g, ' '));
                 $('.product-{{ product.title | handle }} .thumbnails a').each(function(){
                     if ($(this).attr('title') == color) {
                         $(this).show();
@@ -24,7 +24,7 @@
 
         $('#clickyboxes-option-color li a, #clickyboxes-option-textile li a, #clickyboxes-option-textiles li a').click(function(){
             var color = $(this).data('value');
-            $('.color-options .color-label').html(color);
+            $('.color-options .color-label').html(color.replace(/-/g, ' '));
             $('.product-{{ product.title | handle }} .thumbnails a').each(function(){
                 if ($(this).attr('title') == color) {
                     $(this).show();
