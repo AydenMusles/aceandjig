@@ -160,7 +160,7 @@
                   <span class="styled-select" {% if settings.prod_variant_style == 'blocks' %}data-make-box{% endif %}>
                     <select id="option-{{ forloop.index0 }}" class="option--{{ option.name | downcase }}">
                       {% for value in option.values %}
-                      <option value="{{ value | handle | escape }}" {% if option.selected_value == value %}selected{% endif %}>
+                      <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>
                         {{ value }}
                       </option>
                       {% endfor %}

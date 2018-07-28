@@ -174,7 +174,7 @@ sections/featured-collection.liquid:
 sections/featured-collections.liquid:
   development: 2018-07-21T16:15:07-04:00   cde041097ad8f5f0fdf58a0021eb9846
 sections/featured-product.liquid:
-  development: 2018-07-21T17:00:58-04:00   f434439b3148659ca660b9801546c096
+  development: 2018-07-22T21:22:04-04:00   9d52afcac4075a6a666ef6fe10a0a0d9
 sections/footer.liquid:
   development: 2018-07-21T16:15:07-04:00   b6693458aac63f6fbef2d180a0df7cc1
 sections/giving-back-custom.liquid:
@@ -204,9 +204,9 @@ sections/page-values.liquid:
 sections/process-custom-one.liquid:
   development: 2018-07-21T16:15:08-04:00   10b717cba8973ac3bb339c763b414026
 sections/product-template.liquid:
-  development: 2018-07-21T17:07:26-04:00   6c076a27ca3ae86b0f6628499fce414b
+  development: 2018-07-22T21:22:18-04:00   9d5dbb5c03a518554546dca27f6fbf6f
 sections/product-template_stockists.liquid:
-  development: 2018-07-21T17:06:10-04:00   50f76deb94266402fb7e88c3b8a9e85a
+  development: 2018-07-22T21:21:45-04:00   e52aee9ae65a8149ae6b48109f75d90e
 sections/quilt-custom-one.liquid:
   development: 2018-07-21T16:15:08-04:00   b100fecc221772f06cfa5eef235667be
 sections/season.liquid:
@@ -292,11 +292,11 @@ snippets/opengraph-tags.liquid:
 snippets/pagination-control.liquid:
   development: 2018-07-21T16:15:16-04:00   92a25c51258bed148f20d5b415af7508
 snippets/product-block-related.liquid:
-  development: 2018-07-21T17:07:26-04:00   341be811ed2b30e6ddf9e3c51810e6c0
+  development: 2018-07-22T21:22:17-04:00   172c7e6841178232509f62c3ff2c5e7f
 snippets/product-block-stockists.liquid:
-  development: 2018-07-21T17:02:09-04:00   881df88fb99ae24ed26aa01cae914057
+  development: 2018-07-22T21:22:16-04:00   2bf0efd742b5211b254215f7ff35fb52
 snippets/product-block.liquid:
-  development: 2018-07-21T17:07:25-04:00   c3eb93e057a0bf4f0ac8373245c2ded3
+  development: 2018-07-22T21:22:18-04:00   b87566535389fadb6bd9ba96ee5f98bd
 snippets/product-label.liquid:
   development: 2018-07-21T16:15:17-04:00   aba99a8726625c9412a4d18a397eb3a1
 snippets/products_product-img-switch.liquid:
