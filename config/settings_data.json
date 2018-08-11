@@ -370,9 +370,9 @@
     "bg_image": "",
     "bg_method": "repeatxy",
     "head_bg_col": "#ffffff",
-    "head_txt_col": "#232323",
+    "head_txt_col": "#3b3b3b",
     "head_nav_div_col": "rgba(0,0,0,0)",
-    "font_col_nav": "#000000",
+    "font_col_nav": "#3b3b3b",
     "font_col_nav_hov": "#8a8f93",
     "panel_nav_bg": "#ffffff",
     "panel_nav_bg_gradation": "darken",
@@ -382,24 +382,24 @@
     "head_not_col_txt2": "#8a8f93",
     "prod_hov_bg": "#ffffff",
     "prod_thumb_detail_bg": "#ffffff",
-    "prod_thumb_detail_col": "#232323",
+    "prod_thumb_detail_col": "#3b3b3b",
     "prod_thumb_detail_col_a": "#08c4ab",
     "coll_col_st_txt": "#ffffff",
     "coll_col_sale": "#fd8272",
     "coll_col_sold": "#232323",
     "coll_col_gen": "#8da5d0",
     "cross_page_promo_bg": "#f5f5f5",
-    "cross_page_promo_color": "#232323",
+    "cross_page_promo_color": "#3b3b3b",
     "foot_bg_col": "#fafafa",
-    "foot_text_col": "#232323",
+    "foot_text_col": "#3b3b3b",
     "foot_divider_col": "#000000",
-    "font_fam_base": "GWF|Cardo:400,400italic,700",
-    "font_fam_headings": "GWF|Cardo:400,400italic,700",
-    "font_fam_shoptitle": "GWF|Cardo:400,400italic,700",
-    "font_fam_nav": "GWF|Cardo:400,400italic,700",
-    "font_fam_special": "GWF|Cardo:400,400italic,700",
+    "font_fam_base": "GWF|EB+Garamond:400,500",
+    "font_fam_headings": "GWF|EB+Garamond:400,500",
+    "font_fam_shoptitle": "GWF|EB+Garamond:400,500",
+    "font_fam_nav": "GWF|EB+Garamond:400,500",
+    "font_fam_special": "GWF|EB+Garamond:400,500",
     "font_size_base_int": 16,
-    "font_size_slideshow": "1.4",
+    "font_size_slideshow": "1.8",
     "prod_show_vendor": false,
     "prod_show_sku": false,
     "prod_variant_style": "blocks",
@@ -506,7 +506,7 @@
           "prod_gall_thumbs_under": "under",
           "prod_desc_pos": "beside",
           "enable_payment_button": false,
-          "show_related_products": false
+          "show_related_products": true
         }
       },
       "collection-template": {
@@ -521,10 +521,10 @@
           "tagfilt_custom1_tags": "tops, bottoms, dresses, one-piece, outerwear, accessories, no waste, home, bandanas, flags, quilts, napkins, scarves",
           "show_tagfilt_custom2": true,
           "tagfilt_custom2_name": "textiles",
-          "tagfilt_custom2_tags": "aloha, amber, ambrosia, amulet, antoinette, blackstone, bonbon, brandy, brighton, brighton natural, calico, canyon, celadon, channel, charm, chess, clay, cognac, corsica, daybreak, duchess, empress, fete, fiesta, forte, glory, henna, hope, mardis gras, marine, market, martinique, nocturne, nymph, orchid, outlaw, parasol, pinwheel, pirouette, ribbon candy, rockaway, sable, sardinia, seventies, spirit, sriracha, starboard, swell, topanga, tuxedo, varsity, voyage",
+          "tagfilt_custom2_tags": "aloha, amber, ambrosia, amulet, antoinette, bijou, blackstone, blackbird, bonbon, brandy, brighton, brighton natural, calico, canyon, casino, celadon, channel, charm, chess, clay, cognac, concrete, corsica, daybreak, duchess, dusk, empress, fete, fiesta, florence, floret, forte, glory, henna, hope, mardi gras, marine, market, martinique, nocturne, nymph, opera, orchid, outlaw, parasol, passion, pinwheel, pirouette, plume, ribbon candy, rockaway, sable, sardinia, scorpio, seventies, spirit, sriracha, starboard, swell, topanga, tuxedo, varsity, voyage",
           "show_tagfilt_custom3": true,
           "tagfilt_custom3_name": "Size",
-          "tagfilt_custom3_tags": "extra small, small, medium, large, extra large, one size",
+          "tagfilt_custom3_tags": "one size, extra small, small, medium, large, extra large",
           "coll_num_per_page_int": 12,
           "coll_gridstream_mode": "grid",
           "coll_gridstream_toggle": false
@@ -619,7 +619,7 @@
         "type": "featured-collection",
         "settings": {
           "title": "new arrivals",
-          "collection": "all-1",
+          "collection": "new-arrivals",
           "use_carousel": true,
           "background_color": "#ffffff"
         }
@@ -692,7 +692,7 @@
             "settings": {
               "width": "half",
               "title": "",
-              "text": "<p>our search for the ideal manufacturer led us to India, where we found experienced textile specialists weaving on anient wooden hand looms. several times a year we travel there and work one-on-one with weavers to create our authentic fabrics. our indian partners share our core values and practice the holistic kaizen philosophy of continuing to improve. not only do they provide free childcare, but they also use reclaimed water to grown organic produce for their employees.<\/p>"
+              "text": "<p>our search for the ideal manufacturer led us to India, where we found experienced textile specialists weaving on ancient wooden hand looms. several times a year we travel there and work one-on-one with weavers to create our authentic fabrics. our indian partners share our core values and practice the holistic kaizen philosophy of continuing to improve. not only do they provide free childcare, but they also use reclaimed water to grown organic produce for their employees.<\/p>"
             }
           }
         },
@@ -1192,6 +1192,42 @@
               "overlay_color": "#ffffff",
               "overlay_bg": "rgba(0,0,0,0)"
             }
+          },
+          "1532821542125": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "shopify:\/\/shop_images\/ace-and-jig-textile-archive-black-geo.jpg",
+              "link_url": "shopify:\/\/blogs\/textiles-fall-winter-15",
+              "text": "fall 15",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1532821458219": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "shopify:\/\/shop_images\/ace-and-jig-textile-archive-isle.jpg",
+              "link_url": "shopify:\/\/blogs\/textiles-spring-summer-15",
+              "text": "spring 15",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
+          },
+          "1532821634997": {
+            "type": "image",
+            "settings": {
+              "width": "third",
+              "image": "shopify:\/\/shop_images\/ace-and-jig-textile-archive-gridlock.jpg",
+              "link_url": "shopify:\/\/blogs\/textiles-fall-winter-14",
+              "text": "fall 14",
+              "subtext": "",
+              "overlay_color": "#ffffff",
+              "overlay_bg": "rgba(0,0,0,0)"
+            }
           }
         },
         "block_order": [
@@ -1200,7 +1236,10 @@
           "1530212908303",
           "1530212912409",
           "1530212916523",
-          "1530212921366"
+          "1530212921366",
+          "1532821542125",
+          "1532821458219",
+          "1532821634997"
         ],
         "settings": {
           "alignment": "middle"
@@ -1431,6 +1470,14 @@
       },
       "blog_two-grid": {
         "type": "blog_two-grid",
+        "settings": {
+          "show_date": false,
+          "show_author": false,
+          "show_article_tags": false
+        }
+      },
+      "blog_three-grid": {
+        "type": "blog_three-grid",
         "settings": {
           "show_date": false,
           "show_author": false,

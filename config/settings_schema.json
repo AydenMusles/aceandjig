@@ -321,6 +321,11 @@
             "group": "Web Safe"
           },
           {
+            "value": "GWF|EB+Garamond:400,500",
+            "label": "EB Garamond",
+            "group": "Google Web Fonts"
+          },
+          {
             "value": "Georgia, Utopia, 'Times New Roman', Times, serif",
             "label": "Georgia",
             "group": "Web Safe"
@@ -436,6 +441,11 @@
             "value": "Arial, sans-serif",
             "label": "Arial",
             "group": "Web Safe"
+          },
+          {
+            "value": "GWF|EB+Garamond:400,500",
+            "label": "EB Garamond",
+            "group": "Google Web Fonts"
           },
           {
             "value": "Georgia, Utopia, 'Times New Roman', Times, serif",
@@ -555,6 +565,11 @@
             "group": "Web Safe"
           },
           {
+            "value": "GWF|EB+Garamond:400,500",
+            "label": "EB Garamond",
+            "group": "Google Web Fonts"
+          },
+          {
             "value": "Georgia, Utopia, 'Times New Roman', Times, serif",
             "label": "Georgia",
             "group": "Web Safe"
@@ -672,6 +687,11 @@
             "group": "Web Safe"
           },
           {
+            "value": "GWF|EB+Garamond:400,500",
+            "label": "EB Garamond",
+            "group": "Google Web Fonts"
+          },
+          {
             "value": "Georgia, Utopia, 'Times New Roman', Times, serif",
             "label": "Georgia",
             "group": "Web Safe"
@@ -787,6 +807,11 @@
             "value": "Arial, sans-serif",
             "label": "Arial",
             "group": "Web Safe"
+          },
+          {
+            "value": "GWF|EB+Garamond:400,500",
+            "label": "EB Garamond",
+            "group": "Google Web Fonts"
           },
           {
             "value": "Georgia, Utopia, 'Times New Roman', Times, serif",

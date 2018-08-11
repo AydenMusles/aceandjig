@@ -7,3 +7,9 @@
 <script type="application/json" id="ProductJson-{{ product.id }}">
   {{ product | json }}
 </script>
+
+{% if product.tags contains 'BIS' %}
+  <script>
+    var _BISConfig = _BISConfig || {};
+    _BISConfig.button = { visible: true }; </script> 
+{% endif %}

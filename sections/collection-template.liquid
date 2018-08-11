@@ -133,10 +133,11 @@
 
 
     <div class="filters">
+{% comment %}      
       {% if show_normal_filter %}
       <a href="#" class="tags" data-toggle-target=".tags.nav-row.cat-normal">{{ 'collections.filtering.filter' | t }} <span class="state">+</span></a>
       {% endif %}
-
+{% endcomment %}
       {% if show_custom_filter_1 %}
       <a href="#" class="tags" data-toggle-target=".tags.nav-row.cat-custom-1">{{ section.settings.tagfilt_custom1_name | escape }} <span class="state">+</span></a>
       {% endif %}

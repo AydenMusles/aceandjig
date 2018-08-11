@@ -291,6 +291,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/swatch-amber.png": {
+		"ft": 32768,
+		"iS": 3404,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-amber.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/swatch-ambrosia.png": {
 		"ft": 32768,
 		"iS": 17652,
@@ -335,6 +346,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/swatch-bonbon.png": {
+		"ft": 32768,
+		"iS": 3376,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-bonbon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/swatch-brandy.png": {
 		"ft": 32768,
 		"iS": 17635,
@@ -357,6 +379,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/swatch-canyon.png": {
+		"ft": 32768,
+		"iS": 3401,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-canyon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/swatch-casino.png": {
 		"ft": 32768,
 		"iS": 3442,
@@ -376,6 +409,28 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/swatch-channel.png": {
+		"ft": 32768,
+		"iS": 3360,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-channel.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/swatch-charm.png": {
+		"ft": 32768,
+		"iS": 3404,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-charm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -420,6 +475,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/swatch-corsica.png": {
+		"ft": 32768,
+		"iS": 3340,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-corsica.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -555,6 +621,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/swatch-nymph.png": {
+		"ft": 32768,
+		"iS": 3317,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-nymph.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/swatch-opera.png": {
 		"ft": 32768,
 		"iS": 3419,
@@ -574,6 +651,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/swatch-parasol.png": {
+		"ft": 32768,
+		"iS": 3332,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-parasol.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -643,6 +731,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/swatch-rockaway.png": {
+		"ft": 32768,
+		"iS": 3404,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-rockaway.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/swatch-sardinia.png": {
+		"ft": 32768,
+		"iS": 3386,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-sardinia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/swatch-scorpio.png": {
 		"ft": 32768,
 		"iS": 2370,
@@ -684,6 +794,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/swatch-swell.png": {
+		"ft": 32768,
+		"iS": 3404,
+		"oA": 0,
+		"oAP": "\/assets\/swatch-swell.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1167,6 +1288,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/snippets\/article_collections.liquid",
+		"oF": 0
+		},
+	"\/snippets\/back-in-stock-helper.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/snippets\/back-in-stock-helper.liquid",
 		"oF": 0
 		},
 	"\/snippets\/bgset.liquid": {

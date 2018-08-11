@@ -1,5 +1,5 @@
 @charset "UTF-8";
-$special-letter-spacing: 0.05em;
+$special-letter-spacing: 0.07em;
 $uppercase-special-mode: true;
 
 $logo-stack-snap:               1020px;
@@ -516,7 +516,7 @@ $slick-prevnext-font-size: 80px;
 
 body {
   font-size: {{ settings.font_size_base_int }}px;
-  line-height: 1.6em;
+  line-height: 1.5em;
   color: {{ settings.font_col_base }};
 
   background: {{ settings.bg_col }};
@@ -827,9 +827,10 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 }
 
 h1,
-.h1-style,
-h2.h1-style { font-size: $larger-text-size; }
+.h1-style { font-size: 1.375rem; }
+h2.h1-style { font-size: 1.125rem; }
 
+{% comment %}
 {% for i in (2..6) %}
 
 h{{i}},
@@ -843,6 +844,7 @@ h6.h{{i}}-style,
   font-size: $base-text-size + (7 - {{i}}) * ($larger-text-size - $base-text-size) / 6;
 }
 {% endfor %}
+{% endcomment %}
 
 h1.majortitle,
 h2.title,
@@ -1161,7 +1163,8 @@ $header-search-form-text: #666;
 #pageheader .search-box .search-form .search-box-label {
   display: inline-block;
   padding: 0 10px 0 42px;
-  font-size: $smaller-text-size;
+  font-size: $base-text-size;
+  font-weight: 500;
   line-height: 1.2em;
   letter-spacing: $special-letter-spacing;
   color: {{ settings.head_txt_col }};
@@ -1446,11 +1449,12 @@ $header-search-form-text: #666;
 }
 
 .announcement {
-  font-size: $smaller-text-size;
+  font-size: $base-text-size;
   letter-spacing: $special-letter-spacing;
   line-height: 1.4em;
   text-align: center;
   padding-bottom: 1rem;
+  font-weight: 500;
   a {
     display: block;
     color: inherit;
@@ -1472,8 +1476,9 @@ $header-search-form-text: #666;
 .nav-row {
   text-align: center;
   line-height: 2.5em;
-  font-size: $smaller-text-size;
+  font-size: $base-text-size;
   letter-spacing: $special-letter-spacing;
+  font-weight: 500;
 }
 
 .nav-row .multi-level-nav > div { /* All nav rows regardless of tier */
@@ -2752,7 +2757,7 @@ $spb-button-height: 48px;
   background: {{ settings.prod_thumb_detail_bg }};
   overflow: hidden;
   position: relative;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 
 .collection-listing .product-detail .inner {
@@ -2906,7 +2911,7 @@ $spb-button-height: 48px;
   margin-left: 8px;
   margin-right: 8px;
   vertical-align: top;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 
 .collection-listing .product-detail {
@@ -6208,14 +6213,14 @@ html.template-password {
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.375em !important;
     a:hover {
       text-decoration: none;
     }
   }
 
   h2 {
-    font-size: 4em;
+    font-size: 1.125em !important;
   }
 
   input[type=text], input[type=email], input[type=password] {
@@ -6577,4 +6582,18 @@ html.template-password {
 
 .collection-nav {
     text-align: center;
+}
+
+{% comment %} Design change on August 10 2018, by Matthew C. at Shopify {% endcomment %}
+
+#shopify-section-product-template .spr-badge{
+ 	display: none;
+}
+
+#shopify-section-collection-template .spr-badge{
+ 	display: none;
+}
+
+.collection-listing .spr-badge{
+    display: none;
 }
