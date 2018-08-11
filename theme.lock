@@ -156,7 +156,7 @@ sections/collage-with-text.liquid:
 sections/collection-stockists.liquid:
   development: 2018-07-21T16:15:07-04:00   bbdb09361fbdba25fb5ba4a430236baa
 sections/collection-template.liquid:
-  development: 2018-07-28T16:25:30-04:00   6abc1190da4e0498d56d1668b162cd2a
+  development: 2018-07-29T01:48:04-04:00   c041350319057c92dad276cfa1e0d732
 sections/community-custom-one.liquid:
   development: 2018-07-21T16:15:07-04:00   9377277ed473838fb2be49b84b90d5d3
 sections/community-custom-two.liquid:
@@ -202,7 +202,7 @@ sections/no-waste-custom.liquid:
 sections/page-list-collections-template.liquid:
   development: 2018-07-21T16:15:08-04:00   45f573f3633f9dc34214595dcd75f561
 sections/page-values.liquid:
-  development: 2018-07-21T16:15:08-04:00   64d9d96fb524a343ec0784060b56b28e
+  development: 2018-08-11T15:58:54-04:00   b07693d1b839dd869cb3dfffea88f774
 sections/process-custom-one.liquid:
   development: 2018-07-21T16:15:08-04:00   10b717cba8973ac3bb339c763b414026
 sections/product-template.liquid:
@@ -362,7 +362,7 @@ templates/404.liquid:
 templates/article.liquid:
   development: 2018-07-21T16:15:18-04:00   58410de390496168f37fa3e9e5a22af0
 templates/blog.liquid:
-  development: 2018-07-28T16:32:41-04:00   3bdbc411483bc8e43019bdb1fd8ff02d
+  development: 2018-08-11T15:55:52-04:00   1a635e92e3e7e81e2476e43ec22f889c
 templates/cart.liquid:
   development: 2018-07-21T16:15:18-04:00   714b4b7c62d583b231f339bbd1b85d03
 templates/collection.liquid:

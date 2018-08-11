@@ -244,7 +244,7 @@
 {% endif %}
 
 {% unless collection.products_count <= 12 %}
-<div class="loading" style="text-align: center; margin-top: 5rem;">{{ 'loading.gif' | asset_url | img_tag }}</div>
+<div class="loading" style="text-align: center; margin-top: 5rem;"><img style="height: 15px; width: auto;" src="{{ 'loading.gif' | asset_url }}"></div>
 {% endunless %}
 
 <div class="container pagination-row">{% include 'pagination-control' %}</div>
