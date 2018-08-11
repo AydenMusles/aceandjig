@@ -260,6 +260,71 @@
 
       {% endif %}
 
+      <div class="additional-details">
+          <div class="detail-row">
+              <a class="toggle-dropdown">
+                  <div>TEXT TEXT TEXT</div>
+                  <div class="toggle-icon">{% include 'icon-chevron-down' %}</div>
+              </a>
+              <div class="detail-content">
+                  <p>TEXT TEXT TEXT</p>
+              </div>
+          </div>
+      </div>
+
+      <style>
+      .detail-row {
+          width: 100%;
+      }
+
+      .toggle-dropdown {
+          display: block;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+      .additional-details {
+          padding: 1rem 0 0;
+          margin-bottom: 1rem;
+          border-top: 2px solid #F1F1F1;
+          border-bottom: 2px solid #F1F1F1;
+      }
+
+      .detail-content {
+          padding-top: 1rem;
+          height: 0;
+          opacity: 0;
+          transition: .2s all ease;
+      }
+
+      .detail-content.collapse {
+          height: auto;
+          opacity: 1;
+      }
+
+      .toggle-icon svg {
+          transition: .2s transform ease;
+          transform: rotate(0deg);
+      }
+
+      .toggle-icon.collapse svg {
+          transition: .2s transform ease;
+          transform: rotate(-180deg);
+      }
+      </style>
+
+      <script>
+      $(window).load(function(){
+          $('.toggle-dropdown').click(function(e){
+             e.preventDefault();
+             $(this).children('.toggle-icon').toggleClass('collapse');
+             $(this).siblings('.detail-content').toggleClass('collapse');
+          });
+      });
+      </script>
+
       <div class="desktop-only">
         {% include 'social-sharing' %}
       </div>

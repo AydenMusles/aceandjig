@@ -228,7 +228,7 @@ sections/page-values.liquid:
 sections/process-custom-one.liquid:
   development: 2018-07-21T16:15:08-04:00   10b717cba8973ac3bb339c763b414026
 sections/product-template.liquid:
-  development: 2018-07-27T23:50:58-04:00   270f238ee8df0a24a45029dd628f3908
+  development: 2018-08-11T18:33:50-04:00   0b474da28cad7170b02cad403bad460f
 sections/product-template_stockists.liquid:
   development: 2018-07-22T21:21:45-04:00   e52aee9ae65a8149ae6b48109f75d90e
 sections/quilt-custom-one.liquid:
