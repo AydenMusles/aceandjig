@@ -154,7 +154,7 @@ assets/tricky3.infinitescroll.v2.min.js:
 assets/vendor.js:
   development: 2018-07-21T16:15:15-04:00   5bdc53a0f6bfe13c7b2a7ec2e18f8c4d
 config/settings_data.json:
-  development: 2018-08-11T16:46:36-04:00   09db1fc39657467499eac21c3ebe9669
+  development: 2018-08-11T17:19:19-04:00   76fbb23625c89474de365a5f7db860ad
 config/settings_schema.json:
   development: 2018-08-11T16:37:15-04:00   12b3cf5e42046a0bdd5c8bb579f8ced4
 layout/theme.liquid:
@@ -178,7 +178,7 @@ sections/collage-with-text.liquid:
 sections/collection-stockists.liquid:
   development: 2018-07-21T16:15:07-04:00   bbdb09361fbdba25fb5ba4a430236baa
 sections/collection-template.liquid:
-  development: 2018-08-03T14:01:08-04:00   198ad035a305d01d56cb9c91d4191031
+  development: 2018-08-13T23:42:28-04:00   69024ed5615478bcd0b2d65876cba371
 sections/community-custom-one.liquid:
   development: 2018-07-21T16:15:07-04:00   9377277ed473838fb2be49b84b90d5d3
 sections/community-custom-two.liquid:
@@ -228,7 +228,7 @@ sections/page-values.liquid:
 sections/process-custom-one.liquid:
   development: 2018-07-21T16:15:08-04:00   10b717cba8973ac3bb339c763b414026
 sections/product-template.liquid:
-  development: 2018-08-11T18:33:50-04:00   0b474da28cad7170b02cad403bad460f
+  development: 2018-08-11T18:46:56-04:00   1822cc2493a0d77a6fb6c501a6aa6fc7
 sections/product-template_stockists.liquid:
   development: 2018-07-22T21:21:45-04:00   e52aee9ae65a8149ae6b48109f75d90e
 sections/quilt-custom-one.liquid:
@@ -274,7 +274,7 @@ snippets/blog_responsive-image.liquid:
 snippets/collection-block.liquid:
   development: 2018-07-21T16:15:15-04:00   bfe62b778fd0bc81f244b632fa35d1e2
 snippets/collections_product-img-switch.liquid:
-  development: 2018-07-28T16:15:49-04:00   978f6ecea19d0da975629177a15a26d2
+  development: 2018-08-13T23:43:29-04:00   a53f816bb6ad57c0fee55f32e4edd201
 snippets/currencies-switcher.liquid:
   development: 2018-07-21T16:15:16-04:00   c22db5b97b1de1d19bd3028e36273c3b
 snippets/currencies.liquid:
@@ -322,7 +322,7 @@ snippets/product-block-related.liquid:
 snippets/product-block-stockists.liquid:
   development: 2018-07-22T21:22:16-04:00   2bf0efd742b5211b254215f7ff35fb52
 snippets/product-block.liquid:
-  development: 2018-07-27T23:20:27-04:00   40817b7a1bb651f9564ee5c66d860da4
+  development: 2018-08-13T23:42:41-04:00   40817b7a1bb651f9564ee5c66d860da4
 snippets/product-label.liquid:
   development: 2018-07-21T16:15:17-04:00   aba99a8726625c9412a4d18a397eb3a1
 snippets/products_product-img-switch.liquid:

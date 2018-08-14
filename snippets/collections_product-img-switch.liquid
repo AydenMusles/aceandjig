@@ -5,7 +5,6 @@ $(window).load(function(){
         var self = $(this);
         self.find('select.option--color, select.option--textile, select.option--textiles').each(function(){
             var selectedColor = $(this).val();
-            console.log(selectedColor);
             self.find('.color-options .color-label').html(selectedColor.replace(/-/g, ' '));
             self.find('.product-{{ product.title | handle }}.thumbnails a').each(function(){
                 if ($(this).data('value') == selectedColor) {

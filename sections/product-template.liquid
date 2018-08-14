@@ -260,17 +260,20 @@
 
       {% endif %}
 
+      {% assign details = product.metafields.details %}
+      {% if details.fabric.size %}
       <div class="additional-details">
           <div class="detail-row">
-              <a class="toggle-dropdown">
-                  <div>TEXT TEXT TEXT</div>
+              <div class="toggle-dropdown">
+                  <div>fabric content & care</div>
                   <div class="toggle-icon">{% include 'icon-chevron-down' %}</div>
-              </a>
+              </div>
               <div class="detail-content">
-                  <p>TEXT TEXT TEXT</p>
+                  <p>{{ details.fabric }}</p>
               </div>
           </div>
       </div>
+      {% endif %}
 
       <style>
       .detail-row {
@@ -283,6 +286,11 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
+          color: #8a8f93 !important;
+      }
+
+      .toggle-dropdown:hover {
+          cursor: pointer;
       }
 
       .additional-details {

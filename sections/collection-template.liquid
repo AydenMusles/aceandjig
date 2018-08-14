@@ -133,7 +133,7 @@
 
 
     <div class="filters">
-{% comment %}      
+{% comment %}
       {% if show_normal_filter %}
       <a href="#" class="tags" data-toggle-target=".tags.nav-row.cat-normal">{{ 'collections.filtering.filter' | t }} <span class="state">+</span></a>
       {% endif %}
@@ -296,9 +296,10 @@
                   nextPageLink: '.next',
                   previousPageLink: '.prev',
                   paginationWrapper: '.pagination',
+                  manualLoading: true,
                   //scrollableElem: itemsWrapper, YOU CAN SPECIFY THIS
                 },
-                waitForImagesToBeLoaded: false,
+                waitForImagesToBeLoaded: true,
                 //throttleDelay: 100, YOU CAN SPECIFY THIS
                 callBacks: {
                   onAllPagesLoaded: function(){
@@ -308,6 +309,31 @@
                   },
                   onPageLoad: function(items){
                       $('.loading').hide();
+                      $('.product-block').each(function(){
+                          var self = $(this);
+                          self.find('select.option--color, select.option--textile, select.option--textiles').each(function(){
+                              var selectedColor = $(this).val();
+                              self.find('.color-options .color-label').html(selectedColor.replace(/-/g, ' '));
+                              self.find('.thumbnails a').each(function(){
+                                  if ($(this).data('value') == selectedColor) {
+                                      $(this).show();
+                                  } else {
+                                      $(this).hide();
+                                  }
+                              });
+                              $(this).change(function(){
+                                  var newVal = $(this).val();
+                                  self.find('.color-options .color-label').html(newVal.replace(/-/g, ' '));
+                                  self.find('.thumbnails a').each(function(){
+                                      if ($(this).data('value') == newVal) {
+                                          $(this).show();
+                                      } else {
+                                          $(this).hide();
+                                      }
+                                  });
+                              });
+                          });
+                      });
                     // console.log("Page loaded callback called..");
                   },
                   beforePageLoad: function(){
