@@ -108,9 +108,9 @@
       {% include 'product-label' with product %}
 
       <h1 class="title">{{ product.title | remove: "(stockist)" }}</h1>
-
+{% comment %}
       <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
-
+{% endcomment %}
       {% if variant.price <= 0 %}
       {% assign variant = product.selected_or_first_available_variant  %}
       <h2 class="h4-style price-area">
@@ -305,11 +305,11 @@
       </div>
     </div>
   </div>
-
+{% comment %}
   <div class="theme-product-reviews-full container">
     <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
   </div>
-
+{% endcomment %}
   {% if section.settings.show_related_products %}
   {% include 'related-products' %}
   {% endif %}

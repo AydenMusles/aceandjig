@@ -26,7 +26,7 @@
     {% if section.settings.show_tagfilt_custom1 %}
     {% assign custom_tag_arr1 = section.settings.tagfilt_custom1_tags | replace: ', ',',' | split: ',' %}
     {% capture filter1_html %}
-    {% for tag in collection.all_tags %}
+    {% for tag in custom_tag_arr1 %}
       {% unless tag contains 'meta-' %}
       {% if custom_tag_arr1 contains tag %}
         {% assign show_custom_filter_1 = true %}
@@ -67,8 +67,9 @@
               <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
             {% endif %}
         {% endfor %}
-        {% for tag in custom_tag_arr3 %}
-            {% if tag == 'extra small' %}
+     
+    {% for tag in custom_tag_arr3 %}
+            {% if tag == 'XXS' %}
                 <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
                 {% comment %}
               {% unless tag contains 'meta-' %}
@@ -84,35 +85,92 @@
               {% endcomment %}
             {% endif %}
         {% endfor %}
-        {% for tag in collection.all_tags %}
-            {% if tag == 'small' %}
-              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
-            {% endif %}
-        {% endfor %}
-        {% for tag in collection.all_tags %}
-            {% if tag == 'medium' %}
-              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
-            {% endif %}
-        {% endfor %}
-        {% for tag in collection.all_tags %}
-            {% if tag == 'large' %}
-              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
-            {% endif %}
-        {% endfor %}
-        {% for tag in collection.all_tags %}
-            {% if tag == 'extra large' %}
+  
+    
+        {% for tag in custom_tag_arr3 %}
+            {% if tag == 'XS' %}
+                <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/extra-small">{{ tag }}</a></li>
+                {% comment %}
               {% unless tag contains 'meta-' %}
               {% if custom_tag_arr3 contains tag %}
                 {% assign show_custom_filter_3 = true %}
                 {% if current_tags contains tag %}
-                <li class="active"><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
+                <li class="active" data-tag="{{tag | handleize}}">{{ tag | append: ' <span class="x">&times;</span>' | link_to_remove_tag: tag }}</li>
                 {% else %}
-                <li><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
+                <li data-tag="{{tag | handleize}}">{{ tag | link_to_add_tag: tag }}</li>
+                {% endif %}
+              {% endif %}
+              {% endunless %}
+              {% endcomment %}
+            {% endif %}
+        {% endfor %}
+        {% for tag in collection.all_tags %}
+            {% if tag == 'S' %}
+              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/small">{{ tag }}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% for tag in collection.all_tags %}
+            {% if tag == 'M' %}
+              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/medium">{{ tag }}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% for tag in collection.all_tags %}
+            {% if tag == 'L' %}
+              <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/large">{{ tag }}</a></li>
+            {% endif %}
+        {% endfor %}
+   
+        {% for tag in collection.all_tags %}
+            {% if tag == 'XL' %}
+              {% unless tag contains 'meta-' %}
+              {% if custom_tag_arr3 contains tag %}
+                {% assign show_custom_filter_3 = true %}
+                {% if current_tags contains tag %}
+                <li class="active"><a href="/collections/extra-large">{{ tag }}</a></li>
+                {% else %}
+                <li><a href="/collections/extra-large">{{ tag }}</a></li>
                 {% endif %}
               {% endif %}
               {% endunless %}
             {% endif %}
         {% endfor %}
+    
+    
+        {% for tag in custom_tag_arr3 %}
+            {% if tag == '1X' %}
+                <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
+                {% comment %}
+              {% unless tag contains 'meta-' %}
+              {% if custom_tag_arr3 contains tag %}
+                {% assign show_custom_filter_3 = true %}
+                {% if current_tags contains tag %}
+                <li class="active" data-tag="{{tag | handleize}}">{{ tag | append: ' <span class="x">&times;</span>' | link_to_remove_tag: tag }}</li>
+                {% else %}
+                <li data-tag="{{tag | handleize}}">{{ tag | link_to_add_tag: tag }}</li>
+                {% endif %}
+              {% endif %}
+              {% endunless %}
+              {% endcomment %}
+            {% endif %}
+        {% endfor %}
+    
+        {% for tag in custom_tag_arr3 %}
+            {% if tag == '2X' %}
+                <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
+                {% comment %}
+              {% unless tag contains 'meta-' %}
+              {% if custom_tag_arr3 contains tag %}
+                {% assign show_custom_filter_3 = true %}
+                {% if current_tags contains tag %}
+                <li class="active" data-tag="{{tag | handleize}}">{{ tag | append: ' <span class="x">&times;</span>' | link_to_remove_tag: tag }}</li>
+                {% else %}
+                <li data-tag="{{tag | handleize}}">{{ tag | link_to_add_tag: tag }}</li>
+                {% endif %}
+              {% endif %}
+              {% endunless %}
+              {% endcomment %}
+            {% endif %}
+        {% endfor %}    
     {% endcapture %}
     {% endif %}
 

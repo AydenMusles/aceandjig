@@ -1576,7 +1576,7 @@ $header-search-form-text: #666;
 
 .multi-tag-row .tags.nav-row {
   margin-top: -1px;
-  text-transform: lowercase;
+  text-transform: none;
 }
 
 .multi-tag-row .tags.nav-row.height-hidden {
@@ -6597,3 +6597,14 @@ html.template-password {
 .collection-listing .spr-badge{
     display: none;
 }
+.stamped-container {font: inherit !important;
+  text-transform: lowercase !important;}
+
+span.stamped-file-uploader {
+display: inline-block !important;
+}
+
+.stamped-badge {display: none !important;}
+.stamped-summary-ratings, .stamped-starrating.stamped-summary-starrating, .stamped-review-share,.stamped-review-vote {display: none !important;}
+#stamped-sort-select {display: none !important;}
+.stamped-form-review-body .stamped-form-label {content:'your thoughts here' !important;}

@@ -57,7 +57,8 @@
               <span class="theme-money">{{ product.price | money }}</span>
             </span>
 			{% endunless %}
-            <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+            <span class=" stamped-product-reviews-badge" data-product-sku="{{ product.handle }}" data-id="{{ product.id }}" style="display:block;">{{ product.metafields.stamped.badge }}</span>
+
           </div>
         </div>
       </div>

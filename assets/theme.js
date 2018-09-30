@@ -2102,7 +2102,7 @@ $(function($){
 
 
     /// Live search
-    var preLoadLoadGif = $('<img src="//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?13782241162828507186" />');
+    var preLoadLoadGif = $('<img src="//cdn.shopify.com/s/files/1/0413/0981/t/73/assets/ajax-load.gif?5295972072087865824" />');
     var searchTimeoutThrottle = 500;
     var searchTimeoutID = -1;
     var currReqObj = null;

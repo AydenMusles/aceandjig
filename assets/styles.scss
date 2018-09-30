@@ -1,5 +1,5 @@
 @charset "UTF-8";
-$special-letter-spacing: 0.05em;
+$special-letter-spacing: 0.07em;
 $uppercase-special-mode: true;
 
 $logo-stack-snap:               1020px;
@@ -224,7 +224,7 @@ hr {
 
  body, input, textarea, select, select option
 
-{ font-family: Cardo; }
+{ font-family: EB Garamond; }
 
 
 
@@ -233,7 +233,7 @@ hr {
 
  h1,.h1-style,h2,h3,h4,h5,h6
 
-{ font-family: Cardo; }
+{ font-family: EB Garamond; }
 
 
 
@@ -242,7 +242,7 @@ hr {
 
  #pageheader .logotext, #shoplogo .logotext
 
-{ font-family: Cardo; }
+{ font-family: EB Garamond; }
 
 
 
@@ -251,7 +251,7 @@ hr {
 
  .nav-row
 
-{ font-family: Cardo; }
+{ font-family: EB Garamond; }
 
 
 
@@ -267,7 +267,7 @@ input[type="reset"],
 input[type="button"],
 .productlabel
 
-{ font-family: Cardo; }
+{ font-family: EB Garamond; }
 
 
 
@@ -394,7 +394,7 @@ $slick-prevnext-font-size: 80px;
 
 .slick-list {
   .slick-loading & {
-    background: #fff url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?13782241162828507186) center center no-repeat;
+    background: #fff url(//cdn.shopify.com/s/files/1/0413/0981/t/73/assets/ajax-load.gif?5295972072087865824) center center no-repeat;
   }
 }
 
@@ -546,7 +546,7 @@ $slick-prevnext-font-size: 80px;
 
 body {
   font-size: 16px;
-  line-height: 1.6em;
+  line-height: 1.5em;
   color: #8a8f93;
 
   background: #ffffff;
@@ -847,69 +847,9 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 }
 
 h1,
-.h1-style,
-h2.h1-style { font-size: $larger-text-size; }
+.h1-style { font-size: 1.375rem; }
+h2.h1-style { font-size: 1.125rem; }
 
-
-
-h2,
-h1.h2-style,
-h2.h2-style,
-h3.h2-style,
-h4.h2-style,
-h5.h2-style,
-h6.h2-style,
-.h2-style {
-  font-size: $base-text-size + (7 - 2) * ($larger-text-size - $base-text-size) / 6;
-}
-
-
-h3,
-h1.h3-style,
-h2.h3-style,
-h3.h3-style,
-h4.h3-style,
-h5.h3-style,
-h6.h3-style,
-.h3-style {
-  font-size: $base-text-size + (7 - 3) * ($larger-text-size - $base-text-size) / 6;
-}
-
-
-h4,
-h1.h4-style,
-h2.h4-style,
-h3.h4-style,
-h4.h4-style,
-h5.h4-style,
-h6.h4-style,
-.h4-style {
-  font-size: $base-text-size + (7 - 4) * ($larger-text-size - $base-text-size) / 6;
-}
-
-
-h5,
-h1.h5-style,
-h2.h5-style,
-h3.h5-style,
-h4.h5-style,
-h5.h5-style,
-h6.h5-style,
-.h5-style {
-  font-size: $base-text-size + (7 - 5) * ($larger-text-size - $base-text-size) / 6;
-}
-
-
-h6,
-h1.h6-style,
-h2.h6-style,
-h3.h6-style,
-h4.h6-style,
-h5.h6-style,
-h6.h6-style,
-.h6-style {
-  font-size: $base-text-size + (7 - 6) * ($larger-text-size - $base-text-size) / 6;
-}
 
 
 h1.majortitle,
@@ -1033,7 +973,7 @@ svg.feather {
   display: none;
   text-align: right;
   background: #ffffff;
-  color: #232323;
+  color: #3b3b3b;
   border-bottom: 1px solid rgba(0,0,0,0);
   font-size: 15px;
   line-height: 32px;
@@ -1056,7 +996,7 @@ svg.feather {
 
 #mobile-header .mobile-nav-toggle .feather {
   fill: transparent;
-  stroke: #232323;
+  stroke: #3b3b3b;
 }
 
 #mobile-header .cart-count {
@@ -1151,15 +1091,15 @@ svg.feather {
 
 #pageheader,
 #pageheader a {
-  color: #232323;
+  color: #3b3b3b;
 }
 #pageheader svg,
 #pageheader svg g {
-  fill: #232323;
+  fill: #3b3b3b;
 }
 #pageheader svg.feather {
   fill: none;
-  stroke: #232323;
+  stroke: #3b3b3b;
 }
 
 #pageheader .logo {
@@ -1220,7 +1160,7 @@ $header-search-form-text: #666;
   position: absolute;
   z-index: 1;
   fill: none;
-  stroke: #232323;
+  stroke: #3b3b3b;
   top: 50%;
   margin-top: -12px;
   left: 7px;
@@ -1229,10 +1169,11 @@ $header-search-form-text: #666;
 #pageheader .search-box .search-form .search-box-label {
   display: inline-block;
   padding: 0 10px 0 42px;
-  font-size: $smaller-text-size;
+  font-size: $base-text-size;
+  font-weight: 500;
   line-height: 1.2em;
   letter-spacing: $special-letter-spacing;
-  color: #232323;
+  color: #3b3b3b;
   cursor: pointer;
 }
 
@@ -1335,7 +1276,7 @@ $header-search-form-text: #666;
 }
 
 #pageheader .search-box .results-box .load {
-  background: url('//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/ajax-load.gif?13782241162828507186') center center no-repeat;
+  background: url('//cdn.shopify.com/s/files/1/0413/0981/t/73/assets/ajax-load.gif?5295972072087865824') center center no-repeat;
   text-align: center;
 }
 
@@ -1514,11 +1455,12 @@ $header-search-form-text: #666;
 }
 
 .announcement {
-  font-size: $smaller-text-size;
+  font-size: $base-text-size;
   letter-spacing: $special-letter-spacing;
   line-height: 1.4em;
   text-align: center;
-
+  padding-bottom: 1rem;
+  font-weight: 500;
   a {
     display: block;
     color: inherit;
@@ -1540,8 +1482,9 @@ $header-search-form-text: #666;
 .nav-row {
   text-align: center;
   line-height: 2.5em;
-  font-size: $smaller-text-size;
+  font-size: $base-text-size;
   letter-spacing: $special-letter-spacing;
+  font-weight: 500;
 }
 
 .nav-row .multi-level-nav > div { /* All nav rows regardless of tier */
@@ -1639,7 +1582,7 @@ $header-search-form-text: #666;
 
 .multi-tag-row .tags.nav-row {
   margin-top: -1px;
-  text-transform: lowercase;
+  text-transform: none;
 }
 
 .multi-tag-row .tags.nav-row.height-hidden {
@@ -1701,16 +1644,16 @@ $main-nav-level3-bg: darken($main-nav-level1-bg, 12%);
 #main-nav .multi-level-nav .tier-2 { background: transparent; }
 
 #main-nav a {
-  color: #000000;
+  color: #3b3b3b;
 }
 
 #main-nav svg,
 #main-nav svg g {
-  fill: #000000;
+  fill: #3b3b3b;
 
   &.feather {
     fill: none;
-    stroke: #000000;
+    stroke: #3b3b3b;
   }
 }
 
@@ -1930,7 +1873,7 @@ $main-nav-level3-bg: darken($main-nav-level1-bg, 12%);
   padding: 0 0 50px;
   font-size: $smaller-text-size;
   &, a {
-    color: #232323;
+    color: #3b3b3b;
   }
   a:hover {
     opacity: 0.75;
@@ -1942,10 +1885,10 @@ $main-nav-level3-bg: darken($main-nav-level1-bg, 12%);
   padding-top: 16px;
   padding-bottom: 16px;
   &, a, h6 {
-    color: #232323;
+    color: #3b3b3b;
   }
   svg {
-    stroke: #232323;
+    stroke: #3b3b3b;
   }
   .overlay-text .text > div {
     padding-left: 0;
@@ -1994,7 +1937,7 @@ $main-nav-level3-bg: darken($main-nav-level1-bg, 12%);
     margin: 0 8px;
   }
   svg, svg g {
-    fill: #232323;
+    fill: #3b3b3b;
   }
 }
 
@@ -2809,7 +2752,7 @@ $spb-button-height: 48px;
   background: #ffffff;
   overflow: hidden;
   position: relative;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 
 .collection-listing .product-detail .inner {
@@ -2830,7 +2773,7 @@ $spb-button-height: 48px;
 .collection-listing .product-detail h4,
 .collection-listing .product-detail h5,
 .collection-listing .product-detail h6 {
-  color: #232323;
+  color: #3b3b3b;
 }
 
 .collection-listing .product-detail {
@@ -2963,7 +2906,7 @@ $spb-button-height: 48px;
   margin-left: 8px;
   margin-right: 8px;
   vertical-align: top;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 
 .collection-listing .product-detail {
@@ -3642,7 +3585,7 @@ table.noborders td {
   width: 140px;
   padding: 10px 15px;
   border: 1px solid $dividers-col;
-  color: #232323;
+  color: #3b3b3b;
   background: #ffffff;
   -moz-border-radius:3px;
   -webkit-border-radius:3px;
@@ -4709,7 +4652,7 @@ $flexible-layout-gutter: 16px;
   left: 0;
   width: 40px;
   height: 480px;
-  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancybox.png?13782241162828507186);
+  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/73/assets/fancybox.png?5295972072087865824);
 }
 
 #fancybox-overlay {
@@ -4815,7 +4758,7 @@ $flexible-layout-gutter: 16px;
   width: 35%;
   cursor: pointer;
   outline: none;
-  background: transparent url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/blank.gif?13782241162828507186);
+  background: transparent url(//cdn.shopify.com/s/files/1/0413/0981/t/73/assets/blank.gif?5295972072087865824);
   z-index: 5102;
   display: none;
 }
@@ -4841,12 +4784,12 @@ $flexible-layout-gutter: 16px;
 }
 
 #fancybox-left-ico {
-  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancybox.png?13782241162828507186);
+  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/73/assets/fancybox.png?5295972072087865824);
   background-position: -40px -30px;
 }
 
 #fancybox-right-ico {
-  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancybox.png?13782241162828507186);
+  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/73/assets/fancybox.png?5295972072087865824);
   background-position: -40px -60px;
 }
 
@@ -4951,7 +4894,7 @@ $flexible-layout-gutter: 16px;
 
 #fancybox-title-over {
   padding: 10px;
-  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/60/assets/fancy_title_over.png?13782241162828507186);
+  background-image: url(//cdn.shopify.com/s/files/1/0413/0981/t/73/assets/fancy_title_over.png?5295972072087865824);
   display: block;
 }
 
@@ -5947,7 +5890,7 @@ $_review-border-color: rgba(#8a8f93, 0.2);
       display: inline;
       width: 24px;
       height: 24px;
-      stroke: #000000;
+      stroke: #3b3b3b;
     }
   }
   #main-nav.nav-row ul li.mobile-expanded > a.has-children .exp {
@@ -5959,7 +5902,7 @@ $_review-border-color: rgba(#8a8f93, 0.2);
   }
 
   #main-nav a { display: block; }
-  #main-nav a.expanded { color: #000000; }
+  #main-nav a.expanded { color: #3b3b3b; }
   #main-nav a:hover { color: #8a8f93; }
 
   #main-nav .account-links {
@@ -6257,14 +6200,14 @@ html.template-password {
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.375em !important;
     a:hover {
       text-decoration: none;
     }
   }
 
   h2 {
-    font-size: 4em;
+    font-size: 1.125em !important;
   }
 
   input[type=text], input[type=email], input[type=password] {
@@ -6483,13 +6426,33 @@ html.template-password {
     }
 }
 
-#blog-grid {
+#blog-two-grid {
     @media (min-width: 768px) {
         .article-list {
             display: flex;
             flex-wrap: wrap;
             .article {
                 width: 50%;
+                padding: 0 0 40px 0 !important;
+            }
+        }
+    }
+    .article-list .article {
+        border-top: 1px solid transparent !important;
+        @media (max-width: 768px) {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+    }
+}
+
+#blog-three-grid {
+    @media (min-width: 768px) {
+        .article-list {
+            display: flex;
+            flex-wrap: wrap;
+            .article {
+                width: 33.3%;
                 padding: 0 0 40px 0 !important;
             }
         }
@@ -6547,7 +6510,12 @@ html.template-password {
 @media (max-width: 950px) {
     .large-logo, .cart-large {
         display: none;
+        margin-right: 0;
     }
+}
+
+.cart-large {
+    margin-right: 10px;
 }
 
 #article-collections {
@@ -6602,3 +6570,28 @@ html.template-password {
 .collection-nav {
     text-align: center;
 }
+
+
+
+#shopify-section-product-template .spr-badge{
+ 	display: none;
+}
+
+#shopify-section-collection-template .spr-badge{
+ 	display: none;
+}
+
+.collection-listing .spr-badge{
+    display: none;
+}
+.stamped-container {font: inherit !important;
+  text-transform: lowercase !important;}
+
+span.stamped-file-uploader {
+display: inline-block !important;
+}
+
+.stamped-badge {display: none !important;}
+.stamped-summary-ratings, .stamped-starrating.stamped-summary-starrating, .stamped-review-share,.stamped-review-vote {display: none !important;}
+#stamped-sort-select {display: none !important;}
+.stamped-form-review-body .stamped-form-label {content:'your thoughts here' !important;}

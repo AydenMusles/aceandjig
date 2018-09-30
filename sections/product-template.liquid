@@ -109,7 +109,8 @@
 
       <h1 class="title">{{ product.title | remove: "(stockist)" }}</h1>
 
-      <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+   <span class="stamped-product-reviews-badge stamped-main-badge" data-id="{{ product.id }}" data-product-sku="{{ product.handle }}" style="display: inline-block;">{{ product.metafields.stamped.badge }}</span>
+
 
       {% if variant.price <= 0 %}
       {% assign variant = product.selected_or_first_available_variant  %}
@@ -344,7 +345,13 @@
     {% comment %} Add code to show under the description on the line below this one, if full-width underneath the image {% endcomment %}
     <!-- Underneath the description -->
     {% endif %}
-
+{% if product.metafields.stamped.reviews_count and product.metafields.stamped.reviews_count != "0" %} 
+<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"> 
+<span itemprop="itemReviewed" content="{{ product.title }}"></span> 
+<span itemprop="ratingValue" content="{{ product.metafields.stamped.reviews_average | round:2 }}"></span> 
+<span itemprop="ratingCount" content="{{ product.metafields.stamped.reviews_count }}"></span> 
+</div> 
+{% endif %}
   </div><!-- /.product-detail -->
 
   <div class="mobile-only product-meta">
@@ -395,7 +402,17 @@
   </div>
 
   <div class="theme-product-reviews-full container">
-    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+    <div id="stamped-main-widget" 
+data-widget-style="standard"
+data-product-id="{{ product.id }}" 
+data-name="{{ product.title | escape }}" 
+data-url="{{ shop.url }}{{ product.url }}" 
+data-image-url="{{ product.featured_image | product_img_url: "large" |replace: '?', '%3F' | replace: '&','%26'}}" 
+data-description="{{ product.description | escape }}" 
+data-product-sku="{{product.handle}}"
+         data-sort="highest-rating"> 
+</div>
+
   </div>
 
   {% if section.settings.show_related_products %}
