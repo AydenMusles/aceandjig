@@ -44,7 +44,7 @@ assets/link-sq.png:
 assets/loading.gif:
   development: 2018-07-28T16:22:08-04:00   035bdcba309e8f29b71abcf11d3e6ba3
 assets/styles.scss.liquid:
-  development: 2018-08-11T17:20:41-04:00   449db7cb1533478f0f3fd31fcc337f59
+  development: 2018-09-17T18:47:36-04:00   14b4e53aeecf86b141de78d6e61bc6c8
 assets/swatch-aloha.png:
   development: 2018-07-27T15:14:15-04:00   d820f0ca97ebd1d71766005dad313809
 assets/swatch-amber.png:
@@ -154,7 +154,7 @@ assets/tricky3.infinitescroll.v2.min.js:
 assets/vendor.js:
   development: 2018-07-21T16:15:15-04:00   5bdc53a0f6bfe13c7b2a7ec2e18f8c4d
 config/settings_data.json:
-  development: 2018-08-11T17:19:19-04:00   76fbb23625c89474de365a5f7db860ad
+  development: 2018-09-20T15:30:33-04:00   cd5c4b2a7e0d0ed08dc96350053f750f
 config/settings_schema.json:
   development: 2018-08-11T16:37:15-04:00   12b3cf5e42046a0bdd5c8bb579f8ced4
 layout/theme.liquid:
@@ -164,11 +164,11 @@ locales/en.default.json:
 sections/article-template.liquid:
   development: 2018-07-21T16:15:06-04:00   a076764d98094beb7284b892c61f5768
 sections/blog-template.liquid:
-  development: 2018-07-21T16:15:06-04:00   60b69110922d03d29a6c5ad6e343a769
+  development: 2018-09-20T16:05:26-04:00   60b69110922d03d29a6c5ad6e343a769
 sections/blog_collections.liquid:
-  development: 2018-07-21T16:15:06-04:00   1302f1016b27ac6a754bfaa0b0fa4d78
+  development: 2018-09-20T15:41:36-04:00   d81bad190c3d759631d65625b840d97c
 sections/blog_three-grid.liquid:
-  development: 2018-07-28T16:32:12-04:00   618a463411ac09c4cbe9e033c1bf5484
+  development: 2018-09-20T16:03:10-04:00   618a463411ac09c4cbe9e033c1bf5484
 sections/blog_two-grid.liquid:
   development: 2018-07-28T16:30:17-04:00   19ee32523ba3d01abd84529c70af43b0
 sections/cart-template.liquid:
@@ -178,7 +178,9 @@ sections/collage-with-text.liquid:
 sections/collection-stockists.liquid:
   development: 2018-07-21T16:15:07-04:00   bbdb09361fbdba25fb5ba4a430236baa
 sections/collection-template.liquid:
-  development: 2018-08-13T23:42:28-04:00   69024ed5615478bcd0b2d65876cba371
+  development: 2018-09-20T15:39:57-04:00   1c8d4410c1029f1084ec32ff2f978a65
+sections/collections-archive-images.liquid:
+  development: 2018-09-20T15:02:21-04:00   e1f9a1b28d4e0b14168217f998320ffc
 sections/community-custom-one.liquid:
   development: 2018-07-21T16:15:07-04:00   9377277ed473838fb2be49b84b90d5d3
 sections/community-custom-two.liquid:
@@ -230,7 +232,7 @@ sections/process-custom-one.liquid:
 sections/product-template.liquid:
   development: 2018-08-11T18:46:56-04:00   1822cc2493a0d77a6fb6c501a6aa6fc7
 sections/product-template_stockists.liquid:
-  development: 2018-07-22T21:21:45-04:00   e52aee9ae65a8149ae6b48109f75d90e
+  development: 2018-08-23T13:48:40-04:00   b8f88d0d507f5e4cdb595f984edb1a80
 sections/quilt-custom-one.liquid:
   development: 2018-07-21T16:15:08-04:00   b100fecc221772f06cfa5eef235667be
 sections/season.liquid:
@@ -386,7 +388,7 @@ templates/404.liquid:
 templates/article.liquid:
   development: 2018-07-21T16:15:18-04:00   58410de390496168f37fa3e9e5a22af0
 templates/blog.liquid:
-  development: 2018-08-11T15:55:52-04:00   1a635e92e3e7e81e2476e43ec22f889c
+  development: 2018-09-20T16:04:40-04:00   4b446e1791b2c6adf56f79a0d9c4c843
 templates/cart.liquid:
   development: 2018-07-21T16:15:18-04:00   714b4b7c62d583b231f339bbd1b85d03
 templates/collection.liquid:
@@ -415,6 +417,8 @@ templates/list-collections.liquid:
   development: 2018-07-21T16:15:19-04:00   2a3229f9bf1a7d5da0eb25003db24b63
 templates/page.article-width.liquid:
   development: 2018-07-21T16:15:19-04:00   e5e1ac2e5d9c54edf160d77d68989e3e
+templates/page.collections-archive.liquid:
+  development: 2018-09-20T15:02:54-04:00   051acd2d8e77deb8b9b5c21e15e88968
 templates/page.community-quilt.liquid:
   development: 2018-07-21T16:15:19-04:00   e8f464a591edc9ccd4e4078aa405cc51
 templates/page.community.liquid:
@@ -448,7 +452,7 @@ templates/page.stockists-store.liquid:
 templates/page.story.liquid:
   development: 2018-07-21T16:15:19-04:00   3e902af70c26abcbb64bfc7a4e1810f8
 templates/page.textile-archive.liquid:
-  development: 2018-07-21T16:15:19-04:00   b544f7512a594f100233ae3d38323f73
+  development: 2018-09-20T15:02:35-04:00   6af1e853d706e7c29e14e3dd9a587097
 templates/page.values.liquid:
   development: 2018-07-21T16:15:19-04:00   807f18419a20061a302a9ff620f0954b
 templates/password.liquid:

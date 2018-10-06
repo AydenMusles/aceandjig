@@ -1,42 +1,75 @@
-{% if article.image and section.settings.show_featured_image %}
-<div class="article-image align-center {% unless settings.use_fullwidth_layout %}container{% endunless %}">{% include 'responsive-image', image: article.image %}</div>
-{% endif %}
+<div class="collection-article">
+    {% if article.image and section.settings.show_featured_image %}
+        <div class="article-image align-center {% unless settings.use_fullwidth_layout %}container{% endunless %}">{% include 'responsive-image', image: article.image %}</div>
+    {% endif %}
 
-<div class="container">
-    <div class="page-header cf">
-      <h1 class="majortitle">{{ article.title }}</h1>
-    </div>
-</div>
-
-<div>
-  <div class="container">
-
-    <div id="article-collections" class="user-content spaced-row">
-      {{ article.content }}
+    <div class="container">
+        <div class="page-header cf">
+          <h1 class="majortitle">{{ article.title }}</h1>
+        </div>
     </div>
 
-    <div class="collection-nav">
-        {% assign current_found = false %}
-        {% assign done = false %}
-        {% for a in blog.articles %}
-            {% if current_found and done == false %}
-                {% assign next_article = a %}
-                {% assign done = true %}
-            {% endif %}
-            {% unless done %}
-                {% if a.id == article.id %}
-                    {% assign current_found = true %}
-                {% else %}
-                    {% assign prev_article = a %}
+    <div>
+      <div class="container">
+
+        <div id="article-collections" class="user-content spaced-row">
+          {{ article.content }}
+        </div>
+
+        <div class="collection-nav">
+            {% assign current_found = false %}
+            {% assign done = false %}
+            {% for a in blog.articles %}
+                {% if current_found and done == false %}
+                    {% assign next_article = a %}
+                    {% assign done = true %}
                 {% endif %}
-            {% endunless %}
-        {% endfor %}
+                {% unless done %}
+                    {% if a.id == article.id %}
+                        {% assign current_found = true %}
+                    {% else %}
+                        {% assign prev_article = a %}
+                    {% endif %}
+                {% endunless %}
+            {% endfor %}
 
-        {% if next_article %}
-            <a href="{{ next_article.url }}"><h4>{{ next_article.title }} »</h4></a>
-        {% endif %}
-    </div>
+            {% if next_article %}
+                <a href="{{ next_article.url }}"><h4>{{ next_article.title }} »</h4></a>
+            {% endif %}
+        </div>
 
 
-  </div><!-- /.container -->
-</div><!-- /.article -->
+      </div><!-- /.container -->
+    </div><!-- /.article -->
+</div>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script>
+$('.collection-slider-top').each(function(){
+    $(this).slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>',
+            nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>',
+            responsive: [
+              {
+                  breakpoint: 480,
+                  settings: {
+                      slidesToShow: 1
+                  }
+              }
+            ]
+    });
+});
+
+$('.collection-slider-bottom').each(function(){
+    $(this).slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>',
+            nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>'
+    });
+});
+</script>

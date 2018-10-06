@@ -293,10 +293,10 @@ theme.ProductTemplateSection = new function(){
 
     theme.ProductBlockManager.loadImages(target);
 
-    
+
     // Reload multi-currency
     Currency.convertAll(shopCurrency, $('[name=currencies]').val(), theme.money_container);
-    
+
   }
 
   this.onSectionUnload = function(target){
@@ -348,9 +348,9 @@ theme.CartTemplateSection = new function(){
           }
         });
 
-        
+
         Currency.convertAll(shopCurrency, jQuery('[name=currencies]').val(), theme.money_container);
-        
+
       },
       error: function(data){
         console.log('Error processing update');
@@ -466,10 +466,10 @@ theme.CollectionTemplateSection = new function(){
 
     theme.ProductBlockManager.loadImages(target);
 
-    
+
     // Reload multi-currency
     Currency.convertAll(shopCurrency, $('[name=currencies]').val(), theme.money_container);
-    
+
   }
 
   this.onSectionUnload = function(target){
@@ -817,10 +817,10 @@ theme.CollageWithTextSection = new function(){
 
 theme.FeaturedCollectionSection = new function(){
   this.onSectionLoad = function(container){
-    
+
     // Reload multi-currency
     Currency.convertAll(shopCurrency, $('[name=currencies]').val(), theme.money_container);
-    
+
 
     theme.loadCarousels(container);
 
@@ -1628,7 +1628,7 @@ $(function($){
     return false;
   });
 
-  
+
   /// Collection-rows - show dropdown product detail
   function contractDetail($blocks, speed) {
     if($blocks.length == 0) {
@@ -1793,7 +1793,7 @@ $(function($){
     });
   }
   //End of code specific to collection-page slide-downs
-  
+
 
   /// Collection slider
   jQuery.fn.reverse = [].reverse; //Genius deserves credit: http://stackoverflow.com/questions/1394020/jquery-each-backwards
@@ -1883,7 +1883,7 @@ $(function($){
         return false;
     });
 
-    
+
     /// AJAX add to cart
     var cartPopupTemplate = [
         '<div id="cart-summary-overlay" class="cf">',
@@ -1964,10 +1964,10 @@ $(function($){
               });
               $cartShade.prependTo('body').css('top', - $cartShade.outerHeight()).animate({top: 0}, 500);
 
-              
+
               //Update currency of amount
               Currency.convertAll(shopCurrency, jQuery('[name=currencies]').val(), theme.money_container);
-              
+
             }, 'html');
 
             //Update header summaries
@@ -2001,7 +2001,7 @@ $(function($){
         //Hide notifications on scroll
         $('#cart-summary-overlay #shop-more').triggerHandler('click');
     });
-    
+
 
 
   // load any images that aren't inside a section

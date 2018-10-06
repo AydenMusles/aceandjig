@@ -67,7 +67,7 @@
               <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
             {% endif %}
         {% endfor %}
-     
+
     {% for tag in custom_tag_arr3 %}
             {% if tag == 'XXS' %}
                 <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
@@ -85,8 +85,8 @@
               {% endcomment %}
             {% endif %}
         {% endfor %}
-  
-    
+
+
         {% for tag in custom_tag_arr3 %}
             {% if tag == 'XS' %}
                 <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/extra-small">{{ tag }}</a></li>
@@ -119,7 +119,7 @@
               <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/large">{{ tag }}</a></li>
             {% endif %}
         {% endfor %}
-   
+
         {% for tag in collection.all_tags %}
             {% if tag == 'XL' %}
               {% unless tag contains 'meta-' %}
@@ -134,8 +134,8 @@
               {% endunless %}
             {% endif %}
         {% endfor %}
-    
-    
+
+
         {% for tag in custom_tag_arr3 %}
             {% if tag == '1X' %}
                 <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
@@ -153,7 +153,7 @@
               {% endcomment %}
             {% endif %}
         {% endfor %}
-    
+
         {% for tag in custom_tag_arr3 %}
             {% if tag == '2X' %}
                 <li{% if current_tags contains tag %} class="active"{% endif %}><a href="/collections/{{ tag | handle }}">{{ tag }}</a></li>
@@ -170,7 +170,7 @@
               {% endunless %}
               {% endcomment %}
             {% endif %}
-        {% endfor %}    
+        {% endfor %}
     {% endcapture %}
     {% endif %}
 
@@ -317,94 +317,87 @@
 {% unless collection.products_count <= 12 %}
 {{ 'tricky3.infinitescroll.v2.min.js' | asset_url | script_tag }}
 <script>
-  //Ref: templates/collections.v2.liquid
-  $(function(){
-      var itemsWrapper = '.product-list';
-      //Manual loading example
-      var manualLoadingOptions = {
-          selectors: {
-                  itemsWrapper: itemsWrapper,
-                  item: '.product-block',
-                  nextPageLink: '.next',
-                  previousPageLink: '.prev',
-                  paginationWrapper: '.pagination'
-                },
-                pageQueryStringKey: 'page',
-                waitForImagesToBeLoaded: false,
-                enablePageState: true,
-                manualLoading: true,
-                callBacks: {
-                  onAllPagesLoaded: function(){
-                    $('.pagination').css("display", "none");
-                  },
-                  onPageLoad: function(items){
-                  },
-                  beforePageLoad: function(){
-                  }
-                }
-      };
-      $(itemsWrapper).t3PageLoad(manualLoadingOptions);
-      //End manual loading example
+$(function(){
+    var itemsWrapper = '.product-list';
+    var manualLoadingOptions = {
+        selectors: {
+            itemsWrapper: itemsWrapper,
+            item: '.product-block',
+            nextPageLink: '.next',
+            previousPageLink: '.prev',
+            paginationWrapper: '.pagination'
+        },
+        pageQueryStringKey: 'page',
+        waitForImagesToBeLoaded: false,
+        enablePageState: true,
+        manualLoading: true,
+        callBacks: {
+            onAllPagesLoaded: function(){
+                $('.pagination').css("display", "none");
+            },
+            onPageLoad: function(items){},
+            beforePageLoad: function(){}
+        }
+    };
+    $(itemsWrapper).t3PageLoad(manualLoadingOptions);
 
-      //Scrolling loading example
-      var scrollingLoadingOptions = {
-          selectors: {
-                  itemsWrapper: itemsWrapper,
-                  item: '.product-block',
-                  nextPageLink: '.next',
-                  previousPageLink: '.prev',
-                  paginationWrapper: '.pagination',
-                  manualLoading: true,
-                  //scrollableElem: itemsWrapper, YOU CAN SPECIFY THIS
-                },
-                waitForImagesToBeLoaded: true,
-                //throttleDelay: 100, YOU CAN SPECIFY THIS
-                callBacks: {
-                  onAllPagesLoaded: function(){
-                    $('.pagination').css("display", "none");
-                    $('.loading').hide();
-                    // console.log('All pages loaded callback called...');
-                  },
-                  onPageLoad: function(items){
-                      $('.loading').hide();
-                      $('.product-block').each(function(){
-                          var self = $(this);
-                          self.find('select.option--color, select.option--textile, select.option--textiles').each(function(){
-                              var selectedColor = $(this).val();
-                              self.find('.color-options .color-label').html(selectedColor.replace(/-/g, ' '));
-                              self.find('.thumbnails a').each(function(){
-                                  if ($(this).data('value') == selectedColor) {
-                                      $(this).show();
-                                  } else {
-                                      $(this).hide();
-                                  }
-                              });
-                              $(this).change(function(){
-                                  var newVal = $(this).val();
-                                  self.find('.color-options .color-label').html(newVal.replace(/-/g, ' '));
-                                  self.find('.thumbnails a').each(function(){
-                                      if ($(this).data('value') == newVal) {
-                                          $(this).show();
-                                      } else {
-                                          $(this).hide();
-                                      }
-                                  });
-                              });
-                          });
-                      });
-                    // console.log("Page loaded callback called..");
-                  },
-                  beforePageLoad: function(){
-                      $('.loading').show();
-                    // console.log("Before page load callback called..");
-                  }
-                }
-      };
-      $(itemsWrapper).t3PageLoad(scrollingLoadingOptions);
-      //End scrolling loading example
-  });
-  </script>
- {% endunless %}
+    var scrollingLoadingOptions = {
+        selectors: {
+            itemsWrapper: itemsWrapper,
+            item: '.product-block',
+            nextPageLink: '.next',
+            previousPageLink: '.prev',
+            paginationWrapper: '.pagination',
+            manualLoading: true,
+            //scrollableElem: itemsWrapper,
+        },
+        waitForImagesToBeLoaded: true,
+        //throttleDelay: 100,
+        callBacks: {
+            onAllPagesLoaded: function(){
+                $('.pagination').css("display", "none");
+                $('.loading').hide();
+                // console.log('All pages loaded callback called...');
+            },
+            onPageLoad: function(items){
+                $('.loading').hide();
+                $('.product-block').each(function(){
+                var self = $(this);
+                self.find('select.option--color, select.option--textile, select.option--textiles').each(function(){
+                    var selectedColor = $(this).val();
+                    self.find('.color-options .color-label').html(selectedColor.replace(/-/g, ' '));
+                    self.find('.thumbnails a').each(function(){
+                        if ($(this).data('value') == selectedColor) {
+                            $(this).show();
+                        } else {
+                            $(this).hide();
+                        }
+                    });
+                    $(this).change(function(){
+                        var newVal = $(this).val();
+                        self.find('.color-options .color-label').html(newVal.replace(/-/g, ' '));
+                        self.find('.thumbnails a').each(function(){
+                            if ($(this).data('value') == newVal) {
+                                $(this).show();
+                            } else {
+                                $(this).hide();
+                            }
+                        });
+                    });
+                });
+            });
+            // console.log("Page loaded callback called..");
+        },
+        beforePageLoad: function(){
+            $('.loading').show();
+            // console.log("Before page load callback called..");
+        }
+    }
+};
+    $(itemsWrapper).t3PageLoad(scrollingLoadingOptions);
+});
+</script>
+{% endunless %}
 {% endif %}
 
 

@@ -1,13 +1,90 @@
 {% capture chevron_right %}<span class="icon-small icon-natcol">{% include 'svg-chevron-right' %}</span>{% endcapture %}
-<div data-section-type="blog-template">
+<div class="collections-blog" data-section-type="blog-template">
     {% paginate blog.articles by 1 %}
         {% for article in blog.articles %}
             {% include 'article_collections' %}
         {% endfor %}
         <div class="container pagination-row">{% include 'pagination-control' %}</div>
+        <div class="blog-page-foot"></div>
     {% endpaginate %}
 </div>
 
+{{ 'tricky3.infinitescroll.v2.min.js' | asset_url | script_tag }}
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script>
+$(function(){
+    var itemsWrapper = '.collections-blog';
+    var manualLoadingOptions = {
+        selectors: {
+            itemsWrapper: itemsWrapper,
+            item: '.collection-article',
+            nextPageLink: '.next',
+            previousPageLink: '.prev',
+            paginationWrapper: '.pagination'
+        },
+        pageQueryStringKey: 'page',
+        waitForImagesToBeLoaded: true,
+        enablePageState: true,
+        manualLoading: true
+    };
+    $(itemsWrapper).t3PageLoad(manualLoadingOptions);
+
+    var scrollingLoadingOptions = {
+        selectors: {
+            itemsWrapper: itemsWrapper,
+            item: '.collection-article',
+            nextPageLink: '.next',
+            previousPageLink: '.prev',
+            paginationWrapper: '.pagination',
+            manualLoading: true,
+            //scrollableElem: itemsWrapper,
+        },
+        waitForImagesToBeLoaded: true,
+        //throttleDelay: 100,
+        callBacks: {
+            onAllPagesLoaded: function(){
+                $('.pagination').css("display", "none");
+                $('.loading').hide();
+                // console.log('All pages loaded callback called...');
+            },
+            onPageLoad: function(items){
+                $('.collection-slider-top').not('.slick-initialized').slick({
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>',
+                        nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>',
+                        responsive: [
+                          {
+                              breakpoint: 480,
+                              settings: {
+                                  slidesToShow: 1
+                              }
+                          }
+                        ]
+                });
+
+                $('.collection-slider-bottom').not('.slick-initialized').slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>',
+                        nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>'
+                });
+                $('.loading').hide();
+
+            },
+        beforePageLoad: function(){
+            $('.pagination').css("display", "none");
+            $('.loading').show();
+            // console.log("Before page load callback called..");
+        }
+    }
+};
+    $(itemsWrapper).t3PageLoad(scrollingLoadingOptions);
+});
+</script>
 
 {% schema %}
 {

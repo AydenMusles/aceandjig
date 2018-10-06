@@ -1741,10 +1741,11 @@ $(function($){
 
               //Slide down now
               $inner.trigger('changedsize');
+              console.log($inner);
 
               //Scroll to position the block at top of page
               saveCollectionPageData();
-              var offsetTop = typeof($block.data('offsetTop')) != 'undefined' ? $block.data('offsetTop') : $block.offset().top;
+              var offsetTop = typeof($inner.data('offsetTop')) != 'undefined' ? $inner.data('offsetTop') : $inner.offset().top;
               $('html:not(:animated),body:not(:animated)').animate({ scrollTop: offsetTop }, 500 );
             } else {
               //Contract
@@ -2285,33 +2286,7 @@ $(function($){
     }
   });
 
-  $('.collection-slider-top').each(function(){
-      $(this).slick({
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          arrows: true,
-          prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>',
-          nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>',
-          responsive: [
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1
-                }
-            }
-          ]
-      });
-  });
 
-  $('.collection-slider-bottom').each(function(){
-      $(this).slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: true,
-          prevArrow: '<button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg></button>',
-          nextArrow: '<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></button>'
-      });
-  });
 
   /// Register all sections
   theme.Sections.init();

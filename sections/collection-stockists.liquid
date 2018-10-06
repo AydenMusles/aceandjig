@@ -6,6 +6,9 @@
     {% if section.settings.coll_desc_pos == 'below' %}
     <h1 class="majortitle">{{ collection.title | escape }}</h1>
     {% endif %}
+    {% if section.settings.coll_desc_pos == 'below' %}
+    <h3 class="majortitle">click into each style to see details about textiles, price, measurements, and a list of all stores that will carry it.</h3>
+    {% endif %}
 
     {% if collection.description != blank %}
     <div class="user-content lightly-spaced-row {% if settings.lightbox_imgs %}lightboximages{% endif %}">

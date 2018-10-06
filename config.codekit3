@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,260 +7,270 @@
 		"uuidString": "BE232D02-619C-44D4-86A3-BC47BFD184A4"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28901",
 "files": {
-	"\/assets\/ajax-load.gif": {
+	"/assets/ajax-load.gif": {
 		"ft": 4194304,
 		"iS": 723,
 		"oA": 0,
-		"oAP": "\/assets\/ajax-load.gif",
+		"oAP": "/assets/ajax-load.gif",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/arrow-line.png": {
+	"/assets/arrow-line.png": {
 		"ft": 32768,
 		"iS": 235,
 		"oA": 0,
-		"oAP": "\/assets\/arrow-line.png",
+		"oAP": "/assets/arrow-line.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/blank.gif": {
+	"/assets/blank.gif": {
 		"ft": 4194304,
 		"iS": 43,
 		"oA": 0,
-		"oAP": "\/assets\/blank.gif",
+		"oAP": "/assets/blank.gif",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/block-cross.png": {
+	"/assets/block-cross.png": {
 		"ft": 32768,
 		"iS": 104,
 		"oA": 0,
-		"oAP": "\/assets\/block-cross.png",
+		"oAP": "/assets/block-cross.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancy_close.png": {
+	"/assets/fancy_close.png": {
 		"ft": 32768,
 		"iS": 1517,
 		"oA": 0,
-		"oAP": "\/assets\/fancy_close.png",
+		"oAP": "/assets/fancy_close.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancy_loading.png": {
+	"/assets/fancy_loading.png": {
 		"ft": 32768,
 		"iS": 10195,
 		"oA": 0,
-		"oAP": "\/assets\/fancy_loading.png",
+		"oAP": "/assets/fancy_loading.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancy_nav_left.png": {
+	"/assets/fancy_nav_left.png": {
 		"ft": 32768,
 		"iS": 1446,
 		"oA": 0,
-		"oAP": "\/assets\/fancy_nav_left.png",
+		"oAP": "/assets/fancy_nav_left.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancy_nav_right.png": {
+	"/assets/fancy_nav_right.png": {
 		"ft": 32768,
 		"iS": 1454,
 		"oA": 0,
-		"oAP": "\/assets\/fancy_nav_right.png",
+		"oAP": "/assets/fancy_nav_right.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancy_title_left.png": {
+	"/assets/fancy_title_left.png": {
 		"ft": 32768,
 		"iS": 503,
 		"oA": 0,
-		"oAP": "\/assets\/fancy_title_left.png",
+		"oAP": "/assets/fancy_title_left.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancy_title_main.png": {
+	"/assets/fancy_title_main.png": {
 		"ft": 32768,
 		"iS": 96,
 		"oA": 0,
-		"oAP": "\/assets\/fancy_title_main.png",
+		"oAP": "/assets/fancy_title_main.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancy_title_over.png": {
+	"/assets/fancy_title_over.png": {
 		"ft": 32768,
 		"iS": 70,
 		"oA": 0,
-		"oAP": "\/assets\/fancy_title_over.png",
+		"oAP": "/assets/fancy_title_over.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancy_title_right.png": {
+	"/assets/fancy_title_right.png": {
 		"ft": 32768,
 		"iS": 506,
 		"oA": 0,
-		"oAP": "\/assets\/fancy_title_right.png",
+		"oAP": "/assets/fancy_title_right.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancybox-x.png": {
+	"/assets/fancybox-x.png": {
 		"ft": 32768,
 		"iS": 203,
 		"oA": 0,
-		"oAP": "\/assets\/fancybox-x.png",
+		"oAP": "/assets/fancybox-x.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancybox-y.png": {
+	"/assets/fancybox-y.png": {
 		"ft": 32768,
 		"iS": 176,
 		"oA": 0,
-		"oAP": "\/assets\/fancybox-y.png",
+		"oAP": "/assets/fancybox-y.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/fancybox.png": {
+	"/assets/fancybox.png": {
 		"ft": 32768,
 		"iS": 15287,
 		"oA": 0,
-		"oAP": "\/assets\/fancybox.png",
+		"oAP": "/assets/fancybox.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/flexslider-leftright.png": {
+	"/assets/flexslider-leftright.png": {
 		"ft": 32768,
 		"iS": 816,
 		"oA": 0,
-		"oAP": "\/assets\/flexslider-leftright.png",
+		"oAP": "/assets/flexslider-leftright.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/gravatar_def.png": {
+	"/assets/gravatar_def.png": {
 		"ft": 32768,
 		"iS": 6847,
 		"oA": 0,
-		"oAP": "\/assets\/gravatar_def.png",
+		"oAP": "/assets/gravatar_def.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/ico-checkout-lock-contrasty.png": {
+	"/assets/ico-checkout-lock-contrasty.png": {
 		"ft": 32768,
 		"iS": 380,
 		"oA": 0,
-		"oAP": "\/assets\/ico-checkout-lock-contrasty.png",
+		"oAP": "/assets/ico-checkout-lock-contrasty.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/jquery.cart.min-min.js": {
+	"/assets/jquery.cart.min-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/jquery.cart.min-min-min.js",
+		"oAP": "/assets/jquery.cart.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/assets\/jquery.cart.min.js": {
+	"/assets/jquery.cart.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/jquery.cart.min-min.js",
+		"oAP": "/assets/jquery.cart.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/assets\/jquery.currencies.min-min.js": {
+	"/assets/jquery.currencies.min-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/jquery.currencies.min-min-min.js",
+		"oAP": "/assets/jquery.currencies.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/assets\/jquery.currencies.min.js": {
+	"/assets/jquery.currencies.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/jquery.currencies.min-min.js",
+		"oAP": "/assets/jquery.currencies.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/assets\/link-sq.png": {
+	"/assets/link-sq.png": {
 		"ft": 32768,
 		"iS": 184,
 		"oA": 0,
-		"oAP": "\/assets\/link-sq.png",
+		"oAP": "/assets/link-sq.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/loading.gif": {
+	"/assets/loading.gif": {
 		"ft": 4194304,
 		"iS": 6561,
 		"oA": 0,
-		"oAP": "\/assets\/loading.gif",
+		"oAP": "/assets/loading.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
-	"\/assets\/styles.scss": {
+	"/assets/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -268,1719 +278,1750 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/styles.css",
+		"oAP": "/assets/styles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles.scss.liquid": {
+	"/assets/styles.scss.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/styles.scss.liquid",
+		"oAP": "/assets/styles.scss.liquid",
 		"oF": 0
 		},
-	"\/assets\/swatch-aloha.png": {
+	"/assets/swatch-aloha.png": {
 		"ft": 32768,
 		"iS": 12457,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-aloha.png",
+		"oAP": "/assets/swatch-aloha.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-amber.png": {
+	"/assets/swatch-amber.png": {
 		"ft": 32768,
 		"iS": 3404,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-amber.png",
+		"oAP": "/assets/swatch-amber.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-ambrosia.png": {
+	"/assets/swatch-ambrosia.png": {
 		"ft": 32768,
 		"iS": 17652,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-ambrosia.png",
+		"oAP": "/assets/swatch-ambrosia.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-amulet.png": {
+	"/assets/swatch-amulet.png": {
 		"ft": 32768,
 		"iS": 3415,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-amulet.png",
+		"oAP": "/assets/swatch-amulet.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-bijou.png": {
+	"/assets/swatch-bijou.png": {
 		"ft": 32768,
 		"iS": 3442,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-bijou.png",
+		"oAP": "/assets/swatch-bijou.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-blackbird.png": {
+	"/assets/swatch-blackbird.png": {
 		"ft": 32768,
 		"iS": 3392,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-blackbird.png",
+		"oAP": "/assets/swatch-blackbird.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-bonbon.png": {
+	"/assets/swatch-bonbon.png": {
 		"ft": 32768,
 		"iS": 3376,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-bonbon.png",
+		"oAP": "/assets/swatch-bonbon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-brandy.png": {
+	"/assets/swatch-brandy.png": {
 		"ft": 32768,
 		"iS": 17635,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-brandy.png",
+		"oAP": "/assets/swatch-brandy.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-calico.png": {
+	"/assets/swatch-calico.png": {
 		"ft": 32768,
 		"iS": 3442,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-calico.png",
+		"oAP": "/assets/swatch-calico.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-canyon.png": {
+	"/assets/swatch-canyon.png": {
 		"ft": 32768,
 		"iS": 3401,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-canyon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/swatch-casino.png": {
-		"ft": 32768,
-		"iS": 3442,
-		"oA": 0,
-		"oAP": "\/assets\/swatch-casino.png",
+		"oAP": "/assets/swatch-canyon.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-celadon.png": {
+	"/assets/swatch-casino.png": {
+		"ft": 32768,
+		"iS": 3442,
+		"oA": 0,
+		"oAP": "/assets/swatch-casino.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/swatch-celadon.png": {
 		"ft": 32768,
 		"iS": 21405,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-celadon.png",
+		"oAP": "/assets/swatch-celadon.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-channel.png": {
+	"/assets/swatch-channel.png": {
 		"ft": 32768,
 		"iS": 3360,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-channel.png",
+		"oAP": "/assets/swatch-channel.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-charm.png": {
+	"/assets/swatch-charm.png": {
 		"ft": 32768,
 		"iS": 3404,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-charm.png",
+		"oAP": "/assets/swatch-charm.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-chess.png": {
+	"/assets/swatch-chess.png": {
 		"ft": 32768,
 		"iS": 3252,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-chess.png",
+		"oAP": "/assets/swatch-chess.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-clay.png": {
+	"/assets/swatch-clay.png": {
 		"ft": 32768,
 		"iS": 20609,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-clay.png",
+		"oAP": "/assets/swatch-clay.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-cognac.png": {
+	"/assets/swatch-cognac.png": {
 		"ft": 32768,
 		"iS": 24266,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-cognac.png",
+		"oAP": "/assets/swatch-cognac.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-concrete.png": {
+	"/assets/swatch-concrete.png": {
 		"ft": 32768,
 		"iS": 3404,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-concrete.png",
+		"oAP": "/assets/swatch-concrete.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-corsica.png": {
+	"/assets/swatch-corsica.png": {
 		"ft": 32768,
 		"iS": 3340,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-corsica.png",
+		"oAP": "/assets/swatch-corsica.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-daybreak.png": {
+	"/assets/swatch-daybreak.png": {
 		"ft": 32768,
 		"iS": 26660,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-daybreak.png",
+		"oAP": "/assets/swatch-daybreak.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-duchess.png": {
+	"/assets/swatch-duchess.png": {
 		"ft": 32768,
 		"iS": 3442,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-duchess.png",
+		"oAP": "/assets/swatch-duchess.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-dusk.png": {
+	"/assets/swatch-dusk.png": {
 		"ft": 32768,
 		"iS": 3425,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-dusk.png",
+		"oAP": "/assets/swatch-dusk.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-empress.png": {
+	"/assets/swatch-empress.png": {
 		"ft": 32768,
 		"iS": 3442,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-empress.png",
+		"oAP": "/assets/swatch-empress.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-fete.png": {
+	"/assets/swatch-fete.png": {
 		"ft": 32768,
 		"iS": 21930,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-fete.png",
+		"oAP": "/assets/swatch-fete.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-fiesta.png": {
+	"/assets/swatch-fiesta.png": {
 		"ft": 32768,
 		"iS": 17687,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-fiesta.png",
+		"oAP": "/assets/swatch-fiesta.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-florence.png": {
+	"/assets/swatch-florence.png": {
 		"ft": 32768,
 		"iS": 3442,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-florence.png",
+		"oAP": "/assets/swatch-florence.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-floret.png": {
+	"/assets/swatch-floret.png": {
 		"ft": 32768,
 		"iS": 3383,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-floret.png",
+		"oAP": "/assets/swatch-floret.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-hope.png": {
+	"/assets/swatch-hope.png": {
 		"ft": 32768,
 		"iS": 3442,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-hope.png",
+		"oAP": "/assets/swatch-hope.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-mardi-gras.png": {
+	"/assets/swatch-mardi-gras.png": {
 		"ft": 32768,
 		"iS": 3427,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-mardi-gras.png",
+		"oAP": "/assets/swatch-mardi-gras.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-marine.png": {
+	"/assets/swatch-marine.png": {
 		"ft": 32768,
 		"iS": 3368,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-marine.png",
+		"oAP": "/assets/swatch-marine.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-martinique.png": {
+	"/assets/swatch-martinique.png": {
 		"ft": 32768,
 		"iS": 3432,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-martinique.png",
+		"oAP": "/assets/swatch-martinique.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-nymph.png": {
+	"/assets/swatch-nymph.png": {
 		"ft": 32768,
 		"iS": 3317,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-nymph.png",
+		"oAP": "/assets/swatch-nymph.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-opera.png": {
+	"/assets/swatch-opera.png": {
 		"ft": 32768,
 		"iS": 3419,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-opera.png",
+		"oAP": "/assets/swatch-opera.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-orchid.png": {
+	"/assets/swatch-orchid.png": {
 		"ft": 32768,
 		"iS": 3442,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-orchid.png",
+		"oAP": "/assets/swatch-orchid.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-parasol.png": {
+	"/assets/swatch-parasol.png": {
 		"ft": 32768,
 		"iS": 3332,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-parasol.png",
+		"oAP": "/assets/swatch-parasol.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-passion.png": {
+	"/assets/swatch-passion.png": {
 		"ft": 32768,
 		"iS": 3346,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-passion.png",
+		"oAP": "/assets/swatch-passion.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-pinwheel.png": {
+	"/assets/swatch-pinwheel.png": {
 		"ft": 32768,
 		"iS": 13991,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-pinwheel.png",
+		"oAP": "/assets/swatch-pinwheel.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-pirouette.png": {
+	"/assets/swatch-pirouette.png": {
 		"ft": 32768,
 		"iS": 2480,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-pirouette.png",
+		"oAP": "/assets/swatch-pirouette.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-plume.png": {
+	"/assets/swatch-plume.png": {
 		"ft": 32768,
 		"iS": 3378,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-plume.png",
+		"oAP": "/assets/swatch-plume.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-ribbon-candy.png": {
+	"/assets/swatch-ribbon-candy.png": {
 		"ft": 32768,
 		"iS": 3339,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-ribbon-candy.png",
+		"oAP": "/assets/swatch-ribbon-candy.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-ribboncandy.png": {
+	"/assets/swatch-ribboncandy.png": {
 		"ft": 32768,
 		"iS": 3339,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-ribboncandy.png",
+		"oAP": "/assets/swatch-ribboncandy.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-rockaway.png": {
+	"/assets/swatch-rockaway.png": {
 		"ft": 32768,
 		"iS": 3404,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-rockaway.png",
+		"oAP": "/assets/swatch-rockaway.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-sardinia.png": {
+	"/assets/swatch-sardinia.png": {
 		"ft": 32768,
 		"iS": 3386,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-sardinia.png",
+		"oAP": "/assets/swatch-sardinia.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-scorpio.png": {
+	"/assets/swatch-scorpio.png": {
 		"ft": 32768,
 		"iS": 2370,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-scorpio.png",
+		"oAP": "/assets/swatch-scorpio.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-seventies.png": {
+	"/assets/swatch-seventies.png": {
 		"ft": 32768,
 		"iS": 28262,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-seventies.png",
+		"oAP": "/assets/swatch-seventies.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-sriracha.png": {
+	"/assets/swatch-sriracha.png": {
 		"ft": 32768,
 		"iS": 17432,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-sriracha.png",
+		"oAP": "/assets/swatch-sriracha.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-starboard.png": {
+	"/assets/swatch-starboard.png": {
 		"ft": 32768,
 		"iS": 19734,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-starboard.png",
+		"oAP": "/assets/swatch-starboard.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-swell.png": {
+	"/assets/swatch-swell.png": {
 		"ft": 32768,
 		"iS": 3404,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-swell.png",
+		"oAP": "/assets/swatch-swell.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-topanga.png": {
+	"/assets/swatch-topanga.png": {
 		"ft": 32768,
 		"iS": 3442,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-topanga.png",
+		"oAP": "/assets/swatch-topanga.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-tuxedo.png": {
+	"/assets/swatch-tuxedo.png": {
 		"ft": 32768,
 		"iS": 3392,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-tuxedo.png",
+		"oAP": "/assets/swatch-tuxedo.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/swatch-voyage.png": {
+	"/assets/swatch-voyage.png": {
 		"ft": 32768,
 		"iS": 16400,
 		"oA": 0,
-		"oAP": "\/assets\/swatch-voyage.png",
+		"oAP": "/assets/swatch-voyage.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/theme.js": {
+	"/assets/theme.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/theme-min.js",
+		"oAP": "/assets/theme-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/assets\/theme.js.liquid": {
+	"/assets/theme.js.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/theme.js.liquid",
+		"oAP": "/assets/theme.js.liquid",
 		"oF": 0
 		},
-	"\/assets\/tricky3.infinitescroll.v2.min-min.js": {
+	"/assets/tricky3.infinitescroll.v2.min-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/tricky3.infinitescroll.v2.min-min-min.js",
+		"oAP": "/assets/tricky3.infinitescroll.v2.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/assets\/tricky3.infinitescroll.v2.min.js": {
+	"/assets/tricky3.infinitescroll.v2.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/tricky3.infinitescroll.v2.min-min.js",
+		"oAP": "/assets/tricky3.infinitescroll.v2.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/assets\/vendor.js": {
+	"/assets/vendor-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/vendor-min.js",
+		"oAP": "/assets/vendor-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/config.yml": {
+	"/assets/vendor.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/vendor-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/build/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/config.yml",
+		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
-	"\/config\/settings_data.json": {
+	"/config.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/config.yml",
+		"oF": 0
+		},
+	"/config/settings_data.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/config\/settings_data-min.json",
+		"oAP": "/config/settings_data-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/config\/settings_schema.json": {
+	"/config/settings_schema.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/config\/settings_schema-min.json",
+		"oAP": "/config/settings_schema-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/layout\/theme.liquid": {
+	"/layout/theme.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/layout\/theme.liquid",
+		"oAP": "/layout/theme.liquid",
 		"oF": 0
 		},
-	"\/locales\/en.default.json": {
+	"/locales/en.default.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/locales\/en.default-min.json",
+		"oAP": "/locales/en.default-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/sections\/article-template.liquid": {
+	"/sections/article-template.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/article-template.liquid",
+		"oAP": "/sections/article-template.liquid",
 		"oF": 0
 		},
-	"\/sections\/blog-template.liquid": {
+	"/sections/blog-template.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/blog-template.liquid",
+		"oAP": "/sections/blog-template.liquid",
 		"oF": 0
 		},
-	"\/sections\/blog_collections.liquid": {
+	"/sections/blog_collections.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/blog_collections.liquid",
+		"oAP": "/sections/blog_collections.liquid",
 		"oF": 0
 		},
-	"\/sections\/blog_three-grid.liquid": {
+	"/sections/blog_three-grid.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/blog_three-grid.liquid",
+		"oAP": "/sections/blog_three-grid.liquid",
 		"oF": 0
 		},
-	"\/sections\/blog_two-grid.liquid": {
+	"/sections/blog_two-grid.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/blog_two-grid.liquid",
+		"oAP": "/sections/blog_two-grid.liquid",
 		"oF": 0
 		},
-	"\/sections\/cart-template.liquid": {
+	"/sections/cart-template.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/cart-template.liquid",
+		"oAP": "/sections/cart-template.liquid",
 		"oF": 0
 		},
-	"\/sections\/collage-with-text.liquid": {
+	"/sections/collage-with-text.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/collage-with-text.liquid",
+		"oAP": "/sections/collage-with-text.liquid",
 		"oF": 0
 		},
-	"\/sections\/collection-stockists.liquid": {
+	"/sections/collection-stockists.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/collection-stockists.liquid",
+		"oAP": "/sections/collection-stockists.liquid",
 		"oF": 0
 		},
-	"\/sections\/collection-template.liquid": {
+	"/sections/collection-template.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/collection-template.liquid",
+		"oAP": "/sections/collection-template.liquid",
 		"oF": 0
 		},
-	"\/sections\/community-custom-one.liquid": {
+	"/sections/collections-archive-images.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/community-custom-one.liquid",
+		"oAP": "/sections/collections-archive-images.liquid",
 		"oF": 0
 		},
-	"\/sections\/community-custom-two.liquid": {
+	"/sections/community-custom-one.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/community-custom-two.liquid",
+		"oAP": "/sections/community-custom-one.liquid",
 		"oF": 0
 		},
-	"\/sections\/community-rich-text.liquid": {
+	"/sections/community-custom-two.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/community-rich-text.liquid",
+		"oAP": "/sections/community-custom-two.liquid",
 		"oF": 0
 		},
-	"\/sections\/cross-page-promos.liquid": {
+	"/sections/community-rich-text.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/cross-page-promos.liquid",
+		"oAP": "/sections/community-rich-text.liquid",
 		"oF": 0
 		},
-	"\/sections\/custom-row.liquid": {
+	"/sections/cross-page-promos.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/custom-row.liquid",
+		"oAP": "/sections/cross-page-promos.liquid",
 		"oF": 0
 		},
-	"\/sections\/ecology-custom.liquid": {
+	"/sections/custom-row.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/ecology-custom.liquid",
+		"oAP": "/sections/custom-row.liquid",
 		"oF": 0
 		},
-	"\/sections\/featured-blog.liquid": {
+	"/sections/ecology-custom.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/featured-blog.liquid",
+		"oAP": "/sections/ecology-custom.liquid",
 		"oF": 0
 		},
-	"\/sections\/featured-collection.liquid": {
+	"/sections/featured-blog.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/featured-collection.liquid",
+		"oAP": "/sections/featured-blog.liquid",
 		"oF": 0
 		},
-	"\/sections\/featured-collections.liquid": {
+	"/sections/featured-collection.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/featured-collections.liquid",
+		"oAP": "/sections/featured-collection.liquid",
 		"oF": 0
 		},
-	"\/sections\/featured-product.liquid": {
+	"/sections/featured-collections.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/featured-product.liquid",
+		"oAP": "/sections/featured-collections.liquid",
 		"oF": 0
 		},
-	"\/sections\/footer.liquid": {
+	"/sections/featured-product.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/footer.liquid",
+		"oAP": "/sections/featured-product.liquid",
 		"oF": 0
 		},
-	"\/sections\/giving-back-custom.liquid": {
+	"/sections/footer.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/giving-back-custom.liquid",
+		"oAP": "/sections/footer.liquid",
 		"oF": 0
 		},
-	"\/sections\/header.liquid": {
+	"/sections/giving-back-custom.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/header.liquid",
+		"oAP": "/sections/giving-back-custom.liquid",
 		"oF": 0
 		},
-	"\/sections\/homepage_content-section.liquid": {
+	"/sections/header.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/homepage_content-section.liquid",
+		"oAP": "/sections/header.liquid",
 		"oF": 0
 		},
-	"\/sections\/image-with-text.liquid": {
+	"/sections/homepage_content-section.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/image-with-text.liquid",
+		"oAP": "/sections/homepage_content-section.liquid",
 		"oF": 0
 		},
-	"\/sections\/instagram.liquid": {
+	"/sections/image-with-text.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/instagram.liquid",
+		"oAP": "/sections/image-with-text.liquid",
 		"oF": 0
 		},
-	"\/sections\/lifespan-custom.liquid": {
+	"/sections/instagram.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/lifespan-custom.liquid",
+		"oAP": "/sections/instagram.liquid",
 		"oF": 0
 		},
-	"\/sections\/list-collections-template.liquid": {
+	"/sections/lifespan-custom.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/list-collections-template.liquid",
+		"oAP": "/sections/lifespan-custom.liquid",
 		"oF": 0
 		},
-	"\/sections\/map.liquid": {
+	"/sections/list-collections-template.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/map.liquid",
+		"oAP": "/sections/list-collections-template.liquid",
 		"oF": 0
 		},
-	"\/sections\/newsletter.liquid": {
+	"/sections/map.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/newsletter.liquid",
+		"oAP": "/sections/map.liquid",
 		"oF": 0
 		},
-	"\/sections\/no-waste-custom.liquid": {
+	"/sections/newsletter.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/no-waste-custom.liquid",
+		"oAP": "/sections/newsletter.liquid",
 		"oF": 0
 		},
-	"\/sections\/page-list-collections-template.liquid": {
+	"/sections/no-waste-custom.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/page-list-collections-template.liquid",
+		"oAP": "/sections/no-waste-custom.liquid",
 		"oF": 0
 		},
-	"\/sections\/page-values.liquid": {
+	"/sections/page-list-collections-template.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/page-values.liquid",
+		"oAP": "/sections/page-list-collections-template.liquid",
 		"oF": 0
 		},
-	"\/sections\/process-custom-one.liquid": {
+	"/sections/page-values.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/process-custom-one.liquid",
+		"oAP": "/sections/page-values.liquid",
 		"oF": 0
 		},
-	"\/sections\/product-template.liquid": {
+	"/sections/process-custom-one.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/product-template.liquid",
+		"oAP": "/sections/process-custom-one.liquid",
 		"oF": 0
 		},
-	"\/sections\/product-template_stockists.liquid": {
+	"/sections/product-template.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/product-template_stockists.liquid",
+		"oAP": "/sections/product-template.liquid",
 		"oF": 0
 		},
-	"\/sections\/quilt-custom-one.liquid": {
+	"/sections/product-template_stockists.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/quilt-custom-one.liquid",
+		"oAP": "/sections/product-template_stockists.liquid",
 		"oF": 0
 		},
-	"\/sections\/season.liquid": {
+	"/sections/quilt-custom-one.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/season.liquid",
+		"oAP": "/sections/quilt-custom-one.liquid",
 		"oF": 0
 		},
-	"\/sections\/slideshow.liquid": {
+	"/sections/season.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/slideshow.liquid",
+		"oAP": "/sections/season.liquid",
 		"oF": 0
 		},
-	"\/sections\/slow-fashion-custom.liquid": {
+	"/sections/slideshow.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/slow-fashion-custom.liquid",
+		"oAP": "/sections/slideshow.liquid",
 		"oF": 0
 		},
-	"\/sections\/ss18-collection-carousel.liquid": {
+	"/sections/slow-fashion-custom.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/ss18-collection-carousel.liquid",
+		"oAP": "/sections/slow-fashion-custom.liquid",
 		"oF": 0
 		},
-	"\/sections\/ss18-video.liquid": {
+	"/sections/ss18-collection-carousel.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/ss18-video.liquid",
+		"oAP": "/sections/ss18-collection-carousel.liquid",
 		"oF": 0
 		},
-	"\/sections\/story-custom-one.liquid": {
+	"/sections/ss18-video.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/story-custom-one.liquid",
+		"oAP": "/sections/ss18-video.liquid",
 		"oF": 0
 		},
-	"\/sections\/story-custom-three.liquid": {
+	"/sections/story-custom-one.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/story-custom-three.liquid",
+		"oAP": "/sections/story-custom-one.liquid",
 		"oF": 0
 		},
-	"\/sections\/story-custom-two.liquid": {
+	"/sections/story-custom-three.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/story-custom-two.liquid",
+		"oAP": "/sections/story-custom-three.liquid",
 		"oF": 0
 		},
-	"\/sections\/story-rich-text-two.liquid": {
+	"/sections/story-custom-two.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/story-rich-text-two.liquid",
+		"oAP": "/sections/story-custom-two.liquid",
 		"oF": 0
 		},
-	"\/sections\/story-rich-text.liquid": {
+	"/sections/story-rich-text-two.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/story-rich-text.liquid",
+		"oAP": "/sections/story-rich-text-two.liquid",
 		"oF": 0
 		},
-	"\/sections\/text-full-width.liquid": {
+	"/sections/story-rich-text.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/text-full-width.liquid",
+		"oAP": "/sections/story-rich-text.liquid",
 		"oF": 0
 		},
-	"\/sections\/text-image-overlay.liquid": {
+	"/sections/text-full-width.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/text-image-overlay.liquid",
+		"oAP": "/sections/text-full-width.liquid",
 		"oF": 0
 		},
-	"\/sections\/textile-archive-images.liquid": {
+	"/sections/text-image-overlay.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/textile-archive-images.liquid",
+		"oAP": "/sections/text-image-overlay.liquid",
 		"oF": 0
 		},
-	"\/sections\/values-custom-one.liquid": {
+	"/sections/textile-archive-images.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/values-custom-one.liquid",
+		"oAP": "/sections/textile-archive-images.liquid",
 		"oF": 0
 		},
-	"\/sections\/video.liquid": {
+	"/sections/values-custom-one.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/sections\/video.liquid",
+		"oAP": "/sections/values-custom-one.liquid",
 		"oF": 0
 		},
-	"\/snippets\/article_collections.liquid": {
+	"/sections/video.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/article_collections.liquid",
+		"oAP": "/sections/video.liquid",
 		"oF": 0
 		},
-	"\/snippets\/back-in-stock-helper.liquid": {
+	"/snippets/article_collections.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/back-in-stock-helper.liquid",
+		"oAP": "/snippets/article_collections.liquid",
 		"oF": 0
 		},
-	"\/snippets\/bgset.liquid": {
+	"/snippets/back-in-stock-helper.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/bgset.liquid",
+		"oAP": "/snippets/back-in-stock-helper.liquid",
 		"oF": 0
 		},
-	"\/snippets\/blog_responsive-image.liquid": {
+	"/snippets/bgset.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/blog_responsive-image.liquid",
+		"oAP": "/snippets/bgset.liquid",
 		"oF": 0
 		},
-	"\/snippets\/collection-block.liquid": {
+	"/snippets/blog_responsive-image.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/collection-block.liquid",
+		"oAP": "/snippets/blog_responsive-image.liquid",
 		"oF": 0
 		},
-	"\/snippets\/collections_product-img-switch.liquid": {
+	"/snippets/collection-block.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/collections_product-img-switch.liquid",
+		"oAP": "/snippets/collection-block.liquid",
 		"oF": 0
 		},
-	"\/snippets\/currencies-switcher.liquid": {
+	"/snippets/collections_product-img-switch.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/currencies-switcher.liquid",
+		"oAP": "/snippets/collections_product-img-switch.liquid",
 		"oF": 0
 		},
-	"\/snippets\/currencies.liquid": {
+	"/snippets/currencies-switcher.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/currencies.liquid",
+		"oAP": "/snippets/currencies-switcher.liquid",
 		"oF": 0
 		},
-	"\/snippets\/google-fonts-import.liquid": {
+	"/snippets/currencies.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/google-fonts-import.liquid",
+		"oAP": "/snippets/currencies.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-chat.liquid": {
+	"/snippets/google-fonts-import.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-chat.liquid",
+		"oAP": "/snippets/google-fonts-import.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-chevron-down.liquid": {
+	"/snippets/icon-chat.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-chevron-down.liquid",
+		"oAP": "/snippets/icon-chat.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-delivery.liquid": {
+	"/snippets/icon-chevron-down.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-delivery.liquid",
+		"oAP": "/snippets/icon-chevron-down.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-email.liquid": {
+	"/snippets/icon-delivery.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-email.liquid",
+		"oAP": "/snippets/icon-delivery.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-gift.liquid": {
+	"/snippets/icon-email.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-gift.liquid",
+		"oAP": "/snippets/icon-email.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-heart.liquid": {
+	"/snippets/icon-gift.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-heart.liquid",
+		"oAP": "/snippets/icon-gift.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-label.liquid": {
+	"/snippets/icon-heart.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-label.liquid",
+		"oAP": "/snippets/icon-heart.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-location.liquid": {
+	"/snippets/icon-label.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-location.liquid",
+		"oAP": "/snippets/icon-label.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-lock.liquid": {
+	"/snippets/icon-location.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-lock.liquid",
+		"oAP": "/snippets/icon-location.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-people.liquid": {
+	"/snippets/icon-lock.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-people.liquid",
+		"oAP": "/snippets/icon-lock.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-question.liquid": {
+	"/snippets/icon-people.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-question.liquid",
+		"oAP": "/snippets/icon-people.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-smile.liquid": {
+	"/snippets/icon-question.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-smile.liquid",
+		"oAP": "/snippets/icon-question.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-star.liquid": {
+	"/snippets/icon-smile.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-star.liquid",
+		"oAP": "/snippets/icon-smile.liquid",
 		"oF": 0
 		},
-	"\/snippets\/icon-telephone.liquid": {
+	"/snippets/icon-star.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/icon-telephone.liquid",
+		"oAP": "/snippets/icon-star.liquid",
 		"oF": 0
 		},
-	"\/snippets\/onboarding-collection-block.liquid": {
+	"/snippets/icon-telephone.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/onboarding-collection-block.liquid",
+		"oAP": "/snippets/icon-telephone.liquid",
 		"oF": 0
 		},
-	"\/snippets\/onboarding-product-block.liquid": {
+	"/snippets/onboarding-collection-block.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/onboarding-product-block.liquid",
+		"oAP": "/snippets/onboarding-collection-block.liquid",
 		"oF": 0
 		},
-	"\/snippets\/opengraph-tags.liquid": {
+	"/snippets/onboarding-product-block.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/opengraph-tags.liquid",
+		"oAP": "/snippets/onboarding-product-block.liquid",
 		"oF": 0
 		},
-	"\/snippets\/pagination-control.liquid": {
+	"/snippets/opengraph-tags.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/pagination-control.liquid",
+		"oAP": "/snippets/opengraph-tags.liquid",
 		"oF": 0
 		},
-	"\/snippets\/product-block-related.liquid": {
+	"/snippets/pagination-control.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/product-block-related.liquid",
+		"oAP": "/snippets/pagination-control.liquid",
 		"oF": 0
 		},
-	"\/snippets\/product-block-stockists.liquid": {
+	"/snippets/product-block-related.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/product-block-stockists.liquid",
+		"oAP": "/snippets/product-block-related.liquid",
 		"oF": 0
 		},
-	"\/snippets\/product-block.liquid": {
+	"/snippets/product-block-stockists.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/product-block.liquid",
+		"oAP": "/snippets/product-block-stockists.liquid",
 		"oF": 0
 		},
-	"\/snippets\/product-label.liquid": {
+	"/snippets/product-block.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/product-label.liquid",
+		"oAP": "/snippets/product-block.liquid",
 		"oF": 0
 		},
-	"\/snippets\/products_product-img-switch.liquid": {
+	"/snippets/product-label.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/products_product-img-switch.liquid",
+		"oAP": "/snippets/product-label.liquid",
 		"oF": 0
 		},
-	"\/snippets\/related-products.liquid": {
+	"/snippets/products_product-img-switch.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/related-products.liquid",
+		"oAP": "/snippets/products_product-img-switch.liquid",
 		"oF": 0
 		},
-	"\/snippets\/responsive-image.liquid": {
+	"/snippets/related-products.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/responsive-image.liquid",
+		"oAP": "/snippets/related-products.liquid",
 		"oF": 0
 		},
-	"\/snippets\/shipping-calculator.liquid": {
+	"/snippets/responsive-image.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/shipping-calculator.liquid",
+		"oAP": "/snippets/responsive-image.liquid",
 		"oF": 0
 		},
-	"\/snippets\/signup-form.liquid": {
+	"/snippets/shipping-calculator.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/signup-form.liquid",
+		"oAP": "/snippets/shipping-calculator.liquid",
 		"oF": 0
 		},
-	"\/snippets\/snippet_page-nav.liquid": {
+	"/snippets/signup-form.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/snippet_page-nav.liquid",
+		"oAP": "/snippets/signup-form.liquid",
 		"oF": 0
 		},
-	"\/snippets\/social-icons.liquid": {
+	"/snippets/snippet_page-nav.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/social-icons.liquid",
+		"oAP": "/snippets/snippet_page-nav.liquid",
 		"oF": 0
 		},
-	"\/snippets\/social-sharing.liquid": {
+	"/snippets/social-icons.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/social-sharing.liquid",
+		"oAP": "/snippets/social-icons.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-cart.liquid": {
+	"/snippets/social-sharing.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-cart.liquid",
+		"oAP": "/snippets/social-sharing.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-chevron-left.liquid": {
+	"/snippets/svg-cart.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-chevron-left.liquid",
+		"oAP": "/snippets/svg-cart.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-chevron-right.liquid": {
+	"/snippets/svg-chevron-left.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-chevron-right.liquid",
+		"oAP": "/snippets/svg-chevron-left.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-email.liquid": {
+	"/snippets/svg-chevron-right.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-email.liquid",
+		"oAP": "/snippets/svg-chevron-right.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-facebook.liquid": {
+	"/snippets/svg-email.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-facebook.liquid",
+		"oAP": "/snippets/svg-email.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-google-plus.liquid": {
+	"/snippets/svg-facebook.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-google-plus.liquid",
+		"oAP": "/snippets/svg-facebook.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-instagram.liquid": {
+	"/snippets/svg-google-plus.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-instagram.liquid",
+		"oAP": "/snippets/svg-google-plus.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-menu.liquid": {
+	"/snippets/svg-instagram.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-menu.liquid",
+		"oAP": "/snippets/svg-instagram.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-minus.liquid": {
+	"/snippets/svg-menu.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-minus.liquid",
+		"oAP": "/snippets/svg-menu.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-pin.liquid": {
+	"/snippets/svg-minus.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-pin.liquid",
+		"oAP": "/snippets/svg-minus.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-pinterest.liquid": {
+	"/snippets/svg-pin.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-pinterest.liquid",
+		"oAP": "/snippets/svg-pin.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-plus.liquid": {
+	"/snippets/svg-pinterest.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-plus.liquid",
+		"oAP": "/snippets/svg-pinterest.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-rss.liquid": {
+	"/snippets/svg-plus.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-rss.liquid",
+		"oAP": "/snippets/svg-plus.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-search.liquid": {
+	"/snippets/svg-rss.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-search.liquid",
+		"oAP": "/snippets/svg-rss.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-tumblr.liquid": {
+	"/snippets/svg-search.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-tumblr.liquid",
+		"oAP": "/snippets/svg-search.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-twitter.liquid": {
+	"/snippets/svg-tumblr.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-twitter.liquid",
+		"oAP": "/snippets/svg-tumblr.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-vimeo.liquid": {
+	"/snippets/svg-twitter.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-vimeo.liquid",
+		"oAP": "/snippets/svg-twitter.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-x.liquid": {
+	"/snippets/svg-vimeo.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-x.liquid",
+		"oAP": "/snippets/svg-vimeo.liquid",
 		"oF": 0
 		},
-	"\/snippets\/svg-youtube.liquid": {
+	"/snippets/svg-x.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/svg-youtube.liquid",
+		"oAP": "/snippets/svg-x.liquid",
 		"oF": 0
 		},
-	"\/snippets\/twitter-card.liquid": {
+	"/snippets/svg-youtube.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/snippets\/twitter-card.liquid",
+		"oAP": "/snippets/svg-youtube.liquid",
 		"oF": 0
 		},
-	"\/templates\/404.liquid": {
+	"/snippets/twitter-card.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/404.liquid",
+		"oAP": "/snippets/twitter-card.liquid",
 		"oF": 0
 		},
-	"\/templates\/article.liquid": {
+	"/templates/404.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/article.liquid",
+		"oAP": "/templates/404.liquid",
 		"oF": 0
 		},
-	"\/templates\/blog.liquid": {
+	"/templates/article.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/blog.liquid",
+		"oAP": "/templates/article.liquid",
 		"oF": 0
 		},
-	"\/templates\/cart.liquid": {
+	"/templates/blog.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/cart.liquid",
+		"oAP": "/templates/blog.liquid",
 		"oF": 0
 		},
-	"\/templates\/collection.liquid": {
+	"/templates/cart.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/collection.liquid",
+		"oAP": "/templates/cart.liquid",
 		"oF": 0
 		},
-	"\/templates\/collection.stockists.liquid": {
+	"/templates/collection.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/collection.stockists.liquid",
+		"oAP": "/templates/collection.liquid",
 		"oF": 0
 		},
-	"\/templates\/customers\/account.liquid": {
+	"/templates/collection.stockists.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/customers\/account.liquid",
+		"oAP": "/templates/collection.stockists.liquid",
 		"oF": 0
 		},
-	"\/templates\/customers\/activate_account.liquid": {
+	"/templates/customers/account.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/customers\/activate_account.liquid",
+		"oAP": "/templates/customers/account.liquid",
 		"oF": 0
 		},
-	"\/templates\/customers\/addresses.liquid": {
+	"/templates/customers/activate_account.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/customers\/addresses.liquid",
+		"oAP": "/templates/customers/activate_account.liquid",
 		"oF": 0
 		},
-	"\/templates\/customers\/login.liquid": {
+	"/templates/customers/addresses.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/customers\/login.liquid",
+		"oAP": "/templates/customers/addresses.liquid",
 		"oF": 0
 		},
-	"\/templates\/customers\/order.liquid": {
+	"/templates/customers/login.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/customers\/order.liquid",
+		"oAP": "/templates/customers/login.liquid",
 		"oF": 0
 		},
-	"\/templates\/customers\/register.liquid": {
+	"/templates/customers/order.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/customers\/register.liquid",
+		"oAP": "/templates/customers/order.liquid",
 		"oF": 0
 		},
-	"\/templates\/customers\/reset_password.liquid": {
+	"/templates/customers/register.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/customers\/reset_password.liquid",
+		"oAP": "/templates/customers/register.liquid",
 		"oF": 0
 		},
-	"\/templates\/gift_card.liquid": {
+	"/templates/customers/reset_password.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/gift_card.liquid",
+		"oAP": "/templates/customers/reset_password.liquid",
 		"oF": 0
 		},
-	"\/templates\/index.liquid": {
+	"/templates/gift_card.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/index.liquid",
+		"oAP": "/templates/gift_card.liquid",
 		"oF": 0
 		},
-	"\/templates\/list-collections.liquid": {
+	"/templates/index.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/list-collections.liquid",
+		"oAP": "/templates/index.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.article-width.liquid": {
+	"/templates/list-collections.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.article-width.liquid",
+		"oAP": "/templates/list-collections.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.community-quilt.liquid": {
+	"/templates/page.article-width.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.community-quilt.liquid",
+		"oAP": "/templates/page.article-width.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.community.liquid": {
+	"/templates/page.collections-archive.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.community.liquid",
+		"oAP": "/templates/page.collections-archive.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.contact-centered.liquid": {
+	"/templates/page.community-quilt.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.contact-centered.liquid",
+		"oAP": "/templates/page.community-quilt.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.contact.liquid": {
+	"/templates/page.community.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.contact.liquid",
+		"oAP": "/templates/page.community.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.ecology.liquid": {
+	"/templates/page.contact-centered.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.ecology.liquid",
+		"oAP": "/templates/page.contact-centered.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.giving-back.liquid": {
+	"/templates/page.contact.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.giving-back.liquid",
+		"oAP": "/templates/page.contact.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.lifespan.liquid": {
+	"/templates/page.ecology.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.lifespan.liquid",
+		"oAP": "/templates/page.ecology.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.liquid": {
+	"/templates/page.giving-back.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.liquid",
+		"oAP": "/templates/page.giving-back.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.list-collections.liquid": {
+	"/templates/page.lifespan.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.list-collections.liquid",
+		"oAP": "/templates/page.lifespan.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.no-waste.liquid": {
+	"/templates/page.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.no-waste.liquid",
+		"oAP": "/templates/page.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.process.liquid": {
+	"/templates/page.list-collections.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.process.liquid",
+		"oAP": "/templates/page.list-collections.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.season.liquid": {
+	"/templates/page.no-waste.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.season.liquid",
+		"oAP": "/templates/page.no-waste.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.slow-fashion.liquid": {
+	"/templates/page.process.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.slow-fashion.liquid",
+		"oAP": "/templates/page.process.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.spring18.liquid": {
+	"/templates/page.season.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.spring18.liquid",
+		"oAP": "/templates/page.season.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.stockists-store.liquid": {
+	"/templates/page.slow-fashion.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.stockists-store.liquid",
+		"oAP": "/templates/page.slow-fashion.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.story.liquid": {
+	"/templates/page.spring18.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.story.liquid",
+		"oAP": "/templates/page.spring18.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.textile-archive.liquid": {
+	"/templates/page.stockists-store.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.textile-archive.liquid",
+		"oAP": "/templates/page.stockists-store.liquid",
 		"oF": 0
 		},
-	"\/templates\/page.values.liquid": {
+	"/templates/page.story.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.values.liquid",
+		"oAP": "/templates/page.story.liquid",
 		"oF": 0
 		},
-	"\/templates\/password.liquid": {
+	"/templates/page.textile-archive.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/password.liquid",
+		"oAP": "/templates/page.textile-archive.liquid",
 		"oF": 0
 		},
-	"\/templates\/product.liquid": {
+	"/templates/page.values.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/product.liquid",
+		"oAP": "/templates/page.values.liquid",
 		"oF": 0
 		},
-	"\/templates\/product.stockists.liquid": {
+	"/templates/password.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/product.stockists.liquid",
+		"oAP": "/templates/password.liquid",
 		"oF": 0
 		},
-	"\/templates\/search.json.liquid": {
+	"/templates/product.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/search.json.liquid",
+		"oAP": "/templates/product.liquid",
 		"oF": 0
 		},
-	"\/templates\/search.liquid": {
+	"/templates/product.stockists.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/search.liquid",
+		"oAP": "/templates/product.stockists.liquid",
 		"oF": 0
 		},
-	"\/theme.lock": {
+	"/templates/search.json.liquid": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/theme.lock",
+		"oAP": "/templates/search.json.liquid",
+		"oF": 0
+		},
+	"/templates/search.liquid": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/search.liquid",
+		"oF": 0
+		},
+	"/theme.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/theme.lock",
 		"oF": 0
 		}
 	},
@@ -1994,148 +2035,101 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_magenta",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 552094253
+	"lastBuiltDate": 560060064.05050099
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -2147,7 +2141,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -2159,7 +2174,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -2195,53 +2228,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -2250,6 +2276,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 2,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -2607,6 +2634,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -2618,6 +2649,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2663,6 +2698,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -2681,10 +2720,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2883,9 +2918,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -3239,6 +3278,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -3267,6 +3310,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -3274,6 +3321,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -3329,7 +3380,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -3389,7 +3440,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "https:\/\/aceandjigtest.myshopify.com",
+	"externalServerAddress": "https://aceandjigtest.myshopify.com",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3784,7 +3835,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -3803,7 +3853,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -3835,19 +3885,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3903,7 +3953,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3932,7 +3982,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3956,36 +4006,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3993,11 +4077,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4021,6 +4105,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -4037,7 +4125,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4045,20 +4141,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -4073,6 +4181,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -4081,12 +4197,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -4097,11 +4221,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4113,23 +4245,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4141,9 +4301,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",

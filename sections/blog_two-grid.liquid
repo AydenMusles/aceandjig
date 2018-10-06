@@ -107,8 +107,69 @@
 
   <div class="container pagination-row">{% include 'pagination-control' %}</div>
 
+  <div id="blog-list-foot"></div>
+
   {% endpaginate %}
 </div>
+
+{{ 'tricky3.infinitescroll.v2.min.js' | asset_url | script_tag }}
+<script>
+$(function(){
+    var itemsWrapper = '.article-list';
+    var manualLoadingOptions = {
+        selectors: {
+            itemsWrapper: itemsWrapper,
+            item: '.article',
+            nextPageLink: '.next',
+            previousPageLink: '.prev',
+            paginationWrapper: '.pagination'
+        },
+        pageQueryStringKey: 'page',
+        waitForImagesToBeLoaded: false,
+        enablePageState: true,
+        manualLoading: true,
+        callBacks: {
+            onAllPagesLoaded: function(){
+                $('.pagination').css("display", "none");
+            },
+            onPageLoad: function(items){},
+            beforePageLoad: function(){}
+        }
+    };
+    $(itemsWrapper).t3PageLoad(manualLoadingOptions);
+
+    var scrollingLoadingOptions = {
+        selectors: {
+            itemsWrapper: itemsWrapper,
+            item: '.article',
+            nextPageLink: '.next',
+            previousPageLink: '.prev',
+            paginationWrapper: '.pagination',
+            manualLoading: true,
+            //scrollableElem: itemsWrapper,
+        },
+        waitForImagesToBeLoaded: true,
+        //throttleDelay: 100,
+        callBacks: {
+            onAllPagesLoaded: function(){
+                $('.pagination').css("display", "none");
+                $('.loading').hide();
+                // console.log('All pages loaded callback called...');
+            },
+            onPageLoad: function(items){
+                $('.loading').hide();
+            // console.log("Page loaded callback called..");
+        },
+        beforePageLoad: function(){
+            $('.pagination').css("display", "none");
+            $('.loading').show();
+            // console.log("Before page load callback called..");
+        }
+    }
+};
+    $(itemsWrapper).t3PageLoad(scrollingLoadingOptions);
+});
+</script>
 
 
 {% schema %}
