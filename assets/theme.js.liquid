@@ -1664,7 +1664,7 @@ $(function($){
                 }
 
                 //Unexpand others, reveal this
-                $('html:not(:animated),body:not(:animated)').animate({ scrollTop: $block.offset().top }, 500 );
+                $('html:not(:animated),body:not(:animated)').animate({ scrollTop: $detailCont.offset().top }, 500 );
                 var noneExpanded = $slider.find('.product-block.expanded').removeClass('expanded').length == 0;
                 if(noneExpanded) {
                   $detailCont.height(0);
